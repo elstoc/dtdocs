@@ -10,6 +10,8 @@ markup:
   highlight:
     style: algol_nu
   goldmark:
+    extensions:
+      typographer: false
     renderer:
       unsafe: true
       xHTML: true
