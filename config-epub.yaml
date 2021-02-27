@@ -19,6 +19,8 @@ disableKinds:
   - taxonomy
   - term
 
+relativeURLs: true
+
 mediaTypes:
   application/xhtml+xml:
     suffixes:
@@ -48,9 +50,9 @@ outputFormats:
 
 outputs:
   page:
-    - XHTML
+    - HTML
   home:
     - OPF
     - NCX
   section:
-    - XHTML
+    - HTML

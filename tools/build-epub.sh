@@ -2,7 +2,7 @@
 
 rm -rf public
 
-hugo --config config-epub.yaml
+hugo -v --config config-epub.yaml
 
 cd public
 mkdir OEBPS
