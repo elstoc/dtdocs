@@ -22,9 +22,6 @@ disableKinds:
 relativeURLs: true
 
 mediaTypes:
-  application/xhtml+xml:
-    suffixes:
-      - xhtml
   application/opf+xml:
     suffixes:
       - opf
@@ -33,10 +30,6 @@ mediaTypes:
       - ncx
 
 outputFormats:
-  XHTML:
-    mediaType: application/xhtml+xml
-    isHTML: true
-    permalinkable: true
   OPF:
     mediaType: application/opf+xml
     isHTML: true
@@ -54,5 +47,6 @@ outputs:
   home:
     - OPF
     - NCX
+    - HTML
   section:
     - HTML
