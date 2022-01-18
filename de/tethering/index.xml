@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tethering on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/tethering/</link>
+    <description>Recent content in Tethering on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/tethering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Übersicht</title>
+      <link>https://darktable-org.github.io/dtdocs/de/tethering/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/tethering/overview/</guid>
+      <description>Die Tethering-Ansicht erlaubt, Bilder mit einer verbundenen Kamera direkt in darktable aufzunehmen.
+Um Tethering nutzen zu können, muss zuerst die Kamera über ein USB-Kabel mit dem PC verbunden sein. Möglicherweise verbindet Ihr Betriebssystem die angeschlossene Kamera direkt oder zeigt den Inhalt der Speicherkarte in Dateimanager an. Mounten oder öffnen Sie die Kamera nicht. Wenn dies automatisch geschieht, müssen Sie die Kamera „unmounten / auswerfen“. Dies ist erforderlich damit die Kamera entsperrt ist und darktable sie für den eigenen Gebrauch sperren kann.</description>
+    </item>
+    
+    <item>
+      <title>Tethering Ansicht Layout</title>
+      <link>https://darktable-org.github.io/dtdocs/de/tethering/tethering-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/tethering/tethering-view-layout/</guid>
+      <description>🔗Linkes Bedienfeld  Bild Informationen Zeige die Bild Informationen an.  🔗Rechtes Bedienfeld Von oben nach unten:
+ Scopes Eine grafische Darstellung der Helligkeitsstufen und Farben des aktuellen Bildes. Dieses Modul kann auf Wunsch im linken Bedienfeld angezeigt werden (siehe darktable-Voreinstellungen &amp;gt; Verschiedenes &amp;gt; Position des Histogramms/Scopes). Sitzung Sitzungs-Einstellungen. Live-View Live View Einstellungen. Kameraeinstellungen Kameraeinstellungen. Metadaten Editor Bearbeite Metadaten der angewählten Bilder. Tagging Verschlagworte die angewählten Bilder.  🔗Unteres Bedienfeld Von links nach rechts:</description>
+    </item>
+    
+    <item>
+      <title>Beispiele</title>
+      <link>https://darktable-org.github.io/dtdocs/de/tethering/examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/tethering/examples/</guid>
+      <description>Dieser Abschnitt enthält typischen Fälle zur Anwendung der Ansicht Tethering.
+🔗Studio-Setup mit Sichtung Dies ist ein sehr häufiger Anwendungsfall. Studio und Motiv sind beide bereit, die Kamera ist mit dem Computer verbunden und die Tethering-Ansicht in darktable ist aktiv. Mit der Kamera werden Bilder aufgenommen und diese können jederzeit am Computerbildschirm begutachtet werden, anstelle den Kamera-Monitor dafür zu benutzen.
+Dieser Arbeitsablauf ist effizient und effektiv, da Aufnahmen sofort überprüft werden können, anstatt bis nach dem Shooting zu warten, wenn alle verschwunden sind.</description>
+    </item>
+    
+    <item>
+      <title>Fehlerbehebung</title>
+      <link>https://darktable-org.github.io/dtdocs/de/tethering/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/tethering/troubleshooting/</guid>
+      <description>Diese Anleitung zur Fehlerbehebung dient der Prüfung, ob eine Kamera mit Tethering verwendet werden kann. Hierzu wird das gleiche Werkzeug gphoto2 benötigt, das darktable zur Kommunikation mit der Kamera verwendet.
+Bevor du startest, musst du zuerst den Kamera-Port-Namen finden. Normalerweise ist der Port &amp;ldquo;usb:&amp;rdquo; ausreichend und wird deshalb in der folgenden Anleitung verwendet.
+🔗Wird die Kamera entdeckt? Der folgende Befehl überprüft, ob eine Kamera mit Ihrem Computer verbunden ist und von gphoto2 erkannt wird.</description>
+    </item>
+    
+  </channel>
+</rss>

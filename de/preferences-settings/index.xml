@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benutzereinstellungen und Einstellungen on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/preferences-settings/</link>
+    <description>Recent content in Benutzereinstellungen und Einstellungen on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/preferences-settings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Übersicht</title>
+      <link>https://darktable-org.github.io/dtdocs/de/preferences-settings/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/preferences-settings/overview/</guid>
+      <description>In darktable gibt es eine Anzahl von benutzerdefinierbaren Präferenzen. Diese können eingestellt werden im Dialog Präferenzen, der mit dem Zahnradsymbol oben rechts angewählt werden kann, obere Einstellungen. Präferenzen sind in Registern aufgeteilt, in welchen jedes in der jeweils folgenden Stufe genauer beschrieben wird.
+Wenn es aus dem Leuchttisch oder Dunkelkammer geöffnet wird, dann wird das entsprechende Register standardmäßig geladen, dann kannst du es anpassen.
+Jede geänderte Einstellung (z.B. jene die vom Standard abweichen) werden mit einem Aufzählungszeichen angezeigt.</description>
+    </item>
+    
+    <item>
+      <title>Allgemeines</title>
+      <link>https://darktable-org.github.io/dtdocs/de/preferences-settings/general/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/preferences-settings/general/</guid>
+      <description>Kontrolliere den Gesamtlook und Gesamt-Feeling von darktable.
+ Sprache der Oberfläche Bestimme die Sprache der Benutzeroberfläche. Der Systemstandard ist mit einem * bezeichnet (erfordert einen Neustart) Theme Setze das Theme (Gesamtbild) für die Benutzerschnittstelle. Neben ästhetischen Überlegungen ist die empfohlene Farbe der Schnittstelle ein Mittelgrau. Die visuelle Wahrnehmung wird durch die Umgebungshelligkeit beeinflusst, und eine niedere Schnittstellen-Helligkeit verursacht alle Arten von Illusionen. Mit einer dunklen Schnittstelle kann daher das Retuschieren der Bilder zu exzessivem Retuschieren führen (Missbrauch von Kontrast und Sättigung) und das Bild wird zu dunkel, wenn es ausgedruckt wird.</description>
+    </item>
+    
+    <item>
+      <title>Import</title>
+      <link>https://darktable-org.github.io/dtdocs/de/preferences-settings/import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/preferences-settings/import/</guid>
+      <description>Kontrolliere die Standard-Namensgebung, die gebraucht wird beim Importieren von Bildern.
+🔗Optionen für die Session Die folgenden Optionen definieren das Standard-Muster für die Namensgebung, für den Gebrauch in &amp;ldquo;kopieren &amp;amp; importieren&amp;rdquo; oder &amp;ldquo;kopieren &amp;amp; importieren von der Kamera&amp;rdquo; Optionen im Modul Import, oder beim Bilder aufnehmen in der Ansicht Tethering.
+Das muster für die Namensgebung besteht aus drei Teilen: einen Basisteil zur Definition des Stammordners, einen Sessionsteil für die Definition der Unterordner (spezifisch für die individuelle Import-Session) und zuletzt für einen Dateinamen-Teil für den Dateinamen der einzelnen Bilder.</description>
+    </item>
+    
+    <item>
+      <title>Leuchttisch</title>
+      <link>https://darktable-org.github.io/dtdocs/de/preferences-settings/lighttable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/preferences-settings/lighttable/</guid>
+      <description>Kontrolliere die Funktionalität in der Ansicht und den Modulen des Leuchttisches.
+🔗Allgemeines  Voreinstellung für Leuchttisch-Module ausblenden Bei Aktivierung werden nur nutzerdefinierte Voreinstellungen in den Hilfsmodulen angezeigt, d.h. System-Voreinstellungen werden ausgeblendet (standardmaßig ausgeschaltet). Einzelklick im Modul Sammlungen Ermögliche den Modus &amp;ldquo;Einzelklick&amp;rdquo; im Modul Sammlungen, der es erlaubt Bereiche anzuwählen (Standard aus). nur ein Leuchttisch-Modul wird eingeblendet Definiert, wie die Hilfsmodule eingeblendet werden. Nach dem Einschalten werden beim Einblenden eines Moduls durch Klick andere eingeblendete Module ausgeblendet.</description>
+    </item>
+    
+    <item>
+      <title>Dunkelkammer</title>
+      <link>https://darktable-org.github.io/dtdocs/de/preferences-settings/darkroom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/preferences-settings/darkroom/</guid>
+      <description>Kontrolliere die Funktionen in der Ansicht Dunkelkammer und deren Modulen.
+🔗Allgemeines  Drucksensitivität des Stiftes für Pinselmasken Stellt ein wie das Drucklesen eines grafischen Tablets eine neu generierte Pinselstriche beeinflusst in gezeichnete Maske. Du kannst die Pinselbreite, -härte und -Durchsichtigkeit einstellen. &amp;ldquo;Absolute&amp;rdquo; Kontrolle bedeutet, dass die Drucklesung die Attribute mit einem Wert zwischen 0 % und 100 % definiert. &amp;ldquo;Relativ&amp;rdquo; bedeutet, dass die Drucklesung die Attribute mit einem Wert zwischen 0 % und einem vordefinierten Wert definiert (Standard aus).</description>
+    </item>
+    
+    <item>
+      <title>Bearbeitung</title>
+      <link>https://darktable-org.github.io/dtdocs/de/preferences-settings/processing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/preferences-settings/processing/</guid>
+      <description>Kontrolliere wie Bilder bearbeitet werden.
+🔗Bildverarbeitung  benutze immer LittleCMS 2, um das Ausgabefarbprofil anzuwenden Falls diese Option aktiviert ist, wird darktable die LittleCMS2-Systembibliothek nutzen, um das Ausgabefarbprofil anzuwenden (anstelle der eigenen internen Routinen). Das ist bedeutend langsamer als der Standard, könnte aber in einigen Fällen bessere Resultate ergeben.  Falls das gegebene ICC-Profil LUT-basiert ist oder eine LUT und eine Matrix enthält, dann wird darktable LittleCMS 2 nutzen, um die Farben zu rendern, unabhängig von den Werten dieses Parameters (Standard ausgeschaltet).</description>
+    </item>
+    
+    <item>
+      <title>Sicherheit</title>
+      <link>https://darktable-org.github.io/dtdocs/de/preferences-settings/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/preferences-settings/security/</guid>
+      <description>Kontrolliere, ob Warnungs-Hinweise angezeigt werden, bevor gewisse Aktivitäten angegangen werden.
+🔗Allgemeines  fragen, bevor Bilder aus der Bibliothek entfernt werden Vor Entfernung eines Bilds aus der Bibliotheksdatenbank von darktable immer nachfragen, wobei die Bild- und XMP-Dateien immer erhalten bleiben (Standard: eingeschaltet). Vor dem Löschen von Bildern von der Festplatte Immer fragen vor ein Bild entfernt wird (Standard ein). fragen, bevor Verlaufsstapel von Bildern gelöscht werden Immer fragen, bevor der Verlaufsstapel eines Bildes gelöscht wird (standardmäßig eingeschaltet).</description>
+    </item>
+    
+    <item>
+      <title>Sichern</title>
+      <link>https://darktable-org.github.io/dtdocs/de/preferences-settings/storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/preferences-settings/storage/</guid>
+      <description>Es folgen die Optionen, die mit dem library-Dateisystem von darktable und den XMP sidecar files verbunden sind.
+🔗Datenbank  Prüfe den Unterhalt der Datenbank Zeigt an, wann darktable die Datenbankfragmentierung überprüfen sollte und einen Unterhalt einleiten soll. Die Optionen sind &amp;ldquo;nie&amp;rdquo;, &amp;ldquo;beim Aufstarten&amp;rdquo;, &amp;ldquo;beim Beenden&amp;rdquo; und &amp;ldquo;bei beidem&amp;rdquo;. Jede dieser Möglichkeiten hat zusätzlich noch die Optionen &amp;ldquo;(ohne Nachfrage)&amp;rdquo;, das die Checks automatisch ohne Nachfrage auslöst (Standard &amp;ldquo;beim Beenden&amp;rdquo;)- Datenbankfragmentierung Schwellwert-Verhältnis Das Schwellwert-Verhältnis (in Prozent), über der die Datenbank_Unterhalt eingeleitet werden soll (Standard 25), ist aber abhängig von den vorangegangenen Einstellungen.</description>
+    </item>
+    
+    <item>
+      <title>Allgemeines</title>
+      <link>https://darktable-org.github.io/dtdocs/de/preferences-settings/miscellaneous/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/preferences-settings/miscellaneous/</guid>
+      <description>🔗Schnittstellen  Zeige die eingebauten Voreinstellungen als erste Wähle hier, wie das Menü mit den Voreinstellungen sortiert wird. Wenn diese Option angewählt ist, dann werden eingebaute Voreinstellungen als erste angezeigt (standard ein). Mausrad blättert standardmäßig die Module der seitlichen Eingabefelder durch Wenn aktiviert, scrollt das Mausrad die seitlichen Eingabefelder und Strg+Alt+Mausrad scrollt die Dateneingabefelder. Wenn deaktiviert, wird dieses Verhalten umgekehrt (Standard aus). Zeige immer die Scrollbalken der Panels an. Legt fest, ob die Panel-Scrollbalken immer sichtbar oder nur in Abhängigkeit vom Inhalt aktiviert werden sollen (Standard ein).</description>
+    </item>
+    
+    <item>
+      <title>Kurzbefehle</title>
+      <link>https://darktable-org.github.io/dtdocs/de/preferences-settings/shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/preferences-settings/shortcuts/</guid>
+      <description>Fast alle Aktionen in darktable können mit einem Tastatur- oder Maus-Kurzbefehl ausgeführt werden. Ebenso können auch verschiedenen andere Eingabegeräte einschließlich MIDI-Geräte und Spielkonsolen genutzt werden (siehe Abschnitt MIDI-Geräteunterstützung). Diese in dieser Anleitung als externe Geräte oder nur als Geräte bezeichnet.
+🔗Definition von Kurzbefehlen/Tastenkombinationen Ein Kurzbefehl ist eine Kombination von Tasten- oder Drücken eines Buttons sowie Maus- oder Gerätebewegungen, die eine Aktion in darktable ausführen.
+Eine einzelne Aktion kann mehrere Kurzbefehle haben, aber ein einzelner Kurzbefehl kann nur einer einzigen Aktion in einer Ansicht von darktable zugeordnet sein, d.</description>
+    </item>
+    
+    <item>
+      <title>Voreinstellungen</title>
+      <link>https://darktable-org.github.io/dtdocs/de/preferences-settings/presets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/preferences-settings/presets/</guid>
+      <description>Dieses Menü gibt einen Überblick über die Voreinstellungen, die in den Modulen von darktable definiert sind, und es erlaubt dir, diese zu ändern.
+Vordefinierte, standardmäßig in darktable enthaltene Einstellungen sind mit einem Schlosssymbol versehen. Deren Eigenschaften können nicht verändert werden.
+Benutzerdefinierte Voreinstellungen können aus exportierten .dtpreset-Dateien über die Schaltfläche &amp;ldquo;Import&amp;rdquo; am unteren Bildschirmrand geladen werden. Mit der Schaltfläche &amp;ldquo;Export&amp;rdquo; können alle benutzerdefinierten Voreinstellungen in einem Verzeichnis gespeichert werden.
+Um eine benutzerdefinierte Voreinstellung zu löschen, diese auswählen und die Entf-Taste drücken.</description>
+    </item>
+    
+    <item>
+      <title>Lua-Optionen</title>
+      <link>https://darktable-org.github.io/dtdocs/de/preferences-settings/lua-options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/preferences-settings/lua-options/</guid>
+      <description> lua scripts installer don&amp;rsquo;t show again Kreuze hier an, umd den lua scripts installer zu verstecken, wenn im Leuchttisch keine Lua-Scripts installiert sind.  </description>
+    </item>
+    
+  </channel>
+</rss>

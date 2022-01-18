@@ -1,0 +1,3296 @@
+<!doctype html>
+<html lang="de">
+    <head>
+      <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable 3.8 user manual - Mitarbeiten an dtdocs</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+      <link rel="stylesheet" href="/dtdocs/css/style.min.3b298d8f37646aff6a802627ff27a707153196970e12552ddf3f7e6fdf49ebb1.css">
+      
+
+
+<script> var indexURL="https:\/\/darktable-org.github.io\/dtdocs\/de\/index.json"</script>
+<script src="/dtdocs/js/jquery.js"></script>
+<script src="/dtdocs/js/popper.js" type="module"></script>
+<script src="/dtdocs/js/bootstrap.js"></script>
+<script src="/dtdocs/js/lunr.js"></script>
+<script src="/dtdocs/js/app.js"></script>
+
+
+    </head>
+    <body>
+        
+
+        <header class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark">
+   <a class="navbar-brand" href="/dtdocs" rel="home" title="darktable 3.8 user manual">
+	darktable 3.8 user manual
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+	    
+	      <li class="nav-item dropdown" aria-describedby="language-picker-description">
+		   <p class="sr-only" id="language-picker-description">languages</p>
+		   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+             <img src="https://darktable-org.github.io/dtdocs//language-icons/icon20x24px-exported-transparent.png" alt="Language Icon" height="20" class="translation-icon"/>
+		     <span>translations</span>
+		   </a>
+		   <div class="dropdown-menu dropdonw-trans" role="listbox">
+		      <a class="dropdown-item" aria-selected="true" hreflang="de" role="option" lang="de" href="https://darktable-org.github.io/dtdocs/de/special-topics/contributing/">German</a>
+		        
+		      <a class="dropdown-item" hreflang="en" role="option" lang="en" href="https://darktable-org.github.io/dtdocs/en/special-topics/contributing/">English</a>
+		    
+		      <a class="dropdown-item" hreflang="fr" role="option" lang="fr" href="https://darktable-org.github.io/dtdocs/fr/special-topics/contributing/">Français</a>
+		    
+		      <a class="dropdown-item" hreflang="pt_br" role="option" lang="pt_br" href="https://darktable-org.github.io/dtdocs/pt_br/special-topics/contributing/">Português</a>
+		    
+		      <a class="dropdown-item" hreflang="uk" role="option" lang="uk" href="https://darktable-org.github.io/dtdocs/uk/special-topics/contributing/">Ukrainian</a>
+		    
+		   </div>
+	       </li>
+	    
+	</ul>
+        <ul>
+           <form class="form-inline my-2 my-lg-0">
+                <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
+           </form>
+        </ul>
+
+
+    </div>
+</header>
+
+<div id="search-results" class="search-results">
+</div>
+
+
+        <div class="container-fluid">
+	    <div class="row">
+		<nav class="navigation col-sm-12 order-sm-12 col-md-3 order-md-1">
+		    <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/" class="">
+          Einführung
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/user-interface/" class="">
+          Benutzeroberfläche
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/user-interface/views/" class="">
+          Ansichten
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/user-interface/screen-layout/" class="">
+          Bildschirmaufbau
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/user-interface/filmstrip/" class="">
+          Filmstreifen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/user-interface/top-panel/" class="">
+          Kopfzeile
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/user-interface/keyboard-shortcuts/" class="">
+          Kurzbefehle
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/supported-file-formats/" class="">
+          Unterstützte Datei-Formate
+      </a>
+
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/sidecar-files/" class="">
+          XMP Dateien und nicht destruktive Bearbeitung
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/sidecar-files/sidecar/" class="">
+          XMP Dateien
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/sidecar-files/sidecar-import/" class="">
+          Importiere XMP Dateien, die durch andere Anwendungen erstellt wurden
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/sidecar-files/local-copies/" class="">
+          Lokale Kopien
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/workflow/" class="">
+          Eine Einführung in den Arbeitsablauf von darktable
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/workflow/introduction/" class="">
+          Einführung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/workflow/import-review/" class="">
+          Import &amp; Überprüfung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/workflow/process/" class="">
+          Prozess
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/overview/workflow/export/" class="">
+          Exportieren
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/lighttable/" class="">
+          Leuchttisch
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lighttable/overview/" class="">
+          Übersicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lighttable/lighttable-view-layout/" class="">
+          Ansicht Leuchttisch Layout
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lighttable/undo-redo/" class="">
+          Rückgängig machen/wieder zurückholen
+      </a>
+
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/lighttable/lighttable-modes/" class="">
+          Leuchttisch Modi
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lighttable/lighttable-modes/filemanager/" class="">
+          Dateimanager
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lighttable/lighttable-modes/zoomable-lighttable/" class="">
+          Zoombarer Leuchttisch
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lighttable/lighttable-modes/culling/" class="">
+          Sichten
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lighttable/lighttable-modes/full-preview/" class="">
+          Volle Voransicht
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/lighttable/digital-asset-management/" class="">
+          Digital Asset Management
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lighttable/digital-asset-management/collections/" class="">
+          Sammlungen &amp; Filmrollen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lighttable/digital-asset-management/thumbnails/" class="">
+          Vorschaubilder
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lighttable/digital-asset-management/star-color/" class="">
+          Bewertungen mit Sternen und Farbmarkierungen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lighttable/digital-asset-management/grouping/" class="">
+          Bildgruppierung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lighttable/digital-asset-management/metadata-tagging/" class="">
+          Metadaten und Verschlagworten
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/" class="">
+          Dunkelkammer
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/overview/" class="">
+          Übersicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/darkroom-view-layout/" class="">
+          Ansicht Dunkelkammer Layout
+      </a>
+
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/pixelpipe/" class="">
+          Die Pixelpipe
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/pixelpipe/the-anatomy-of-a-module/" class="">
+          Anatomie der Dunkelkammer-Module
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/pixelpipe/the-pixelpipe-and-module-order/" class="">
+          Die Pixelpipe &amp; Modulreihenfolge
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/pixelpipe/history-stack/" class="">
+          Der Verlaufsstapel
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/pixelpipe/undo-redo/" class="">
+          Rückgängig machen und erneut machen
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/processing-modules/" class="">
+          Dunkelkammer-Module
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/processing-modules/module-header/" class="">
+          Modulkopf
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/processing-modules/multiple-instances/" class="">
+          Mehrere Instanzen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/processing-modules/presets/" class="">
+          Voreinstellungen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/processing-modules/module-controls/" class="">
+          Moduleinstellungen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/processing-modules/curves/" class="">
+          Kurven
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/processing-modules/wavelets/" class="">
+          Wavelets
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/processing-modules/deprecated/" class="">
+          Abgekündigte Module
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/masking-and-blending/" class="">
+          Maskieren und Mischen
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/masking-and-blending/overview/" class="">
+          Übersicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/masking-and-blending/blend-modes/" class="">
+          Misch Modi
+      </a>
+
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/masking-and-blending/masks/" class="">
+          Masken
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/masking-and-blending/masks/overview/" class="">
+          Übersicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/masking-and-blending/masks/drawn/" class="">
+          Gezeichnete Masken
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/masking-and-blending/masks/parametric/" class="">
+          Parametrische Masken
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/masking-and-blending/masks/drawn-and-parametric/" class="">
+          Kombinieren von gezeichneten und parametrischen Masken
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/masking-and-blending/masks/refinement-controls/" class="">
+          Maskenanpassungen &amp; zusätzliche Steuerelemente
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/masking-and-blending/masks/raster/" class="">
+          Raster-Masken
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/organization/" class="">
+          Organisation
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/organization/overview/" class="">
+          Übersicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/organization/module-groups/" class="">
+          Modulgruppen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/organization/quick-access-panel/" class="">
+          Schnellzugriffsgruppe
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/organization/manage-module-layouts/" class="">
+          Verwalte Modul-Layouts
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/tethering/" class="">
+          Tethering
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/tethering/overview/" class="">
+          Übersicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/tethering/tethering-view-layout/" class="">
+          Tethering Ansicht Layout
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/tethering/examples/" class="">
+          Beispiele
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/tethering/troubleshooting/" class="">
+          Fehlerbehebung
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/map/" class="">
+          Karte
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/map/overview/" class="">
+          Übersicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/map/map-view-layout/" class="">
+          Karten Eingabefelder
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/slideshow/" class="">
+          Diaschau
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/slideshow/overview/" class="">
+          Übersicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/slideshow/usage/" class="">
+          Nutzung
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/print/" class="">
+          Drucken
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/print/overview/" class="">
+          Übersicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/print/print-view-layout/" class="">
+          Gestaltung des Druckfensters
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/" class="">
+          Modul Referenz
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/overview/" class="">
+          Übersicht
+      </a>
+
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/" class="">
+          Dunkelkammer-Module
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/lut-3d/" class="">
+          3D LUT
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/astrophoto-denoise/" class="">
+          Astrofoto Entrauschen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/output-color-profile/" class="">
+          Ausgabe Farbprofil
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/base-curve/" class="">
+          Basiskurve
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/exposure/" class="">
+          Belichtung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/crop/" class="">
+          Beschnitt
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/chromatic-aberrations/" class="">
+          Chromatische Aberrationen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/diffuse/" class="">
+          Diffusion / Schärfen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/dithering/" class="">
+          Dithering
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/rotate-perspective/" class="">
+          Drehen und Perspektive
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/orientation/" class="">
+          Drehung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/haze-removal/" class="">
+          Dunstentfernung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/colorize/" class="">
+          Einfärben
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/input-color-profile/" class="">
+          Eingabefarbprofil
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/demosaic/" class="">
+          Entrastern
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/denoise-profiled/" class="">
+          Entrauschen (Profil)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-reconstruction/" class="">
+          Farb Rekonstruktion
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-look-up-table/" class="">
+          Farb-Lookup-Tabelle
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-balance/" class="">
+          Farbbalance
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-balance-rgb/" class="">
+          Farbbalance RGB
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-zones/" class="">
+          Farbbereiche
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-mapping/" class="">
+          Farbeinstellung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-calibration/" class="">
+          Farbkalibrierung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-contrast/" class="">
+          Farbkontrast
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-correction/" class="">
+          Farbkorrektur
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/defringe/" class="">
+          Farbsaum-Entfernung (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/filmic-rgb/" class="">
+          Filmic RGB
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/spot-removal/" class="">
+          Fleckenentfernung (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/surface-blur/" class="">
+          Flächenweichzeichner
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/fill-light/" class="">
+          Fülllicht (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/global-tonemap/" class="">
+          Globales Tonemapping (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/basic-adjustments/" class="">
+          Grundlegende Anpassungen (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/highpass/" class="">
+          Hochpass
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/unbreak-input-profile/" class="">
+          Input Profil brechen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/invert/" class="">
+          Invertieren (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/channel-mixer/" class="">
+          Kanalmixer (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/contrast-equalizer/" class="">
+          Kontrast Equalizer
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/contrast-brightness-saturation/" class="">
+          Kontrast Helligkeit Sättigung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/grain/" class="">
+          Körnung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/vibrance/" class="">
+          Lebendigkeit (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/local-contrast/" class="">
+          Lokaler Kontrast
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/monochrome/" class="">
+          Monochrome
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/lowlight-vision/" class="">
+          Nachtsicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/negadoctor/" class="">
+          Negadoctor
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/lens-correction/" class="">
+          Objektiv-Korrektur
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/rotate-pixels/" class="">
+          Pixel Drehung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/scale-pixels/" class="">
+          Pixelskalierung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/framing/" class="">
+          Rahmen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/raw-chromatic-aberrations/" class="">
+          RAW chromatische Aberrationen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/raw-denoise/" class="">
+          RAW Entrauschen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/raw-black-white-point/" class="">
+          RAW Schwarz-/Weißpunkt
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/retouch/" class="">
+          Retusche
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/rgb-curve/" class="">
+          RGB Kurve
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/rgb-levels/" class="">
+          RGB Stufen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/shadows-and-highlights/" class="">
+          Schatten und Spitzlichter
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/sharpen/" class="">
+          Schärfen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/highlight-reconstruction/" class="">
+          Spitzlicht Rekonstruktion
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/split-toning/" class="">
+          Teiltonung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/lowpass/" class="">
+          Tiefpass
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/tone-mapping/" class="">
+          Tonemapping (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/tone-curve/" class="">
+          Tonwert Kurve
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/tone-equalizer/" class="">
+          Tonwert-Equalizer
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/hot-pixels/" class="">
+          Tote Pixel
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/velvia/" class="">
+          Velvia
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/liquify/" class="">
+          Verflüssigen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/graduated-density/" class="">
+          Verlaufsfilter
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/censorize/" class="">
+          Verpixelung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/vignetting/" class="">
+          Vignettierung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/watermark/" class="">
+          Wasserzeichen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/soften/" class="">
+          Weichzeichnen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/blurs/" class="">
+          Weichzeichnung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/white-balance/" class="">
+          Weißabgleich
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/levels/" class="">
+          Werte
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/zone-system/" class="">
+          Zonensystem (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/crop-rotate/" class="">
+          Zuschneiden und Drehen (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/bloom/" class="">
+          Überstrahlung
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/" class="">
+          Hilfsmodule
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/print/" class="">
+          Drucken
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/print/print-settings/" class="">
+          Druckeinstellungen
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/" class="">
+          Dunkelkammer
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/raw-overexposed/" class="">
+          Anzeige der Über-/Unterbelichtungen der RAW Werte
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/image-info-line/" class="">
+          Bildinformationslinie
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/duplicate-manager/" class="">
+          Duplikat-Manager
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/color-assessment/" class="">
+          Farbbeurteilung nach ISO 12646
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/gamut/" class="">
+          Gamutüberprüfung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/guides-overlays/" class="">
+          Hilfslinien &amp; Überlagerungen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/mask-manager/" class="">
+          Maskenverwaltung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/module-order/" class="">
+          Modul Reihenfolge
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/navigation/" class="">
+          Navigation
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/global-color-picker/" class="">
+          Pipette
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/snapshots/" class="">
+          Snapshots
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/soft-proof/" class="">
+          Softproof
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/history-stack/" class="">
+          Verlauf
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/clipping/" class="">
+          Warnung Beschneidung
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/" class="">
+          Geteilt
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/scopes/" class="">
+          Bereiche
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/image-information/" class="">
+          Bildinformationen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/export/" class="">
+          Exportieren
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/filmstrip/" class="">
+          Filmstreifen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/focus-peaking/" class="">
+          Fokus-Peaking
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/geotagging/" class="">
+          Geotagging
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/recent-collections/" class="">
+          Kürzlich benutzte Sammlungen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/metadata-editor/" class="">
+          Metadaten-Editor
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/collections/" class="">
+          Sammlungen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/tagging/" class="">
+          Verschlagwortung
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/map/" class="">
+          Karte
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/map/map-settings/" class="">
+          Karteneinstellungen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/map/find-location/" class="">
+          Lokation finden
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/map/locations/" class="">
+          Orte
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/" class="">
+          Leuchttisch
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/selected-image/" class="">
+          Ausgewählte Bilder
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/import/" class="">
+          Import
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/lua-scripts-installer/" class="">
+          Lua Skript Installation
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/styles/" class="">
+          Stile
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/history-stack/" class="">
+          Verlauf
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/select/" class="">
+          Wähle
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/timeline/" class="">
+          Zeitleiste
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/tethering/" class="">
+          Tethering
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/tethering/camera-settings/" class="">
+          Kamera Einstellungen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/tethering/live-view/" class="">
+          Live Ansicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/tethering/session/" class="">
+          Session
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/preferences-settings/" class="">
+          Benutzereinstellungen und Einstellungen
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/preferences-settings/overview/" class="">
+          Übersicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/preferences-settings/general/" class="">
+          Allgemeines
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/preferences-settings/import/" class="">
+          Import
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/preferences-settings/lighttable/" class="">
+          Leuchttisch
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/preferences-settings/darkroom/" class="">
+          Dunkelkammer
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/preferences-settings/processing/" class="">
+          Bearbeitung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/preferences-settings/security/" class="">
+          Sicherheit
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/preferences-settings/storage/" class="">
+          Sichern
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/preferences-settings/miscellaneous/" class="">
+          Allgemeines
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/preferences-settings/shortcuts/" class="">
+          Kurzbefehle
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/preferences-settings/presets/" class="">
+          Voreinstellungen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/preferences-settings/lua-options/" class="">
+          Lua-Optionen
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/lua/" class="">
+          Skripten mit Lua
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lua/overview/" class="">
+          Übersicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lua/basic-principles/" class="">
+          Grundsätzliche Prinzipien: luarc Dateien
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lua/a-simple-example/" class="">
+          Ein einfaches lua Beispiel
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lua/printing-labeled-images/" class="">
+          Markierte Bilder drucken
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lua/simple-shortcut/" class="">
+          Einfachen Kurzbefehl hinzufügen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lua/exporting-images/" class="">
+          Bilder mit Lua exportieren
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lua/building-ui-elements/" class="">
+          Der Bau von Schnittstellen Elementen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lua/sharing-scripts/" class="">
+          Skripte teilen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lua/calling-from-dbus/" class="">
+          Aufruf von Lua vom dbus
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lua/darktable-from-lua/" class="">
+          Arbeiten mit darktable von einem Lua Skript
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/lua/api/" class="">
+          Lua API
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/guides-tutorials/" class="">
+          Leitfaden &amp; Lernprogramme
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/guides-tutorials/monochrome/" class="">
+          Entwicklung von Monochrom-Bildern
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/guides-tutorials/other-resources/" class="">
+          Andere Ressourcen
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/" class="">
+          Spezielle Themen
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/color-management/" class="">
+          Farbverwaltung
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/color-management/overview/" class="">
+          Übersicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/color-management/display-profile/" class="">
+          Bildschirm Profil
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/color-management/rendering-method/" class="">
+          Rendering Methode
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/color-management/rendering-intent/" class="">
+          Rendering Vorsatz
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/color-management/color-spaces/" class="">
+          Die Farbräume von darktable
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/color-management/unbounded-colors/" class="">
+          Grenzenlose Farben
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/color-management/color-artifacts/" class="">
+          Mögliche Farbartefakte
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/color-management/color-dimensions/" class="">
+          Farbdimensionen von darktable
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/memory/" class="">
+          Speicher
+      </a>
+
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/opencl/" class="">
+          OpenCl
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/opencl/background/" class="">
+          Der Hintergrund
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/opencl/how-opencl-works/" class="">
+          Wie OpenCl funktioniert
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/opencl/activate-opencl/" class="">
+          Aktivierung von OpenCL in darktable
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/opencl/setting-up/" class="">
+          OpenCL konfigurieren
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/opencl/problems-solutions/" class="">
+          Mögliche Probleme und Lösungen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/opencl/amd-ati/" class="">
+          AMD/ATI Geräte
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/opencl/performance/" class="">
+          Optimierung der Performance
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/opencl/scheduling-profile/" class="">
+          Scheduling-Profil
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/opencl/multiple-devices/" class="">
+          Mehrere Einheiten
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/opencl/still-doesnt-work/" class="">
+          OpenCL funktioniert bei mir immer noch nicht
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/darktable-chart/" class="">
+          Verwende darktable-Chart
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/darktable-chart/overview/" class="">
+          Übersicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/darktable-chart/usage/" class="">
+          Nutzung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/darktable-chart/source-image/" class="">
+          Quellbild
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/darktable-chart/reference-values/" class="">
+          Referenz Werte
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/darktable-chart/process/" class="">
+          Prozess
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/darktable-chart/making-input-images/" class="">
+          Eingabebilder für den dartable-Chart erstellen
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/program-invocation/" class="">
+          Programm Aufruf
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/program-invocation/darktable/" class="">
+          darktable
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/program-invocation/darktable-cli/" class="">
+          darktable-cli
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/program-invocation/darktable-generate-cache/" class="">
+          `darktable-generate-cache`
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/program-invocation/darktable-chart/" class="">
+          darktable-chart
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/program-invocation/darktable-cltest/" class="">
+          darktable-cltest
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/program-invocation/darktable-cmstest/" class="">
+          darktable-cmstest
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/program-invocation/purge_non_existing_images_sh/" class="">
+          Säubere _nicht_existierende_Bilder.sh
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/variables/" class="">
+          Variablen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/module-order/" class="">
+          Standardmodulreihenfolge
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/color-pipeline/" class="">
+          Die Farb-Pipeline von darktable
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/midi-device-support/" class="">
+          MIDI-Geräteunterstützung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/contributing/" class=" active">
+          Mitarbeiten an dtdocs
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/special-topics/translating/" class="">
+          dtdocs übersetzen
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+
+		</nav>
+		<div class="content col-sm-12 order-sm-1 col-md-9 mx-md-auto order-md-12">
+		    
+
+
+
+<div class="crumbs">
+    <span class="crumb">
+	
+
+<a href='/dtdocs/de/'>darktable</a> / <a href='/dtdocs/de/special-topics/'>Spezielle Themen</a> / Mitarbeiten an dtdocs
+    </span>
+</div>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/de/special-topics/midi-device-support/" class="next">&lt; MIDI-Geräteunterstützung</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/de/special-topics/translating/" class="prev">dtdocs übersetzen &gt;</a>
+	
+    </div>
+</div>
+
+
+<article role="main">
+
+    <h1 class="title">
+        Mitarbeiten an dtdocs
+    </h1>
+
+    
+
+    <p>Diese Seite beinhaltet die Gestaltungsrichtlinien für dtdocs und Informationen, wie an diesem Projekt mitgemacht werden kann.</p>
+<p>Sie wird in das Benutzerhandbuch eingefügt, damit du sehen kannst, wie die Seite zusammengestellt wird und wie es geschrieben wird. Bitte gehe zu <a href="https://raw.githubusercontent.com/darktable-org/dtdocs/master/content/special-topics/contributing.md" target="_blank">GitHub</a>, um die Quelle für diese Seite zu sehen.</p>
+<p>Die Struktur der Anleitung und der Inhalt wurden nach den folgenden Kriterien sorgfältig ausgewählt:</p>
+<ol>
+<li>Die Anleitung soll umfassend sein, d.h. sie sollte in darktable enthaltenen Funktionalität vollständig beschreiben.</li>
+<li>Sie sollte eine konsistente und logische Struktur haben und jeder Teil der Funktionalität soll seinen eigenen logischen Platz in dieser Struktur haben.</li>
+<li>Sie soll so lang wie nötig, aber so kurz wie möglich sein: Kürze ist ein Muss.</li>
+<li>Sie soll objektiv sein.</li>
+<li>Funktionalität sollen nur einmal erklärt werden (mit Ausnahme des grundsätzlichen Anleitung zum Arbeitsablauf in der Einführung).</li>
+<li>Bilder sollten nur verwendet werden, wenn dies der besseren Verständlichkeit der wesentlichen Prinzipien dient. Bilder sollten keinen Text enthalten, außer es ist unvermeidbar.</li>
+</ol>
+<p>Wir sind grundsätzlich <strong>nicht</strong> interessiert an:</p>
+<ol>
+<li>Das Handbuch zu restrukturieren</li>
+<li>Markup Sprachen zu wechseln</li>
+<li>Detaillierte Tutorials zum Arbeitsablauf (obwohl wir interessiert daran sind, solche in Blogs entweder auf dartable.org oder pixls.us zu publizieren</li>
+</ol>
+<p>Wir <strong>sind</strong> interessiert an</p>
+<ol>
+<li>Rechtschreibungs- und Grammatik-Korrekturen</li>
+<li>Klärungen des Textes</li>
+<li>Dokumentationen zu neuen Möglichkeiten</li>
+</ol>
+<p>Wir sind stark daran interessiert, zu hören, welche Abschnitte der Anleitung keinen Sinn ergeben und <em>warum</em>, sodass wir die Dokumentation verbessern können.</p>
+<p>Generell, falls du größere Änderungen machen möchtest, dann eröffne ein Ticket und diskutiere es zuerst mit den Betreuern, um zu verhindern, dass Arbeiten gemacht werden, die dann nicht akzeptiert werden.</p>
+<h1 id="format"><a href="#format">🔗</a>Format</h1>
+<p>Diese Webseite wird in reinem Markdown mit einigen Erweiterungen geschrieben. Sie ist ursprünglich zur Verwendung mit Hugo SSG gestaltet worden. Eine Portablilität ist intendiert, sodass die Seite einfach mit einer anderen Anwendung prozessiert werden kann, falls notwendig.</p>
+<p>Dateien sollten in UTF-8 gerendert werden und keine Spaltenumbrüche enthalten.</p>
+<h1 id="struktur"><a href="#struktur">🔗</a>Struktur</h1>
+<p>Als Folge wird die Struktur an einem Beispiel eines Hauptkapitels mit Unterkapiteln in der dtdocs Webseite gezeigt.</p>
+<pre><code>Beispiel-Kapitel
+ _index.md
+ Abschnitt1-mit-Unterabschnitten/
+ Abschnitt1/
+ Bild.png
+ _index.md
+ Unterabschnitt1.md
+ Unterabschnitt2.md
+ Abschnitt2.md
+ Abschnitt3.md
+</code></pre><p>Einige Notizen zur obigen Struktur:</p>
+<ul>
+<li>
+<p><code>_index.md</code> enthalten keinen Inhalt (sie enthalten nur Metadaten) und werden gebraucht um Abschnitts-Titel mit ToC Einträgen zu verbinden. Im obigen Beispiel definiert <code>example-chapter/_index.md</code> den titel des Beispiel-Kapitels und die Reihenfolge in welcher es im Haupt-Inhaltsverzeichnis erscheint. Gleichermaßen definiert <code>example-chapter/section1-with-subsections/_index.md</code> Metadaten für den ersten Abschnitt des Kapitels.</p>
+</li>
+<li>
+<p>Media-Dateien sollten in einem Verzeichnis mit dem gleichen Namen, wie die Seite haben, auf die sie Bezug nehmen. In diesem Beispiel, <code>example-chapter/section1-with-subsections/subsection1</code> enthält die Media, die zur Seite <code>subsection1.md</code> gehören.</p>
+</li>
+</ul>
+<h1 id="metadaten"><a href="#metadaten">🔗</a>Metadaten</h1>
+<p>Metadaten von den Markdown Dateien sind am Kopf der Seite mit yaml präsentiert. Alle Metadaten sollen definiert werden &ndash; Die Abschnitte der Modul-Referenzen enthalten eine große Anzahl spezifischer Metadaten &ndash; aber das folgende definiert einige minimale Metadaten für die Beispiel-Seite <code>example-chapter/section1-with-subsections/subsection1.md</code>.</p>
+<pre><code>---
+title: Sub Section 1 Title
+id: subsection1
+weight: 10
+---
+</code></pre><dl>
+<dt>title</dt>
+<dd>Dieser sollte den bearbeiteten Titel deiner Seite enthalten. Um einen Doppelpunkt in einen Titel zu integrieren, setze den Titel in Anführungszeichen.</dd>
+<dt>id</dt>
+<dd>Das ist die ID, die gebraucht wird, dass Hugo die Seite identifizieren kann. Sie sollte normalerweise den gleichen Namen haben wie die Datei (für Inhalt-Dateien) oder des Eltern-Verzeichnisses (für <code>_index.md</code> Dateien).</dd>
+<dt>weight</dt>
+<dd>Das ist ein optionales Metadatenfeld, das gebraucht wird, um die Reihenfolge im Inhaltsverzeichnis zu definieren. Falls das Feld <em>weight</em> nicht inbegriffen ist, werden die Seiten in alphabetischer Reihenfolge oder Standardreihenfolge zusammengestellt. Zum Beispiel, um die Abschnitte und Unterabschnitte des obigen Beispiels in umgekehrter Reihenfolge zu definieren, müssten die folgenden Metadaten gesetzt werden:</dd>
+</dl>
+<pre><code>   example-chapter/
+ section1-with-subsections/
+ _index.md  # weight: 30 (place section1 page at the end of example-chapter)
+ subsection1.md  # weight: 20 (place subsection1 page at the end of section1)
+ subsection2.md  # weight: 10 (place subsection2 page at the start of section1)
+ section2.md  # weight: 20 (place section2 in the middle of example-chapter)
+ section3.md  # weight: 10 (place section3 at the start of example-chapter)
+</code></pre><h1 id="inhalt"><a href="#inhalt">🔗</a>Inhalt</h1>
+<h2 id="generelle-anhaltspunkte-für-den-stil"><a href="#generelle-anhaltspunkte-f%c3%bcr-den-stil">🔗</a>Generelle Anhaltspunkte für den Stil</h2>
+<ul>
+<li>
+<p>Alle Inhalte sollen in klarem Markdown ohne Shortcodes geschrieben werden und HTML soll auf ein absolutes Minimum begrenzt werden, falls HTML überhaupt benutzt wird</p>
+</li>
+<li>
+<p>Minimalismus ist ein absolutes Muss. Weniger Worte sind vorzuziehen</p>
+</li>
+<li>
+<p>Markdown-Dateien sollen so kurz wie möglich sein</p>
+</li>
+<li>
+<p>Folge den Namensgebungs- und Kapitelaustattungs-Normen aus GUI der Anwendung &ndash; namentlich sollen alle Kopfzeilen und Titel in Kleinbuchstaben sein außer den obersten Kapitel-Namen (gilt für die Version in Englisch)</p>
+</li>
+<li>
+<p>Kopfzeilen in einer Datei sollten den Level drei (###) nicht übersteigen</p>
+</li>
+<li>
+<p>Die Führungssprache ist Englisch</p>
+</li>
+<li>
+<p>Gehe davon aus, dass der Leser die Anwendung geöffnet hat, wenn er die Anleitung liest und setze nur dort Bilder ein, wo diese zur Erklärung einer komplexen Funktionalität beitragen</p>
+</li>
+<li>
+<p>Nutze Bild-Textboxen, falls du ein Bild kommentieren musst (z.B. markiere Teile des Bildes mit einem Buchstaben oder einer Zahl und erkläre die Bedeutung in Text, der dem Bild folgt). Platziere keine Worte direkt im bild für Anmerkungen, da dies die genaue Lokalisierung schwierig macht. Siehe <a href="/dtdocs/de/darkroom/pixelpipe/the-anatomy-of-a-module/">diese Seite</a> als Beispiel.</p>
+</li>
+<li>
+<p>Änderungen zum Inhalt sollten mit einem Pull Request oder einem ähnlichen Mechanismus vorgeschlagen werden</p>
+</li>
+<li>
+<p>Deine Beiträge werden lektoriert &ndash; nimm es nicht persönlich</p>
+</li>
+</ul>
+<h2 id="definitionslisten"><a href="#definitionslisten">🔗</a>Definitionslisten</h2>
+<p>Die Standard-Methode, um Informationen über darktable-Modul-Einstellungen zu präsentieren, ist der Gebrauch von Definitions-Listen.</p>
+<dl>
+<dt>GUI Kontroll-Name</dt>
+<dd>Eine Deklaration, von dem, was die Einstellung macht. Zum Beispiel &ldquo;Setze die Belichtung in EV Einheiten&rdquo;.</dd>
+<dd>
+<p>Du kannst so viele Paragrafen einschließen, wie du willst, aber versuche es auf 2 oder 3 zu limitieren.</p>
+</dd>
+<dt>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+<a href="/dtdocs/en/special-topics/contributing/active-icon.png" target="_blank" rel="noopener noreferrer"><img src="/dtdocs/en/special-topics/contributing/active-icon.png" alt="active-icon"  class="icon"    /></a>
+
+ eine Einstellmöglichkeit, die mit einem Icon angewählt werden kann</dt>
+<dd>Wenn eine Einstellmöglichkeit mit einem Icon angewählt wird, dann nehme einen Screenshot des Icons im Standard darktable Theme, und setze es eine vor dem Namen der Einstellung</dd>
+<dt>GUI Combobox Name</dt>
+<dd>Comboboxes haben oft mehrere Optionen, die alle angezeigt werden müssen mit separaten Definitionen. Nutze eine Liste mit Aufzählungszeichen mit <em>Kursiv</em> für die Werte der Combobox.</dd>
+<dd><ul>
+<li><em>der erste Wert</em>: Was bedeutet der erste Wert</li>
+</ul>
+</dd>
+<dd><ul>
+<li><em>der zweite Wert</em>: Was bedeutet der zweite Wert</li>
+</ul>
+</dd>
+</dl>
+<p>Definitionslisten werden auch während des gesamten Dokumentes gebraucht, wo immer ein Stück Funktionalität definiert werden muss. Siehe zum Beispiel, <a href="/dtdocs/de/special-topics/program-invocation/darktable-cli/">darktable-cli</a>.</p>
+<h2 id="notizen"><a href="#notizen">🔗</a>Notizen</h2>
+<p>Falls du eine wichtige Notiz für den Nutzer präsentieren willst, dann nutze das folgende Format:</p>
+<hr>
+<p><strong>Beachte</strong>: Das ist eine wichtige Notiz.</p>
+<hr>
+<h2 id="fixierte-fonts-abstände-und-codeblocks"><a href="#fixierte-fonts-abst%c3%a4nde-und-codeblocks">🔗</a>Fixierte Fonts-Abstände und Codeblocks</h2>
+<p>Fixe Abstände für Fonts (mit dem ` Zeichen) sollten normalerweise nur für Codeblocks verwendet werden für Referenzen auf Dateinamen oder Kommandolinien-Parameter.</p>
+<h2 id="links"><a href="#links">🔗</a>Links</h2>
+<p>Interne Links müssen relativ zur jetzigen Datei sein und müssen auf eine gültige Markdown-Datei (.md) zielen. Starte Links entweder mit <code>./</code> um das jetzige Verzeichnis oder <code>../</code>, um auf das übergeordnete Verzeichnis zu repräsentieren.</p>
+<ul>
+<li>
+<p>Verweise auf ein Dunkelkammer-Modul sollten in kursiver Schrift sein, z.B. <a href="/dtdocs/de/module-reference/processing-modules/exposure/"><em>Belichtung</em></a></p>
+</li>
+<li>
+<p>Verweise auf ein Leuchttisch-Modul sollten in Normalschrift sein, z.B. <a href="/dtdocs/de/module-reference/utility-modules/darkroom/history-stack/">Verlauf</a></p>
+</li>
+<li>
+<p>Links auf einen obersten abschnitt mit Referenz auf die <code>_index.md</code> Datei, z.B. <a href="/dtdocs/de/module-reference/">module reference</a></p>
+</li>
+<li>
+<p>Links auf ein Register im Dialog der Einstellungen: <a href="/dtdocs/de/preferences-settings/general/">preferences &gt; general</a></p>
+</li>
+<li>
+<p>Links auf eine bestimmte Einstellung in den Voreinstellungen: <a href="/dtdocs/de/preferences-settings/general/">preferences &gt; general &gt; interface language</a></p>
+</li>
+<li>
+<p>Jede Kopfzeile innerhalb einer Seite kann direkt mit einem Anchor-Link verlinkt werden: <a href="/dtdocs/de/special-topics/contributing/#notes">contributing/notes</a></p>
+</li>
+</ul>
+<h2 id="bilder"><a href="#bilder">🔗</a>Bilder</h2>
+<p>Bei Screenshots der aus darktable Anwendung nutze das Standard-Theme von darktable.</p>
+<p>Mehrere Dateinamen-Endungen können dazu benutzt werden, wie Bilder dargestellt werden.</p>
+<dl>
+<dt>Icon</dt>
+<dd>Um ein Bild als Icon einzusetzen, schließe <code>#icon</code> nach dem Bildnamen in den Link ein: Die Markdown <code>![squirrel icon](./contributing/contributing.png#icon)</code> gibt den folgenden Output: 
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+<a href="/dtdocs/en/special-topics/contributing/squirrel.png" target="_blank" rel="noopener noreferrer"><img src="/dtdocs/en/special-topics/contributing/squirrel.png" alt="squirrel icon"  class="icon"    /></a>
+
+</dd>
+<dt>Bild Breite</dt>
+<dd>You can set the image width to 25, 33, 50, 66, 75 or 100 per cent of the rendered page width by including <code>#wxx</code> after the image name in the link, where <code>xx</code> is the desired width. For example:</dd>
+<dd><code>![squirrel](./contributing/squirrel.png#w25)</code> outputs</dd>
+<dd>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+<a href="/dtdocs/en/special-topics/contributing/squirrel.png" target="_blank" rel="noopener noreferrer"><img src="/dtdocs/en/special-topics/contributing/squirrel.png" alt="squirrel"  class="w25"    /></a>
+
+</dd>
+<dd><code>![squirrel](./contributing/squirrel.png#w75)</code> outputs</dd>
+<dd>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+<a href="/dtdocs/en/special-topics/contributing/squirrel.png" target="_blank" rel="noopener noreferrer"><img src="/dtdocs/en/special-topics/contributing/squirrel.png" alt="squirrel"  class="w75"    /></a>
+
+</dd>
+<dt>Inline</dt>
+<dd>Mit der Ausnahme von Icons werden Bilder als standesmäßig als Block-Elemente eingebunden. Du kannst das aufheben mit dem Term <code>#inline</code> nach dem Bilder-Namen. Das kann kombiniert werden mit der Breite wie folgt.</dd>
+<dd><code>![squirrel](./contributing/squirrel.png#w25#inline)</code> ergibt die Ausgabe 
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+<a href="/dtdocs/en/special-topics/contributing/squirrel.png" target="_blank" rel="noopener noreferrer"><img src="/dtdocs/en/special-topics/contributing/squirrel.png" alt="squirrel"  class="w25 inline"    /></a>
+
+</dd>
+<dt>Standard</dt>
+<dd>Standardmäßig werden Bilder als Block mit 100% Breite dargestellt. So <code>![squirrel](./contributing/squirrel.png#w100)</code> und <code>![squirrel](./contributing/squirrel.png)</code> sind äquivalent und geben beide das folgende aus:</dd>
+<dd>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+<a href="/dtdocs/en/special-topics/contributing/squirrel.png" target="_blank" rel="noopener noreferrer"><img src="/dtdocs/en/special-topics/contributing/squirrel.png" alt="squirrel"   /></a>
+
+</dd>
+</dl>
+
+
+    
+    <h3 class="translations_head">translations</h3>
+    <ul class="translations">
+        
+        <li><a href="/dtdocs/en/special-topics/contributing/">
+            English: contributing to dtdocs
+        </a></li>
+        
+        <li><a href="/dtdocs/fr/special-topics/contributing/">
+            Français: contribuer à dtdocs
+        </a></li>
+        
+        <li><a href="/dtdocs/pt_br/special-topics/contributing/">
+            Português: contribuir para o dtdocs
+        </a></li>
+        
+        <li><a href="/dtdocs/uk/special-topics/contributing/">
+            Ukrainian: внесок у dtdocs
+        </a></li>
+        
+    </ul>
+    
+</article>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/de/special-topics/midi-device-support/" class="next">&lt; MIDI-Geräteunterstützung</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/de/special-topics/translating/" class="prev">dtdocs übersetzen &gt;</a>
+	
+    </div>
+</div>
+
+
+
+      </div>
+	    </div>
+
+            
+
+        </div>
+
+
+    </body>
+</html>
+
+<script>
+(function($) {
+  
+
+  $.fn.scrollToMiddle = function(options) {
+    var settings = $.extend({
+        duration: 0
+    }, options );
+
+    return this.each(function() {
+      var $el = $(this);
+      var elOffset = $el.offset().top;
+      var elHeight = $el.height();
+      var windowHeight = $(window).height();
+      var offset;
+      if (elHeight < windowHeight) {
+        offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+      }
+      else {
+        offset = elOffset;
+      }
+      $('.navigation').scrollTop(offset);
+    });
+  };
+}(jQuery));
+
+$('.navigation').css('opacity', '0');
+ $(document).ready(function(){
+     $('.parent ul').hide();
+     $('.navigation').css('opacity', 1.0);
+     $('.active').parents('ul').show();
+     $('.active').siblings('ul').show();
+     $('.active').children('i.toggle').removeClass("fa-plus-squre").addClass("fa-minus-square-o");
+     $('.active').parents('li').children('.toggle').removeClass("fa-plus-square").addClass("fa-minus-square-o");
+     $('.active').scrollToMiddle();
+
+     $('.toggle').on('click', function (e) {
+       e.stopPropagation();
+       $(this).siblings('ul').slideToggle();
+
+       if($(this).hasClass("fa-plus-square")) {
+           $(this).addClass("fa-minus-square-o");
+           $(this).removeClass("fa-plus-square");
+       }
+       else {
+           $(this).addClass("fa-plus-square");
+           $(this).removeClass("fa-minus-square-o");
+       }
+     });
+ });
+
+</script>
+
+
+<script>
+ var _paq = window._paq = window._paq || [];
+  
+ _paq.push(['trackPageView']);
+ _paq.push(['enableLinkTracking']);
+ (function() {
+     var u="https://piwik.kees.nl/";
+     _paq.push(['setTrackerUrl', u+'matomo.php']);
+     _paq.push(['setSiteId', '21']);
+     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+ })();
+</script>
+<noscript><p><img src="https://piwik.kees.nl/matomo.php?idsite=21&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+
+

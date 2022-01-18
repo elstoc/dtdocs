@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Acesso remoto on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/tethering/</link>
+    <description>Recent content in Acesso remoto on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/tethering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>visão geral</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/tethering/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/tethering/overview/</guid>
+      <description>A vista de acesso remoto permite que você capture imagens diretamente no darktable a partir de uma câmera conectada.
+Para usar o recurso de acesso remoto você precisa inicialmente conectar sua câmera ao computador usando um cabo USB. Seu computador pode solicitar que você monte ou visualize a câmera conectada. Não monte nem visualize a câmera. Se sua câmera estiver montada ou visualizada automaticamente, você precisará “desmontar/ejetar” a câmera antes que o darktable possa acessá-la.</description>
+    </item>
+    
+    <item>
+      <title>disposição do acesso remoto</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/tethering/tethering-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/tethering/tethering-view-layout/</guid>
+      <description>🔗painel esquerdo  informações da imagem Mostra as informações da imagem.  🔗painel direito De cima para baixo:
+ histograma Uma representação gráfica dos níveis de luz e cores da imagem. Este módulo pode ser movido para o painel esquerdo, se desejado (consulte preferências &amp;gt; miscelânea &amp;gt; posição do módulo histograma). sessão Configurações da sessão. visualização ao vivo Configurações da visualização ao vivo. configurações da câmera Configurações da câmera. editor de metadados Edita os metadados das imagens selecionadas.</description>
+    </item>
+    
+    <item>
+      <title>exemplos</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/tethering/examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/tethering/examples/</guid>
+      <description>As seções a seguir mostram casos típicos de uso para a vista de acesso remoto.
+🔗configuração de estúdio com revisão de foto na tela Este é um caso de uso muito comum. Você possui seu estúdio e um cenário preparado, a câmera está conectada ao seu computador e a vista do acesso remoto está ativa no darktable. Você trabalha na câmera e tira fotos. Sempre que quiser, você pode rever as imagens diretamente no monitor do seu computador ao invés de usar o LCD da câmera.</description>
+    </item>
+    
+    <item>
+      <title>solução de problemas</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/tethering/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/tethering/troubleshooting/</guid>
+      <description>Este guia de solução de problemas pode ser usado para verificar se sua câmera pode ou não ser usada com o acesso remoto. Isso é feito usando a mesma ferramenta (gphoto2) que o darktable usa para fazer a interface com sua câmera.
+Antes de começar, você precisa primeiro encontrar o nome da porta da câmera. Normalmente, a porta &amp;ldquo;usb:&amp;rdquo; é suficiente e, portanto, é usada no guia a seguir.
+🔗sua câmera foi detectada?</description>
+    </item>
+    
+  </channel>
+</rss>

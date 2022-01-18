@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chambre noire on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/darkroom/</link>
+    <description>Recent content in Chambre noire on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/darkroom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/darkroom/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/darkroom/overview/</guid>
+      <description>La vue chambre noire est l&amp;rsquo;endroit où vous développez vos images. Le panneau central contient l&amp;rsquo;image en cours de développement.
+🔗zoomer Cliquez le panneau central avec le bouton central de la souris pour successivement « ajuster à l&amp;rsquo;écran », zoomer à 1:1, zoomer à 2:1.
+Vous pouvez aussi zoomer entre 1:1 et « adapter à l&amp;rsquo;écran » en faisant défiler avec votre souris. Faites défiler tout en maintenant la touche Ctrl enfoncée pour étendre la plage de zoom entre 2:1 et 1:10.</description>
+    </item>
+    
+    <item>
+      <title>disposition de la vue chambre noire</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/darkroom/darkroom-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/darkroom/darkroom-view-layout/</guid>
+      <description>🔗panneau gauche De haut en bas :
+ navigation Naviguer dans la vue centrale et la zoomer. instantanés Prendre et afficher des instantanés pour les comparer avec le développement actuel. gestion des clones Afficher et gérer les clones. pipette de couleur globale Sélectionner et afficher les informations de couleur provenant de parties de l&amp;rsquo;image. mots-clés Gérer les mots-clés. informations de l&amp;rsquo;image Afficher des informations de l&amp;rsquo;image actuelle. gestion des masques Afficher et modifier les formes dessinées.</description>
+    </item>
+    
+  </channel>
+</rss>

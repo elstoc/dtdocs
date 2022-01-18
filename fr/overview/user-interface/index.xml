@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>interface utilisateur on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/overview/user-interface/</link>
+    <description>Recent content in interface utilisateur on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/overview/user-interface/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vues</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/overview/user-interface/views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/overview/user-interface/views/</guid>
+      <description>Les fonctionnalités de darktable sont réparties en six vues différentes :
+ table lumineuse Gérer les images et les collections. chambre noire Développer une seule image. carte Montrer sur une carte les images géolocalisées et les nouvelles images géolocalisées manuellement. impression Envoyer des images à une imprimante. diaporama Affichez les images sous forme de diaporama, en les traitant à la volée. capture Capturez à distance et enregistrer des images prises avec un appareil photo connecté.</description>
+    </item>
+    
+    <item>
+      <title>disposition de l&#39;affichage</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/overview/user-interface/screen-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/overview/user-interface/screen-layout/</guid>
+      <description>La disposition de l&amp;rsquo;affichage est la même pour toutes les vues de darktable. Elle consiste en une zone centrale bordée par des panneaux :
+    zone centrale : Contient des informations et la fonctionnalité spécifique de la vue actuelle.
+  panneau gauche : Contient des modules principalement utilisés pour fournir des informations.
+  panneau droit : Contient des modules principalement utilisés pour le traitement d&amp;rsquo;image.</description>
+    </item>
+    
+    <item>
+      <title>pellicule</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/overview/user-interface/filmstrip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/overview/user-interface/filmstrip/</guid>
+      <description>La pellicule, lorsqu&amp;rsquo;elle est activée, est affichée en bas de l&amp;rsquo;écran ; sauf dans la vue table lumineuse, où elle est remplacée par le module chronologie. Elle affiche les images de la collection actuelle (sélectionnée dans la vue table lumineuse). Vous pouvez naviguer le long de la pellicule en faisant défiler avec la molette de la souris.
+La pellicule vous permet d&amp;rsquo;interagir avec les images lorsque vous n&amp;rsquo;êtes pas dans la vue table lumineuse.</description>
+    </item>
+    
+    <item>
+      <title>panneau supérieur</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/overview/user-interface/top-panel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/overview/user-interface/top-panel/</guid>
+      <description>Le panneau supérieur est commun à toutes les vues darktable. Il fournit l&amp;rsquo;accès à un certain nombre de fonctions courantes.
+  🔗Sur le côté gauche  afficher Choisir les images à afficher dans la table lumineuse/la pellicule, en fonction de l&amp;rsquo;évaluation par étoiles et du statut de rejet. trier par Choisir un critère de tri des images.   ordre de tri Changer l&amp;rsquo;ordre de tri (croissant/décroissant).  🔗Sur le côté droit    groupement Montrer ou cacher les images groupées.</description>
+    </item>
+    
+    <item>
+      <title>raccourcis clavier</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/overview/user-interface/keyboard-shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/overview/user-interface/keyboard-shortcuts/</guid>
+      <description>La plupart des fonctionnalités de darktable peuvent être contrôlées via des raccourcis clavier qui peuvent être personnalisés dans préférences&amp;gt;raccourcis clavier.
+Appuyez sur la touche H (pour obtenir de l&amp;rsquo;aide) dans n&amp;rsquo;importe quelle vue de darktable pour afficher une liste de tous les raccourcis applicables à cette vue.</description>
+    </item>
+    
+  </channel>
+</rss>

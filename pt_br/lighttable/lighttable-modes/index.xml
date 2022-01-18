@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>modos da mesa de luz on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/lighttable/lighttable-modes/</link>
+    <description>Recent content in modos da mesa de luz on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/lighttable/lighttable-modes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gerenciador de arquivos</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lighttable/lighttable-modes/filemanager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lighttable/lighttable-modes/filemanager/</guid>
+      <description>No modo padrão, as imagens são exibidas em uma grade com um número ajustável de imagens por linha.
+🔗controles  zoom O número de imagens em cada linha pode ser alterado usando o controle deslizante no painel inferior ou mantendo a tecla Ctrl pressionada enquanto movimenta a roda do mouse na vista central. navegar Você pode navegar pelas imagens usando as teclas de seta (←/→/↑/↓) ou movimentando a roda do mouse.</description>
+    </item>
+    
+    <item>
+      <title>mesa de luz ampliável</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lighttable/lighttable-modes/zoomable-lighttable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lighttable/lighttable-modes/zoomable-lighttable/</guid>
+      <description>O modo de mesa de luz ampliável fornece uma maneira alternativa para navegar em coleções de imagens muito grandes, mas com algumas similaridades com o modo de gerenciador de arquivos (descrito abaixo).
+🔗controles  zoom Movimente a roda do mouse para aproximar e afastar a mesa de luz (semelhante ao Ctrl+roda no modo gerenciador de arquivos). Aproximar as miniaturas não muda o número de miniaturas por linha, de modo que a mesa de luz pode exceder a área visível em todos os lados.</description>
+    </item>
+    
+    <item>
+      <title>seleção (comparação)</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lighttable/lighttable-modes/culling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lighttable/lighttable-modes/culling/</guid>
+      <description>O modo de seleção permite que você exiba imagens lado a lado para fácil comparação.
+🔗controles  zoom No modo seleção, você pode ampliar nas imagens (até 100%) mantendo pressionada a tecla Ctrl enquanto movimenta a roda do mouse. Desloque as imagens ampliadas com um clique+arrasto. Por padrão, ampliar e deslocar são sincronizados entre todas as imagens visíveis. Se você deseja ampliar ou deslocar somente uma imagem específica, adicione o modificador Shift às ações acima.</description>
+    </item>
+    
+    <item>
+      <title>visualização completa</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lighttable/lighttable-modes/full-preview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lighttable/lighttable-modes/full-preview/</guid>
+      <description>A partir de qualquer um dos modos da mesa de luz, você pode exibir uma visualização completamente ampliada da imagem que estiver sob o ponteiro do mouse pressionando e mantendo pressionada a tecla W. Isto é útil para inspecionar mais de perto uma imagem enquanto estiver classificando e selecionando imagens.
+Ao pressionar e manter pressionada a combinação Ctrl+W a imagem é completamente ampliada e são identificadas as regiões de nitidez da imagem que podem indicar o foco da imagem.</description>
+    </item>
+    
+  </channel>
+</rss>

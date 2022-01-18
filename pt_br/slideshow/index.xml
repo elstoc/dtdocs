@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apresentação on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/slideshow/</link>
+    <description>Recent content in Apresentação on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/slideshow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>visão geral</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/slideshow/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/slideshow/overview/</guid>
+      <description>A vista de apresentação permite que você assista uma apresentação de slides da coleção atual com as regras de filtragem e ordenação aplicadas.
+Para obter mais informações sobre como definir as regras de filtragem e ordenação da coleção, consulte a seção sobre coleções. Selecione os critérios de classificação e ordenação das imagens no painel superior.
+A seção a seguir fornece mais detalhes sobre o uso da vista de apresentação de slides.</description>
+    </item>
+    
+    <item>
+      <title>uso</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/slideshow/usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/slideshow/usage/</guid>
+      <description>A vista de apresentação de slides ainda está em estágio inicial de desenvolvimento, com somente um conjunto básico de recursos.
+Se você não precisa de um modo de avanço automático, você pode usar a funcionalidade visualização pregada em seu lugar.
+ barra de espaço	inicia e pára o modo de avanço automático que alterna automaticamente para as próximas imagens a cada cinco segundos por padrão. ESC sai do modo de apresentação e retorna à mesa de luz.</description>
+    </item>
+    
+  </channel>
+</rss>

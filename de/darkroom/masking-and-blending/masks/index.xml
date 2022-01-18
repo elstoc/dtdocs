@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Masken on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/darkroom/masking-and-blending/masks/</link>
+    <description>Recent content in Masken on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/darkroom/masking-and-blending/masks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Übersicht</title>
+      <link>https://darktable-org.github.io/dtdocs/de/darkroom/masking-and-blending/masks/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/darkroom/masking-and-blending/masks/overview/</guid>
+      <description>Durch Masken wird die Wirkung eines Moduls eingeschränkt, da sich dieses nur auf bestimmte Bereiche eines Bildes auswirkt.
+Eine Maske kann als Graustufenbild angesehen werden, bei dem alle Pixel einen Wert zwischen 0 und 1.0 (oder 0 % und 100 %) haben. Dieser Wert ist die Deckkraft , die bestimmt, wie stark ein Modul jedes einzelne Pixel beeinflusst
+Die folgenden Abschnitte erklären, wie Masken in darktable konstruiert werden.</description>
+    </item>
+    
+    <item>
+      <title>Gezeichnete Masken</title>
+      <link>https://darktable-org.github.io/dtdocs/de/darkroom/masking-and-blending/masks/drawn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/darkroom/masking-and-blending/masks/drawn/</guid>
+      <description>Mit der Möglichkeit der gezeichneten Maske kannst du eine Maske direkt auf die Bildoberfläche konstruieren. Formen können alleine oder in Kombination gebraucht werden. Wenn eine Form einmal auf ein Bild gezeichnet ist, kann diese angepasst, entfernt oder in anderen Modulen wieder gebraucht werden.
+Formen werden intern als Vektoren gespeichert und mit der erforderlichen Auflösung in der Pixelpipe-Verarbeitung gerendert. Formen werden im Koordinatensystem des Originalbildes ausgedrückt und mit dem Rest des Bildes von einem aktiven Verzeichnungsmodul in der Pipe transformiert, z.</description>
+    </item>
+    
+    <item>
+      <title>Parametrische Masken</title>
+      <link>https://darktable-org.github.io/dtdocs/de/darkroom/masking-and-blending/masks/parametric/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/darkroom/masking-and-blending/masks/parametric/</guid>
+      <description>Die parametrische Maskenfunktion bietet eine feinkörnige, selektive Kontrolle darüber, wie einzelne Pixel gemischt werden. Dies geschieht durch die automatische Generierung einer Zwischenmaske aus benutzerdefinierten Parametern. Diese Parameter sind Farbkoordinaten und nicht die geometrischen Koordinaten, die in gezeichneten Masken verwendet werden.
+Für jeden Datenkanal eines Moduls (z.B. Lab, RGB) und für mehrere virtuelle Datenkanäle (z. B. Farbton, Sättigung) wird eine Funktion für die Deckkraft pro Kanal bestimmt. Abhängig vom Wert für ein Pixel in einem bestimmten Datenkanal berechnet diese Funktion einen Überblendwert zwischen 0 und 1 (100 %) für dieses Pixel.</description>
+    </item>
+    
+    <item>
+      <title>Kombinieren von gezeichneten und parametrischen Masken</title>
+      <link>https://darktable-org.github.io/dtdocs/de/darkroom/masking-and-blending/masks/drawn-and-parametric/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/darkroom/masking-and-blending/masks/drawn-and-parametric/</guid>
+      <description>Gezeichnete und parametrische Masken können kombiniert werden und als eine Einzelmaske auf Bilder angewendet werden.
+Es gibt zwei Hauptelemente zur Festlegung, wie die Kombination einzelner Masken erfolgen soll: die Polarität jeder einzelnen Maske, definiert durch die Plus- oder Minus-Auswahl, und die Einstellung in der Auswahl „kombinieren“.
+Die Auswahl &amp;ldquo;kombinieren&amp;rdquo; ermöglicht folgende Einstellungen, um gezeichnete und parametrische Masken zu kombinieren:
+ ausschließend Einfache Methode zur Kombination von Masken, bei der die einzelnen Pixelwerte aller beteiligte Maske miteinander multipliziert werden.</description>
+    </item>
+    
+    <item>
+      <title>Maskenanpassungen &amp; zusätzliche Steuerelemente</title>
+      <link>https://darktable-org.github.io/dtdocs/de/darkroom/masking-and-blending/masks/refinement-controls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/darkroom/masking-and-blending/masks/refinement-controls/</guid>
+      <description>Wenn eine parametrische oder gezeichnete Maske eingeschaltet ist, werden mehrere weitere Regler zur Präzisierung der Maske angezeigt.
+ Detail-Schwellwert Dieser Regler erlaubt die Änderung der Deckkraft einer Maske basierend auf dem Grad an Details im Bild. Der Regler wählt entweder Flächen mit vielen Details (positive Werte) oder flache, wenig detailreiche Flächen (negative Werte) aus. Die Voreinstellung (Null) wirkt sich nicht auf die Detailverfeinerung aus. Der Regler ist nützlich zum Schärfen und Weichzeichnen, das nicht-fokussierte Bereiche (Bokeh) ausschließt, oder zum Schärfen nur dieser unscharfen Bereiche, um ein Überschärfen der fokussierten Bereiche zu vermeiden.</description>
+    </item>
+    
+    <item>
+      <title>Raster-Masken</title>
+      <link>https://darktable-org.github.io/dtdocs/de/darkroom/masking-and-blending/masks/raster/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/darkroom/masking-and-blending/masks/raster/</guid>
+      <description>Wie in vorherigen Abschnitten beschrieben, ist die kombinierte Maske eines Moduls (die Kombination jeder gezeichneten und parametrischen Maske) ein Graustufen-Rasterbild. Dieses beschreibt die Wirkung des Moduls auf jedes einzelne Pixel. Die Maske wird für aktive Module gespeichert und kann anschließend in anderen Modulen der Pixelpipe wiederverwendet werden.
+Wie mit jeder Maske, wenn der Deckkraft-Wert für ein Pixel in einer Rastermaske null ist, wird die Eingabe in dieses Modul an die Ausgabe ohne Änderung weitergegeben.</description>
+    </item>
+    
+  </channel>
+</rss>

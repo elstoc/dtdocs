@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>carte on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/map/</link>
+    <description>Recent content in carte on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/map/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>emplacements</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/map/locations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/map/locations/</guid>
+      <description>Créez des zones ou des emplacements et organisez-les sous forme de balises hiérarchiques.
+Un emplacement est affiché sur la carte quand il est sélectionné. Initialement chaque emplacement est représenté par un carré ou un cercle, qui peut être changé en rectangle ou en ellipse en ajustant sa largeur et/ou sa hauteur.
+Un emplacement peut aussi être créé à partir d&amp;rsquo;un polygone représentant une région OpenStreetMap (ville/pays). Pour ce faire, assurez-vous que le paramètre max points polygone est suffisamment grand (certains polygones de pays comptent plus de 150.</description>
+    </item>
+    
+    <item>
+      <title>paramètres de carte</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/map/map-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/map/map-settings/</guid>
+      <description>Permet de sélectionner les données cartographiques préférées parmi divers fournisseurs. Certains fournissent des couches supplémentaires (vue satellite, etc&amp;hellip;).
+🔗contrôles du module  source cartographique Choisir le fournisseur d&amp;rsquo;informations cartographiques. max points polygone Le module trouver un lieu n&amp;rsquo;affiche pas les polygones avec plus de points que cette limite pour des raisons de performance. Habituellement un polygone de pays compte entre 50.000 et 150.000 points. afficher contrôles Permet d&amp;rsquo;afficher les contrôles en haut à gauche de la vue centrale.</description>
+    </item>
+    
+    <item>
+      <title>trouver un lieu</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/map/find-location/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/map/find-location/</guid>
+      <description>Trouver un lieu sur la carte. Vous devez être connecté à Internet pour utiliser cette fonction.
+Pour utiliser ce module, tapez un nom de lieu ou une adresse, appuyez sur Entrée et une liste de résultats s&amp;rsquo;affichera. Cliquez sur un élément de la liste et la carte s&amp;rsquo;agrandira jusqu&amp;rsquo;à ce lieu. Un contour couvrant ce lieu ou une épingle pointant vers ce lieu s&amp;rsquo;affiche.
+Un contour (polygone) peut être utilisé pour créer un emplacement utilisateur.</description>
+    </item>
+    
+  </channel>
+</rss>

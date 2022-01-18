@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sala escura on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/</link>
+    <description>Recent content in Sala escura on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/darkroom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>visão geral</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/darkroom/overview/</guid>
+      <description>A vista da sala escura é onde você processa suas imagens. O painel central contém a imagem que está sendo atualmente editada.
+🔗zoom Clicar com o botão do meio do mouse no centro do painel faz com que seja alternado entre os modos de ampliação “ajustar à tela”, 1:1 e 2:1.
+Alternativamente, você pode alterar a ampliação entre 1:1 e “ajustar à tela” movimentando a roda do mouse. Girar a roda mantendo a tecla Ctrl pressionada estende o intervalo de ampliação entre 2:1 e 1:10.</description>
+    </item>
+    
+    <item>
+      <title>disposição da sala escura</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/darkroom-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/darkroom/darkroom-view-layout/</guid>
+      <description>🔗painel esquerdo De cima para baixo:
+ navegação Permite navegar e ampliar a vista central. instantânea Obtém e visualiza instantâneas da imagem processada permitindo comparar com a edição atual. gerenciador de duplicatas Vê e gerencia duplicatas. seletor de cores global Seleciona e exibe informações de cor obtidas de partes da imagem. etiquetas Gerencia etiquetas. informações da imagem Exibe informações da imagem atual. gerenciador de máscaras Vê e edita as máscaras desenhadas.</description>
+    </item>
+    
+  </channel>
+</rss>

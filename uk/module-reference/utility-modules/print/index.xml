@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>друк on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/uk/module-reference/utility-modules/print/</link>
+    <description>Recent content in друк on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/uk/module-reference/utility-modules/print/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>налаштування друку</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/module-reference/utility-modules/print/print-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/module-reference/utility-modules/print/print-settings/</guid>
+      <description>Керуйте налаштуваннями для режиму друку та ініціюйте друк.
+🔗елементи керування модулем 🔗принтер  принтер Виберіть один із встановлених принтерів. носій Тип носія, завантаженого в принтер (звичайний папір, глянцевий фотопапір тощо). профіль ICC-профіль принтера для завантаженого паперу. Це профіль, специфічний для принтера та паперу. Цей профіль &amp;ndash; остання трансформація колірного простору, застосована до зображення, метою якої є створення високоякісного друку. метод Метод візуалізації для друку (“перцепційний”, “відносний колориметричний”, “насиченість” або “абсолютний колориметричний”).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Asset Management on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/lighttable/digital-asset-management/</link>
+    <description>Recent content in Digital Asset Management on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/lighttable/digital-asset-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sammlungen &amp; Filmrollen</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lighttable/digital-asset-management/collections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lighttable/digital-asset-management/collections/</guid>
+      <description>Eine Sammlung ist ein Satz Bilder mit einer gemeinsamen Auswahl von Kriterien.
+Die am grundlegendste Art einer Sammlung ist die Filmrolle, welche alle Bilder enthält, die von einem bestimmten Ordner oder Verzeichnis importiert wurden. Wann immer du Bilder ab einem Dateisystem importierst, werden diese Bilder in einer Filmrolle organisiert, deren Name von diesem Elternordner genommen wird.
+Es können auch ganz einfach andere Arten von Sammlungen erstellen werden, die auf verschiedenen Bildattributen (Exif-Daten, Dateinamen, Tags usw.</description>
+    </item>
+    
+    <item>
+      <title>Vorschaubilder</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lighttable/digital-asset-management/thumbnails/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lighttable/digital-asset-management/thumbnails/</guid>
+      <description>Jedes Bild der aktuellen Sammlung wird durch ein Vorschaubild in der Ansicht Leuchttisch und im Modul Filmstreifen angezeigt. Ein Zwischenspeicher (Cache) der zuletzt gebrauchten Vorschaubilder wird auf der Festplatte abgelegt und beim Start in den Arbeitsspeicher geladen. Die Größe dieses Vorschaubilder-Cache kann unter darktable-Voreinstellungen &amp;gt; Bearbeitung &amp;gt; CPU/GPU/Speicher angepasst werden.
+🔗Erstellung der Vorschaubilder Ein Vorschaubild wird erstellt, wenn ein Bild zum ersten Mal in darktable geladen wird, nachdem das Bildes in der Dunkelkammer geändert wurde, oder wenn ein Bild erneut betrachtet wird, dessen Vorschaubild nicht mehr verfügbar ist.</description>
+    </item>
+    
+    <item>
+      <title>Bewertungen mit Sternen und Farbmarkierungen</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lighttable/digital-asset-management/star-color/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lighttable/digital-asset-management/star-color/</guid>
+      <description>Mit Bewertungen und Farbmarkierungen können Bilder nach eigenen Kriterien sortiert und geordnet werden. Die Bewertung sowie die farbige Markierung eines Bildes werden innerhalb des Vorschaubildes und im Filmstreifen angezeigt.
+🔗Sterne Bewertung Du kannst einem Bild eine Bewertung von null bis fünf Sternen geben. Schon beim Import können an jedes Bild eine Standard-Bewertung vergeben werden, die du Modul Import definieren kannst. Du kannst ein Bild auch als &amp;ldquo;zurückgewiesen&amp;rdquo; markieren.
+Es gibt mehrere Möglichkeiten eine Bewertung zu ändern.</description>
+    </item>
+    
+    <item>
+      <title>Bildgruppierung</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lighttable/digital-asset-management/grouping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lighttable/digital-asset-management/grouping/</guid>
+      <description>Das Gruppieren von Bildern ermöglicht eine Strukturierung der Bilder und verbessert die Übersichtlichkeit Ihrer Bildsammlung in der Ansicht Leuchttisch.
+Bilder können zu einer Gruppe zusammengefasst werden, indem die zu gruppierenden Bilder ausgewählt und im Eingabefeld &amp;ldquo;gruppieren&amp;rdquo; im Modul ausgewählte Bilder oder die Tastenkombination Strg+G drücken. Ausgewählte Bilder innerhalb einer Gruppe können über die Schaltfläche&amp;quot;Gruppe auflösen&amp;quot; oder der Tastenkombination Umschalt+Strg+G aus der Gruppe entfernt werden. Duplizierte Bilder kommen automatisch in die gleiche Gruppe.</description>
+    </item>
+    
+    <item>
+      <title>Metadaten und Verschlagworten</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lighttable/digital-asset-management/metadata-tagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lighttable/digital-asset-management/metadata-tagging/</guid>
+      <description>darktable erlaubt es zusätzliche Informationen über deine Bilder zu speichern, sie können so einfacher gruppiert und gesucht werden. Diese Informationen werden in der Datenbank von darktable in XMP-Dateien gespeichert und können auch an Dateien, die exportiert mitgegeben werden.
+🔗Metadaten Metadaten (z.B. Titel, Beschreibung) sind Frei-Format-Text, die im Normalfall für jedes Bild anders sind. Du kannst Metadaten im Modul Metadaten-Editor hinzufügen.
+🔗Verschlagwortung Tags werden im Normalfall in mehreren Bildern geteilt und werden zur Kategorisierung und Gruppierung genutzt.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>organização on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/organization/</link>
+    <description>Recent content in organização on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/darkroom/organization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>visão geral</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/organization/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/darkroom/organization/overview/</guid>
+      <description>Os módulos de processamento são organizados e acessados pelo painel no lado direito da sala escura:
+  Clique nos ícones no topo deste painel para revelar, da esquerda para a direita:
+   painel de acesso rápido Um painel configurável permitindo acesso rápido a controles frequentemente usados de módulos.   módulos ativos Um grupo contendo os módulos que estão atualmente ativos na pixelpipe. Clique-direito para mostrar todos os módulos que estão presentes na pilha de histórico dentro do grupo ativo, independentemente de estarem ou não realmente ativos.</description>
+    </item>
+    
+    <item>
+      <title>grupos de módulos</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/organization/module-groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/darkroom/organization/module-groups/</guid>
+      <description>Vários grupos de módulos predefinidos são oferecidos com o darktable e são selecionáveis como predefinições. Estes são resumidos a seguir.
+Todas essas predefinições (com exceção de módulos: obsoletos e buscar apenas) também incluem o painel de acesso rápido. Todos, exceto módulos: obsoletos, incluem a barra de pesquisa.
+🔗módulos: todos Esta predefinição contém todos os módulos, ordenados de acordo com o agrupamento tradicional de módulos usado antes do darktable 3.4, como a seguir:</description>
+    </item>
+    
+    <item>
+      <title>painel de acesso rápido</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/organization/quick-access-panel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/darkroom/organization/quick-access-panel/</guid>
+      <description>O painel de acesso rápido permite que você acesse ferramentas de vários módulos de processamento em um só lugar.
+  Você pode adicionar novas ferramentas clicando com o botão direito no ícone no canto superior esquerdo ou usando a tela de gerenciar disposição dos módulos.
+Clique no ícone à direita do nome do módulo para abrir uma versão completa daquele módulo. Clique no ícone à esquerda do nome do módulo para habilitar/desabilitar o módulo.</description>
+    </item>
+    
+    <item>
+      <title>gerenciar disposição dos módulos</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/organization/manage-module-layouts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/darkroom/organization/manage-module-layouts/</guid>
+      <description>Gerencia a disposição e agrupamento dos módulos de processamento e do painel de acesso rápido.
+  Esta tela de manutenção pode ser acessada a partir do menu de predefinições ao lado da caixa de procura de módulo ou dos ícones de grupo de módulos (abaixo do módulo histograma na vista da sala escura). Ctrl+clique no menu &amp;ldquo;predefinições&amp;rdquo; para abrir esta tela diretamente.
+As configurações são salvas automaticamente quando você sai da tela.</description>
+    </item>
+    
+  </channel>
+</rss>

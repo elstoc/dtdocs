@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>table lumineuse on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/lighttable/</link>
+    <description>Recent content in table lumineuse on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/lighttable/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>chronologie</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/lighttable/timeline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/lighttable/timeline/</guid>
+      <description>Affiche vos images par date/heure de prise de vue.
+  Dans la vue navigateur de fichiers de la table lumineuse, vous pouvez afficher/masquer le module chronologie dans le panneau inférieur avec le raccourci Ctrl+F.
+Dans la chronologie, vous pouvez afficher les dates suivantes et précédentes en faisant défiler avec votre souris ; Ctrl+défilement pour zoomer/dézoomer.
+Vous pouvez également utiliser la chronologie pour sélectionner des images par plage de dates en cliquant et en faisant glisser votre souris.</description>
+    </item>
+    
+    <item>
+      <title>historique</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/lighttable/history-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/lighttable/history-stack/</guid>
+      <description>Manipule l&amp;rsquo;historique d&amp;rsquo;une ou plusieurs images sélectionnées.
+🔗contrôles du module  copier sélectivement&amp;hellip; Copier des parties de l&amp;rsquo;historique de l&amp;rsquo;image sélectionnée. Une boîte de dialogue apparaît dans laquelle vous pouvez choisir les éléments de l’historique à copier. Si plusieurs images sont sélectionnées, l&amp;rsquo;historique est extrait de l&amp;rsquo;image sélectionnée en premier. Double-cliquez sur un élément de l&amp;rsquo;historique pour copier cet élément uniquement et fermer immédiatement la boîte de dialogue. copier Copier l&amp;rsquo;historique complet de l&amp;rsquo;image sélectionnée.</description>
+    </item>
+    
+    <item>
+      <title>images sélectionnées</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/lighttable/selected-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/lighttable/selected-image/</guid>
+      <description>Effectue des actions sur les images qui ont été sélectionnées dans la vue table lumineuse.
+🔗contrôles du module Les contrôles du module sont répartis en deux onglets pour manipuler, l&amp;rsquo;un les fichiers images, et l&amp;rsquo;autre les métadonnées associées.
+🔗onglet images  enlever Enlève les images sélectionnées de la bibliothèque darktable sans les supprimer. Les images enlevées ne peuvent plus être visualisées ou modifiées dans darktable, mais les fichiers image restent sur le système de fichiers avec tous les fichiers liés XMP.</description>
+    </item>
+    
+    <item>
+      <title>importer</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/lighttable/import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/lighttable/import/</guid>
+      <description>Ajoute des images à la bibliothèque darktable, en les copiant éventuellement à partir d&amp;rsquo;un autre emplacement du système de fichiers ou à partir d&amp;rsquo;un boîtier connecté.
+Voir formats de fichiers supportés pour plus d&amp;rsquo;informations.
+🔗contrôles du module Les boutons suivants sont affichés par défaut dans l&amp;rsquo;interface :
+ ajouter à la bibliothèque&amp;hellip; Ajoute des images existantes à la bibliothèque de darktable sans copier ni déplacer de fichiers. Si vous n&amp;rsquo;ajoutez qu&amp;rsquo;une seule image à la bibliothèque, elle sera automatiquement ouverte dans la chambre noire.</description>
+    </item>
+    
+    <item>
+      <title>lua scripts installer</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/lighttable/lua-scripts-installer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/lighttable/lua-scripts-installer/</guid>
+      <description>Ce module fournit une interface pour installer les scripts Lua darktable. La première fois qu&amp;rsquo;il est exécuté, des instructions sont affichées dans le module.
+Il peut être désactivé par une option dans préférences &amp;gt; options lua.</description>
+    </item>
+    
+    <item>
+      <title>styles</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/lighttable/styles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/lighttable/styles/</guid>
+      <description>Des images étant sélectionnées, créer à partir de leur historique des styles nommés ou leur appliquer des styles.
+Les styles peuvent être créés dans ce panneau ou dans le module historique de la chambre noire.
+Une liste de tous les styles disponibles s&amp;rsquo;affiche dans le module. Un champ de recherche au-dessus de la liste vous permet de localiser un style par son nom ou sa description. Ce module permet également d&amp;rsquo;éditer et de supprimer des styles.</description>
+    </item>
+    
+    <item>
+      <title>sélectionner</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/lighttable/select/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/lighttable/select/</guid>
+      <description>Sélectionne des images dans la table lumineuse selon des critères simples.
+🔗contrôles du module  tout sélectionner Sélectionne toutes les images de la collection actuelle. rien sélectionner Désélectionne toutes les images. inverser la sélection Sélectionne toutes les images non sélectionnées de la collection actuelle. dossier Sélectionne toutes les images de la collection actuelle appartenant à la même pellicule que les images sélectionnées. non développées Sélectionne toutes les images de la collection actuelle encore non développées.</description>
+    </item>
+    
+  </channel>
+</rss>

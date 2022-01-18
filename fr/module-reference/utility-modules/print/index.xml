@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>impression on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/print/</link>
+    <description>Recent content in impression on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/print/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>paramètres d&#39;impression</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/print/print-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/print/print-settings/</guid>
+      <description>Gérer les paramètre de la vue impression et lancer l&amp;rsquo;impression.
+🔗contrôles du module 🔗imprimante  imprimante Sélectionner l&amp;rsquo;une des imprimantes installées. type de papier Le type de papier de l&amp;rsquo;imprimante (papier ordinaire, papier photo lustré, etc.). profil Le profil ICC de l&amp;rsquo;imprimante pour le papier chargé. C&amp;rsquo;est le profil spécifique à l&amp;rsquo;imprimante et au papier de l&amp;rsquo;imprimante. L&amp;rsquo;application de ce profil est la dernière transformation d&amp;rsquo;espace colorimétrique faite à l&amp;rsquo;image. Son but est de créer une impression de haute qualité.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenCl on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/</link>
+    <description>Recent content in OpenCl on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/special-topics/opencl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Der Hintergrund</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/background/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/background/</guid>
+      <description>Die Verarbeitung von hochauflösenden Bildern ist eine herausfordernde Aufgabe, die moderne Rechner erfordert. Hinsichtlich Speicherbedarf und Prozessorleistung kann bereits die optimale Bearbeitung eines typischen 15, 20 oder 25 Megapixel Bilds einen Rechner schnell an seine Grenzen bringen.
+Die Anforderungen von darktable sind da keine Ausnahme. Alle Berechnungen werden in 4 x 32-Bit Gleitkommazahlen ausgeführt. Das ist langsamer als die &amp;ldquo;gewöhnliche&amp;rdquo; 8 oder 16 bit Integer-Algebra, aber es eliminiert die Probleme mit Tonwertabbrüchen oder dem Verlust von Informationen.</description>
+    </item>
+    
+    <item>
+      <title>Wie OpenCl funktioniert</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/how-opencl-works/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/how-opencl-works/</guid>
+      <description>Wie du dir vorstellen kannst, kann die Architektur von Grafikprozessoren deutlich variieren. Es gibt unterschiedliche Hersteller und sogar unterschiedliche Generationen von GPUs des gleichen Herstellers können nicht vergleichbar sein. Gleichzeitig legen die Grafikprozessorhersteller normalerweise nicht alle Hardwaredetails gegenüber der Öffentlichkeit offen. Eine dieser Konsequenzen ist, die Notwendigkeit proprietäre Treiber unter Linux zu benutzen, wenn du deine Grafikkarte voll ausnutzen willst.
+Glücklicherweise hat ein Konsortium, angeführt von The Kronos Group, ein offenes, standardisiertes Interface entwickelt, das OpenCL genannt wird, welches erlaubt, deinen Grafikprozessor als numerisches Verarbeitungsgerät zu nutzen.</description>
+    </item>
+    
+    <item>
+      <title>Aktivierung von OpenCL in darktable</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/activate-opencl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/activate-opencl/</guid>
+      <description>Das Brauchen von OpenCL in darktable erfordert es, dass dein Computer mit einer geeigneten Grafikkarte mit den erforderlichen Libraries ausgerüstet ist. Die meisten modernen Grafikkarten von NIVIDIA und AMD kommen mit vollem Support für OpenCL. Der Compiler für OpenCL wird normalerweise als Teil des proprietären Grafik-Treibers und wird als dynamische Library mit Namen libOpenCL.so gebraucht. Diese Library muss in einem Ordner sein, wo diese vom System-Linker deines Systems gefunden werden kann.</description>
+    </item>
+    
+    <item>
+      <title>OpenCL konfigurieren</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/setting-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/setting-up/</guid>
+      <description>Die riesige Vielfalt der Systeme und deutliche Unterschiede zwischen OpenCL-Anbietern und Treiberversionen macht es unmöglich einen umfassenden Überblick darüber zu geben, wie man OpenCL konfiguriert. Wir können dir nur ein Beispiel geben, in diesem Fall für den NVIDIA-Treiber 331.89 für Ubuntu 14.04. Wir hoffen, dass dies als eine grundlegende Anleitung dienen kann und dir helfen wird, spezifische Probleme für dein Setup zu lösen.
+Der prinzipielle OpenCL-Funktionsablauf sieht so aus:
+darktable &amp;gt; libOpenCL.</description>
+    </item>
+    
+    <item>
+      <title>Mögliche Probleme und Lösungen</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/problems-solutions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/problems-solutions/</guid>
+      <description>darktable entdeckt OpenCL-Laufzeitfehler automatisch. Wenn es einen Fehler erkennt, wird es alles erneut über die CPU abarbeiten. Während das zwar die Verarbeitungsgeschwindigkeit vermindert, sollte es nicht das Endresultat beeinflussen.
+Es gibt unterschiedliche Gründe, warum OpenCL bei der Phase des Aufstarten versagen kann. OpenCL hängt von den Hardware-Anforderungen ab und von gewissen Treibern und Libraries. Zusätzlich müssen alle diese zusammenpassen, was Hersteller, Modell und Revisionsnummer angeht. Falls etwas nicht stimmt (z.B. dein Grafik-Treiber &amp;ndash; geladen als Kernel Modul &amp;ndash; stimmt nicht mit der Version deines libOpenCL.</description>
+    </item>
+    
+    <item>
+      <title>AMD/ATI Geräte</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/amd-ati/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/amd-ati/</guid>
+      <description>Während NVIDIA-Grafikkarten und die meisten modernen AMD/ATI-Karten häufig out-of-the-box laufen, gibt es bei älteren AMD/ATI-Grafikkarten mehr zu tun. Insbesondere bei denen von vor der HD7xx-Serie. Dies beginnt mit der Tatsache, dass diese Karten nur einen Teil ihres gesamten Speichers an darktable melden. Bei einer 1GB-Karte sind das typischerweise nur 512MB, ein Wert, den darktable in seiner Standardkonfiguration als unzureichend zurückweisen wird. Somit wird die Grafikkarte nicht benutzt.
+Im Internet wird empfohlen, die Umgebungsvariable GPU_MAX_HEAP_SIZE in diesem Fall auf 100 zu setzen.</description>
+    </item>
+    
+    <item>
+      <title>Optimierung der Performance</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/performance/</guid>
+      <description>Es gibt eine Anzahl von Konfigurations-Parametern in $HOME/.config/darktable/darktablerc, die helfen können die Open CL Performance deines Systems fein abzustimmen: Performance in diesem Zusammenhang bedeutet meistens die Latenzzeit von darktable während des interaktiven Arbeitens (z.B. wie lange es geht, um die Pixelpipe aufzuarbeiten). Für ein komfortables Arbeiten ist es wichtig, die Latenzzeit kurz zu halten.
+Um Informationen über das Profilieren zu erhalten, musst du darktable vom Terminal neu starten mit darktable -d opencl -d perf.</description>
+    </item>
+    
+    <item>
+      <title>Scheduling-Profil</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/scheduling-profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/scheduling-profile/</guid>
+      <description>darktable kann die CPU nutzen sowie eine oder mehrere OpenCL-fähige GPUs. Abhängig von der relativen Leistungsfähigkeit dieser Bauelemente kann der Nutzer zwischen verschiedenen Scheduler-Profilen unter darktable-Voreinstellungen &amp;gt; Bearbeitung &amp;gt; CPU/GPU/Speicher &amp;gt; OpenCL-Scheduler-Profil wählen. Folgende Auswahl ist möglich:
+ Standard Wenn eine OpenCL-fähige GPU gefunden wird, nutzt darktable diese für das Bearbeiten des Hauptbildes, während das Navigationsfeld in der CPU parallel verarbeitet wird. Das ist die bevorzugte Einstellung für Systeme mit einer verhältnismässig schnellen CPU und einer eher langsameren GPU.</description>
+    </item>
+    
+    <item>
+      <title>Mehrere Einheiten</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/multiple-devices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/multiple-devices/</guid>
+      <description>Die Disposition von OpenCL-Einheiten kann auf den meisten Systemen mit den Einstellungen von &amp;ldquo;OpenCL scheduling profile&amp;rdquo; optimiert werden. Wenn aber dein System mit mehr als einer GPU ausgestattet ist, solltest du die entsprechenden Prioritäten der Einheiten manuell setzen. Um das zu tun, musst du das &amp;ldquo;Standard&amp;rdquo; Disposition-Profil setzen und die Einstellungen in den Konfigurations-Parametern der &amp;ldquo;opencl_device_priority&amp;rdquo; ändern.
+Es ist wichtig zu verstehen, wie darktable die OpenCL-Geräte nutzt. Jede Bearbeitungsfolge für ein Bildes, d.</description>
+    </item>
+    
+    <item>
+      <title>OpenCL funktioniert bei mir immer noch nicht</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/still-doesnt-work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/opencl/still-doesnt-work/</guid>
+      <description>Wie bereits erwähnt, gibt es OpenCL-Systeme mit einer riesigen Vielfalt von Konfigurationen: verschiedene Grafikprozessorhersteller und -modelle, verschiedene Speichergrößen der GPUs, unterschiedliche Treiber, unterschiedliche Distributionen, etc..
+Viele der möglichen Probleme treten nur bei sehr spezifischen Kombinationen dieser Faktoren auf. Wir bitten um Verständnis, dass darktable-Entwickler nur ein kleiner Teil dieser Varianten zur Verfügung steht und daher möglicherweise ein spezifisches Problem nicht gelöst werden kann. Es ist nicht möglich ein Problem zu beheben, das nicht reproduziert werden kann.</description>
+    </item>
+    
+  </channel>
+</rss>

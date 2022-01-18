@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>opencl on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/</link>
+    <description>Recent content in opencl on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>загальна інформація</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/background/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/background/</guid>
+      <description>Обробка зображень із високою роздільною здатністю &amp;ndash; це складне завдання, яке вимагає сучасного комп’ютера. Що стосується як пам’яті, так і потужності центрального процесора, отримання найкращих результатів із типового 15, 20 або 25-мегапіксельного зображення може швидко довести ваш комп’ютер до межі можливостей.
+Вимоги darktable не є винятком. Всі розрахунки виконуються на 4 х 32-бітних числах із рухомою комою. Це повільніше, ніж “звичайна” 8 або 16-бітна ціла алгебра, але усуває всі проблеми з тональними розривами або втратою інформації.</description>
+    </item>
+    
+    <item>
+      <title>як працює opencl</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/how-opencl-works/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/how-opencl-works/</guid>
+      <description>Як ви можете собі уявити, апаратна архітектура графічних процесорів може суттєво відрізнятися. Існують різні виробники, і навіть різні покоління графічних процесорів від одного виробника можуть бути не порівнянними. У той же час виробники графічних процесорів зазвичай не розголошують всіх подробиць про апаратну частину своєї продукції для громадськості. Одним із наслідків цього є необхідність використовувати пропрієтарні драйвери під Linux, якщо ви хочете повною мірою скористатися своєю графічною картою.
+На щастя, галузевий консорціум, очолюваний The Khronos Group, розробив відкритий стандартизований інтерфейс під назвою OpenCL, що дозволяє використовувати графічний процесор як пристрій цифрової обробки.</description>
+    </item>
+    
+    <item>
+      <title>активація opencl у darktable</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/activate-opencl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/activate-opencl/</guid>
+      <description>Використання OpenCL у darktable вимагає, щоб ваш ПК був оснащений відповідною графічною картою та містив необхідні бібліотеки. Більшість сучасних відеокарт від NVIDIA та AMD мають повну підтримку OpenCL. Зазвичай компілятор OpenCL постачається як частина пропрієтарного графічного драйвера і використовується як динамічна бібліотека під назвою libOpenCL.so. Ця бібліотека повинна знаходитися в папці, де її може знайти динамічний лінкер системи.
+Коли darktable запускається, він спершу спробує знайти та завантажити libOpenCL.so, а після успіху перевірити, чи доступна відеокарта підтримується OpenCL.</description>
+    </item>
+    
+    <item>
+      <title>налаштування opencl</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/setting-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/setting-up/</guid>
+      <description>Величезна різноманітність систем та помітні відмінності між постачальниками OpenCL та версіями драйверів унеможливлює повний огляд того, як налаштувати OpenCL. Ми можемо навести лише приклад, у цьому випадку для драйвера NVIDIA версії 331.89 на Ubuntu 14.04. Ми сподіваємось, що це послужить базовим введенням і допоможе вам вирішити будь-які проблеми, що стосуються вашого налаштування.
+Принцип потоку функцій OpenCL такий:
+darktable &amp;gt; libOpenCL.so &amp;gt; libnvidia-opencl.so.1 &amp;gt; модуль/модулі драйвера ядра &amp;gt; GPU
+  darktable динамічно завантажує libOpenCL.</description>
+    </item>
+    
+    <item>
+      <title>можливі проблеми та рішення</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/problems-solutions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/problems-solutions/</guid>
+      <description>darktable автоматично виявляє помилки часу виконання OpenCL. Виявивши помилку, darktable переробить все на центральному процесорі. Хоча це буде сповільнювати обробку, це не повинно впливати на кінцевий результат.
+Можуть бути різні причини того, чому OpenCL може зазнати невдачі на етапі ініціалізації. OpenCL залежить від вимог до обладнання та від наявності певних драйверів та бібліотек. На додаток, все це повинно відповідати виробнику, моделі та номеру редакції. Якщо щось не підходить (наприклад, ваш графічний драйвер &amp;ndash; завантажений як модуль ядра &amp;ndash; не відповідає версії вашого libOpenCL.</description>
+    </item>
+    
+    <item>
+      <title>пристрої amd/ati</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/amd-ati/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/amd-ati/</guid>
+      <description>Тоді як пристрої NVIDIA та більшість сучасних пристроїв AMD/ATI часто працюють &amp;ldquo;з коробки&amp;rdquo;, ще багато чого треба зробити для старіших графічних карт AMD/ATI, а саме до серії HD7xxx. Це починається з того, що ці пристрої повідомлятимуть darktable лише про частину своєї загальної пам&amp;rsquo;яті графічного процесора. Для пристрою об&amp;rsquo;ємом 1ГБ це зазвичай становить лише 512МБ, значення, яке darktable в стандартній конфігурації відкине як недостатнє. Як наслідок, пристрій не використовуватиметься.
+В Інтернеті ви можете знайти підказку щодо встановлення змінної середовища GPU_MAX_HEAP_SIZE у 100, якщо це станеться.</description>
+    </item>
+    
+    <item>
+      <title>оптимізація продуктивності</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/performance/</guid>
+      <description>У файлі $HOME/.config/darktable/darktablerc є ряд параметрів конфігурації, які можуть допомогти покращити продуктивність OpenCL вашої системи. Продуктивність у цьому контексті здебільшого означає затримку darktable під час інтерактивної роботи (тобто скільки часу потрібно для повторної обробки конвеєра). Для комфортного робочого процесу важливо зберігати низьку затримку.
+Для того, щоб отримати інформацію профілювання, вам потрібно запустити darktable з терміналу з командним рядком darktable -d opencl -d perf.
+Після кожної повторної обробки конвеєра &amp;ndash; спричиненої зміною параметрів модуля, масштабуванням, панорамуванням тощо &amp;ndash; ви побачите загальний час витрачений в конвеєрі та час, проведений у кожному з ядер OpenCL.</description>
+    </item>
+    
+    <item>
+      <title>профіль планування</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/scheduling-profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/scheduling-profile/</guid>
+      <description>darktable може використовувати центральний процесор і один або кілька графічних процесорів, що підтримують OpenCL. Залежно від відносної продуктивності цих пристроїв, користувачі можуть вибирати серед певних профілів планування для оптимізації продуктивності. Це досягається встановленням параметра конфігурації налаштування &amp;gt; обробка &amp;gt; cpu/gpu/пам&amp;rsquo;ять &amp;gt; профіль планування OpenCL, який пропонує наступний вибір:
+ за замовчуванням Якщо виявлено графічний процесор, що підтримує OpenCL, darktable використовує його для обробки зображення в центральній панелі, поки вікно навігації обробляється на центральному процесорі паралельно.</description>
+    </item>
+    
+    <item>
+      <title>кілька пристроїв</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/multiple-devices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/multiple-devices/</guid>
+      <description>Планування роботи пристроїв OpenCL можна оптимізувати в більшості систем, використовуючи налаштування “профіль планування OpenCL”. Однак, якщо ваша система оснащена декількома графічними процесорами, можливо, ви захочете встановити відносний пріоритет пристроїв вручну. Для цього вам потрібно вибрати профіль планування “за замовчуванням” та змінити вподобання в параметрі конфігурації “opencl_device_priority”.
+Важливо розуміти, як darktable використовує пристрої OpenCL. Кожна послідовність обробки зображення &amp;ndash; для перетворення вхідних даних у кінцевий вихід за допомогою стека історії &amp;ndash; виконується в конвеєрі.</description>
+    </item>
+    
+    <item>
+      <title>opencl все ще не працює в мене</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/still-doesnt-work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/opencl/still-doesnt-work/</guid>
+      <description>Як вже згадувалося, системи OpenCL мають величезну різноманітність установок: різні виробники та моделі графічних процесорів, різний обсяг пам&amp;rsquo;яті графічного процесора, різні драйвери, різні дистрибутиви тощо&amp;hellip;
+Багато потенційних проблем виникають лише за дуже конкретних комбінацій цих факторів. Оскільки розробники darktable мають доступ лише до невеликої частини цих варіацій, будь ласка, знайте, що ми, можливо, не зможемо вирішити вашу конкретну проблему. Ми мало що можемо зробити, якщо ми не можемо відтворити вашу проблему.</description>
+    </item>
+    
+  </channel>
+</rss>

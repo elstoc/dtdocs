@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skripten mit Lua on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/lua/</link>
+    <description>Recent content in Skripten mit Lua on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/lua/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Übersicht</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lua/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lua/overview/</guid>
+      <description>Lua Skripte können auch Aktionen für darktable definieren, die im Falle eines Vorkommnisses ausgelöst werden. Ein Beispiel dafür könnte sein ein externes Programm aufzurufen, um zusätzliche Bearbeitungsschritte außerhalb von darktable anzuwenden.
+Lua ist ein unabhängiges Projekt, das 1993 gegründet wurde, und ist eine mächtige, schnelle und leichtgewichtige, einsetzbare Skript-Sprache. Lua wird in vielen Open Source Anwendungen, in kommerziellen Programmen und auch für Spiele-Programmierung gebraucht
+darktable nutzt die Lua Version 5.34. Die Beschreibung der Grundlagen und der Syntax von Lua ist nicht Teil dieses Handbuches.</description>
+    </item>
+    
+    <item>
+      <title>Grundsätzliche Prinzipien: luarc Dateien</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lua/basic-principles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lua/basic-principles/</guid>
+      <description>Beim Aufstarten wird darktable automatisch die Lua Skripte anzeigen $DARKTABLE/share/darktable/luarc und $HOME/.config/darktable/luarc (in welchen $DARKTABLE das darktable Installations-Verzeichnis repräsentiert und $HOME repräsentiert dein Stammverzeichnis).
+Das ist die einzige Zeit, in denen in darktable ein Lua Skript von selbst abläuft. Diese Skripte können Aufrufe sein, die Aktionen ausführen in diversen darktable Fällen. Dieser Aufruf-Mechanismus ist die Hauptmethode um Lua Aktionen auszulösen.</description>
+    </item>
+    
+    <item>
+      <title>Ein einfaches lua Beispiel</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lua/a-simple-example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lua/a-simple-example/</guid>
+      <description>Starten wir mit einem einfachen Beispiel, das einen gewissen Code auf deinem Gerät druckt. Kreiere eine Datei mit Namen luarc in den Konfigurations-Ordner von darktable (normalerweise $HOME/.config/darktable/) und füge die folgende Linie hinzu:
+print(&amp;quot;Hello World !&amp;quot;) Starte darktable und du wirst den Satz &amp;ldquo;Hello World !&amp;rdquo; auf deinem Gerät. Nichts Wahnsinniges, aber es ist ein Start.
+An dieser Stelle gibt es im Skript nichts Spezifisches zu darktable. Wir verwenden einfach die Standardfunktion print, um einen String auszugeben.</description>
+    </item>
+    
+    <item>
+      <title>Markierte Bilder drucken</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lua/printing-labeled-images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lua/printing-labeled-images/</guid>
+      <description>Das erste Beispiel zeigte uns die Grundlagen von Lua und erlaubte uns zu überprüfen, ob alles richtig funktioniert. Lass uns nun etwas Komplizierteres machen. Versuchen wir, eine Liste der Bilder auszudrucken, die mit einem roten Etikett versehen sind. Aber zunächst einmal, was ist ein Bild?
+local darktable = require &amp;quot;darktable&amp;quot; local debug = require &amp;quot;darktable.debug&amp;quot; print(darktable.debug.dump(darktable.database[1])) Das Ausführen des obigen Codes erzeugt eine Menge Output. Wir werden es uns gleich anschauen, aber zuerst schauen wir uns den Code selbst an.</description>
+    </item>
+    
+    <item>
+      <title>Einfachen Kurzbefehl hinzufügen</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lua/simple-shortcut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lua/simple-shortcut/</guid>
+      <description>Bisher haben alle Skripte irgendwelche Dinge beim Start ausgeführt. Das ist von begrenztem Nutzen und erlaubt es nicht, auf Nutzeraktionen zu reagieren. Um anspruchsvollere Sachen zu tun, benötigen wir Funktionen, die auf ein bestimmtes Ereignis reagieren. Und das üblichste Ereignis ist ein Kurzbefehl.
+darktable = require &amp;quot;darktable&amp;quot; local function hello_shortcut(event, shortcut) darktable.print(&amp;quot;Hallo, habe &#39;&amp;quot;..event.. &amp;quot;&#39; empfangen mit Parameter &#39;&amp;quot;..shortcut..&amp;quot;&#39;&amp;quot;) end darktable.register_event(&amp;quot;shortcut&amp;quot;,hello_shortcut, &amp;quot;Kurzbefehl, der seine Parameter druckt&amp;quot;) Nun starte darktable, gehe zu &amp;ldquo;darktable-Voreinstellungen &amp;gt; Kurzbefehle &amp;gt; lua &amp;gt; Kurzbefehl, der seine Parameter druckt&amp;rdquo;, weise einen Kurzbefehl zu und probiere ihn aus.</description>
+    </item>
+    
+    <item>
+      <title>Bilder mit Lua exportieren</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lua/exporting-images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lua/exporting-images/</guid>
+      <description>Bis jetzt haben wir gelernt Lua dazu zu nutzen, um darktable an unseren Arbeitsablauf anzupassen. Nun möchten wir schauen, wie wir Lua dazu nutzen, um Bilder einfach an einen Online Service zu exportieren. Wenn du Bilder via die Kommandozeile an einen Bilder-Service hochladen kannst, dann kannst Lua dazu nutzen, um das in die Schnittstelle von darktable zu integrieren.
+In diesem nächsten Beispiel verwenden wir Lua, um über scp zu exportieren. Ein neuer Speicher erscheint in der Benutzeroberfläche von darktable, welcher Bilder über den Kopiermechanismus von ssh an ein entferntes Ziel exportiert.</description>
+    </item>
+    
+    <item>
+      <title>Der Bau von Schnittstellen Elementen</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lua/building-ui-elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lua/building-ui-elements/</guid>
+      <description>Unser voriges Beispiel war etwas limitiert. Insbesondere der Gebrauch einer Präferenz für den Export-Pfad war nicht wirklich sehr gut. Das können wir besser mit dem Hinzufügen von Schnittstellenelementen im Export-Dialog.
+UI Elemente werden mit der darktable_new_widget Funktion kreiert. Diese Funktion nimmt einen Typ von Grafikobjekt als Parameter und gibt ein neues Objekt zurück, das mit diesem Grafikobjekt korrespondiert. Du kannst dann verschiedene Felder in dieses Grafikobjekt setzen, um dessen Parameter zu setzen.</description>
+    </item>
+    
+    <item>
+      <title>Skripte teilen</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lua/sharing-scripts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lua/sharing-scripts/</guid>
+      <description>Bis jetzt waren alle Lua Codes in luarc. Das war ein guter Weg, um dir ein Skript zu entwickeln, aber weniger praktikabel für eine Weitergabe. Das müssen in einem eigens dafür bestimmten Lua Modul. Um das zu machen, sichern wir den Code in eine separate Datei (scp-storage.lua für diesen Fall):
+--[[ SCP STORAGE a simple storage to export images via scp AUTHOR Jérémy Rosen (jeremy.rosen@enst-bretagne.fr) INSTALLATION * copy this file in $CONFIGDIR/lua/ where CONFIGDIR is your darktable configuration directory * add the following line in the file $CONFIGDIR/luarc require &amp;quot;scp-storage&amp;quot; USAGE * select &amp;quot;Export via SCP&amp;quot; in the storage selection menu * set the target directory * export your images LICENSE GPLv2 ]] darktable = require &amp;quot;darktable&amp;quot; darktable.</description>
+    </item>
+    
+    <item>
+      <title>Aufruf von Lua vom dbus</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lua/calling-from-dbus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lua/calling-from-dbus/</guid>
+      <description>Es ist möglich einen Lua Befehl an darktable via dessen DBus-Schnittstelle zu senden. Die Methode org.darktable.service.Remote.Lua nimmt einen einzigen String Parameter der als Lua Befehl interpretiert wird. Dieser Befehl wird ausgeführt im gegenwärtigen Lua Kontext und sollte entweder null oder einen String zurückgeben. Das Resultat wird zurückgegeben als Resultat der DBus Methode.
+Wenn der Lua Aufruf in einen Fehler resultiert die DBus Methode wird einen Fehler org.darktable.Error.LuaError mit der Lua Fehlermeldung als die Meldung an den DBus Fehler gebunden.</description>
+    </item>
+    
+    <item>
+      <title>Arbeiten mit darktable von einem Lua Skript</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lua/darktable-from-lua/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lua/darktable-from-lua/</guid>
+      <description>Warnung: Diese Möglichkeit ist sehr experimentell. Es ist bekannt, dass mehrere Elemente bis jetzt im Library Modus nicht funktionieren. Ein vorsichtiges Testen ist sehr empfohlen.
+Die Lua Schnittstelle erlaubt es dir, darktable von jedem Lua Skript aus zu nutzen. Dadurch wird darktable als Library geladen und das Meiste der Lua API angeboten (darktable ist ohne Titelzeile, so dass die Funktionen, die sich auf die Beutzerschnittstelle beziehen, nicht vorhanden sind)
+Als Beispiel, das folgende Programm wird eine Liste aller Bilder in deiner Bibliothek ausdrucken:</description>
+    </item>
+    
+    <item>
+      <title>Lua API</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lua/api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lua/api/</guid>
+      <description>Das Lua API von darktable ist in einem eigenen Handbuch mit einer detaillierten Beschreibung aller Dateistrukturen und Funktionen. Du kannst das API Handbuch herunterladen von hier.</description>
+    </item>
+    
+  </channel>
+</rss>

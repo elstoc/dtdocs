@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fichiers liés et édition non destructive on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/overview/sidecar-files/</link>
+    <description>Recent content in fichiers liés et édition non destructive on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/overview/sidecar-files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fichiers liés</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/overview/sidecar-files/sidecar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/overview/sidecar-files/sidecar/</guid>
+      <description>darktable est un éditeur d’images non destructif. Il ouvre les images en lecture seule. Toutes les données créées dans darktable (métadonnées, mots-clés et étapes du traitement d&amp;rsquo;image) sont enregistrées dans un fichier séparé .XMP appelé fichier lié. Ces fichiers sont stockés à côté des fichiers RAW d&amp;rsquo;origine. Ils permettent à darktable de stocker des informations concernant les images ainsi que l&amp;rsquo;historique complet de développement sans toucher aux fichiers RAW originaux. Lorsque vous importez une image pour la première fois dans darktable, un fichier lié XMP est automatiquement créé.</description>
+    </item>
+    
+    <item>
+      <title>importer des fichiers liés générés par d&#39;autres applications</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/overview/sidecar-files/sidecar-import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/overview/sidecar-files/sidecar-import/</guid>
+      <description>Lorsqu&amp;rsquo;il importe une image, darktable teste automatiquement s&amp;rsquo;il est accompagné d&amp;rsquo;un fichier lié. En plus de rechercher les fichiers nommés &amp;lt;basename&amp;gt;.&amp;lt;extension&amp;gt;.xmp et &amp;lt;basename&amp;gt;_nn.&amp;lt;extension&amp;gt;.xmp (les formats de dénomination des fichiers XMP de darktable), il vérifie également la présence d&amp;rsquo;un fichier sous la forme &amp;lt;basename&amp;gt;.xmp (le format de dénomination des fichiers liés XMP de Lighroom). Les fichiers avec ce dernier format de dénomination seront lus par darktable mais il n&amp;rsquo;y écrira pas. Une fois l&amp;rsquo;image importée, darktable générera un fichier XMP supplémentaire en utilisant sa propre convention de nommage.</description>
+    </item>
+    
+    <item>
+      <title>copies locales</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/overview/sidecar-files/local-copies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/overview/sidecar-files/local-copies/</guid>
+      <description>De nombreux utilisateurs ont d&amp;rsquo;énormes collections d&amp;rsquo;images stockées sur des disques durs supplémentaires dans leur ordinateur de bureau ou sur un support de stockage externe (NAS RAID, disques durs externes, etc.).
+Il est fréquent de vouloir développer des images lors d’un voyage en utilisant un ordinateur portable et de vouloir ensuite les synchroniser sur le support de stockage d&amp;rsquo;origine. Mais copier les fichiers manuellement du stockage principal vers l’ordinateur portable et inversement est fastidieux et source d’erreurs.</description>
+    </item>
+    
+  </channel>
+</rss>

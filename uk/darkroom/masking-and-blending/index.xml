@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>маскування і змішування on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/uk/darkroom/masking-and-blending/</link>
+    <description>Recent content in маскування і змішування on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/uk/darkroom/masking-and-blending/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>огляд</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/darkroom/masking-and-blending/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/darkroom/masking-and-blending/overview/</guid>
+      <description>Кожен модуль обробки приймає вхідні дані з попереднього модуля в конвеєрі обробки, виконує свою операцію з даними зображення, а потім передає вихідні дані наступному модулю в конвеєрі обробки.
+Вихідні дані модуля за бажанням можуть бути оброблені (скомбіновані) з його вхідними даними перед передачею наступному модулю. Цей додатковий етап обробки називається змішування &amp;ndash; вхідні та вихідні дані обробляються за допомогою алгоритмів, що називаються операторами змішування або режимами змішування.
+Кожен режим змішування додатково контролюється параметром непрозорість (має значення від 0% до 100%), який визначає, скільки внеску до кінцевого результату дають вхідні та вихідні зображення.</description>
+    </item>
+    
+    <item>
+      <title>режими змішування</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/darkroom/masking-and-blending/blend-modes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/darkroom/masking-and-blending/blend-modes/</guid>
+      <description>Режими змішування визначають, як вхід і вихід модуля поєднуються (змішуються) разом перед тим, як остаточний результат модуля передається наступному модулю в конвеєрі обробки.
+Класичні режими змішування, розроблені для RGB на основі відображення (обмеження 0-100%), неявно визначають точку опори на рівні 50% (сірий) або 100% (білий) в своїх алгоритмах, залежно від режиму змішування. Оскільки обробка на основі сцен не підпадає під ці обмеження, ця точка опори повинна бути чітко визначена користувачем під час виконання операцій змішування в кольоровому просторі &amp;ldquo;RGB (сцена)&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

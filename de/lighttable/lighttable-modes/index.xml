@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leuchttisch Modi on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/lighttable/lighttable-modes/</link>
+    <description>Recent content in Leuchttisch Modi on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/lighttable/lighttable-modes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dateimanager</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lighttable/lighttable-modes/filemanager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lighttable/lighttable-modes/filemanager/</guid>
+      <description>Dies ist der Standardmodus, um Vorschaubilder der Fotos anzuzeigen.
+🔗Einstellmöglichkeiten  Zoom Die Anzahl der Bilder je Zeile kann mithilfe des Schiebereglers im unteren Bedienfeld verändert werden oder durch Drehen des Mausrads bei gedrückter Strg-Taste, wenn der Mauszeiger sich über der Bildanzeige befindet. Navigieren Mit den Pfeiltasten (←/→/↑/↓) oder mit der Maus kann durch die Sammlung navigiert werden. Mit der Taste Home, um an den Anfang der Sammlung zu kommen, die Taste End um ans ende zu kommen, und die Tasten PageUp/PageDown, um seitenweise nach oben oder unten zu kommen.</description>
+    </item>
+    
+    <item>
+      <title>Zoombarer Leuchttisch</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lighttable/lighttable-modes/zoomable-lighttable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lighttable/lighttable-modes/zoomable-lighttable/</guid>
+      <description>Der Modus zoombarer Leuchttisch hat einen alternativen Weg um durch große Bildersammlungen zu navigieren, aber mit einigen Ähnlichkeiten zum Dateimanager-Modus (unten beschrieben).
+🔗Einstellmöglichkeiten  Zoom Scrolle mit dem Mausrad, um in den Leuchttisch hinein und heraus zu zoomen (Vergleich zu Strg+Scrollen im Modus Dateimanager). das Zoomen der Vorschaubilder ändert die Anzahl der Vorschaubilder nicht, sodass der Leuchttisch die Grenzen der sichtbaren Teile überall überschreiten wird. Navigieren Halte die linke Maustaste und ziehe, um die Bilder im Leuchttisch umher zu bewegen, und durch die Sammlung zu navigieren.</description>
+    </item>
+    
+    <item>
+      <title>Sichten</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lighttable/lighttable-modes/culling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lighttable/lighttable-modes/culling/</guid>
+      <description>Der Modus Sichten erlaubt es Bilder Seite an Seite anzuzeigen, für eine einfacheres vergleichen.
+🔗Einstellmöglichkeiten  Zoom Im Modus sichten kannst du in Bilder hineinzoomen (bis 100 %) mit Drücken der Strg-Taste während du mit dem Mausrad scrollst Verschiebe das gezoomte Bild mit Klicken und Ziehen Als Standard werden Zoomen und Schieben mit allen sichtbaren Bildern synchronisiert, wenn du dagegen nur ein einzelnes Bild schieben willst, dann drücke zu den vorigen Aktionen noch die Umschalt-Taste Navigieren Nutze das Mausrad oder die Pfeiltasten um durch deine Sammlung zu scrollen.</description>
+    </item>
+    
+    <item>
+      <title>Volle Voransicht</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lighttable/lighttable-modes/full-preview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lighttable/lighttable-modes/full-preview/</guid>
+      <description>In jeder Ansicht der Modi des Leuchttisches kannst du eine voll-gezoomtes Bild, das gerade unter dem Mauszeiger ist, mit dem Drücken und Halten der Taste W. Das hilft ein Bild näher zu betrachten während der Beurteilung und Auswahl.
+Drücken und Halten von Strg+W zoomt voll in das Bild und identifiziert auch jegliche Regionen des Bildes, die anzeigen, dass das Bild fokussiert ist. Damit dieses Werkzeug auch arbeiten kann, muss das Input-Bild ein eingebettetes JPEG Vorschaubild haben, was für die meisten RAW Dateien zutrifft.</description>
+    </item>
+    
+  </channel>
+</rss>

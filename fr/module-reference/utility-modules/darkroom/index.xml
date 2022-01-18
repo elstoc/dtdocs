@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chambre noire on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/</link>
+    <description>Recent content in chambre noire on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>avertissement d&#39;écrêtage</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/clipping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/clipping/</guid>
+      <description>Il met en évidence les zones de l&amp;rsquo;image qui peuvent présenter un écrêtage de la luminance ou du gamut.
+Lorsqu&amp;rsquo;une image est envoyée à un périphérique d&amp;rsquo;affichage, chaque pixel est normalement représenté par un ensemble de trois nombres, représentant l&amp;rsquo;intensité des couleurs primaires rouge, vert et bleu dans l&amp;rsquo;espace colorimétrique de sortie. Étant donné que l&amp;rsquo;espace colorimétrique de sortie est généralement étroitement lié au matériel avec des limitations physiques, il existe une valeur maximale autorisée pour les canaux [R, V, B], représentant l&amp;rsquo;intensité maximale disponible pour cet espace colorimétrique.</description>
+    </item>
+    
+    <item>
+      <title>avertissement de surexposition raw</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/raw-overexposed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/raw-overexposed/</guid>
+      <description>Les zones de l&amp;rsquo;image mises en évidence sont celles où les canaux de couleur du fichier d&amp;rsquo;entrée RAW sont écrêtés.
+Les canaux de couleur écrêtés résultent d&amp;rsquo;une image surexposée avec une perte d&amp;rsquo;informations dans les zones affectées. Certaines de ces informations peuvent être récupérées à l&amp;rsquo;aide des modules reconstruire hautes lumières, reconstruction des couleurs ou filmique rvb.
+Cliquez sur l&amp;rsquo;icône  pour afficher/masquer la superposition d&amp;rsquo;avertissement. Cliquez avec le bouton droit sur l&amp;rsquo;icône pour ouvrir une boîte de dialogue contenant les paramètres de configuration suivants.</description>
+    </item>
+    
+    <item>
+      <title>gestion des clones</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/duplicate-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/duplicate-manager/</guid>
+      <description>Afficher et créer plusieurs versions de l&amp;rsquo;image actuelle. Chaque version peut être modifiée indépendamment sans affecter les autres versions &amp;ndash; toutes les versions utilisent le même fichier image sous-jacent, mais l&amp;rsquo;historique des modifications de chaque version est stocké dans un fichier annexe XMP indépendant.
+Le module gestion des clones liste, sous forme de miniatures, les différentes versions de l&amp;rsquo;image actuellement en développement dans la chambre noire. Maintenez le bouton gauche de la souris enfoncé sur une miniature pour afficher temporairement cette version dans la vue centrale.</description>
+    </item>
+    
+    <item>
+      <title>gestion des masques</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/mask-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/mask-manager/</guid>
+      <description>Il gère tous les masques et toutes les formes définis pour l&amp;rsquo;image actuelle.
+  Ce module peut être utilisé pour créer, renommer, éditer et supprimer des formes. Vous pouvez ajouter et supprimer des formes d&amp;rsquo;un masque, regrouper des formes et les combiner à l&amp;rsquo;aide d&amp;rsquo;opérateurs définis.
+La ligne supérieure du panneau du module gestion des masques contient des boutons qui peuvent être utilisés pour créer de nouvelles formes. Ce sont les mêmes que dans l&amp;rsquo;interface masque dessiné des modules de traitement.</description>
+    </item>
+    
+    <item>
+      <title>guides et superpositions</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/guides-overlays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/guides-overlays/</guid>
+      <description>Un certain nombre de guides de composition couramment utilisés peuvent être superposés à votre image pendant que vous l&amp;rsquo;éditez. Ceux-ci peuvent être activés soit globalement (tout le temps) soit localement (lorsque certains modules sont actifs).
+D&amp;rsquo;autres fonctionnalités de la chambre noire dessinent également des lignes de superposition colorées sur l&amp;rsquo;image (par exemple, les masques dessinés). Une option est également fournie pour changer la couleur de ces superpositions (voir ci-dessous).
+🔗guides globaux Cliquez sur l&amp;rsquo;icône  dans la barre inférieure pour afficher globalement les superpositions de guides.</description>
+    </item>
+    
+    <item>
+      <title>historique</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/history-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/history-stack/</guid>
+      <description>Affiche et modifie l&#39;historique de l&amp;rsquo;image actuelle de la chambre noire.
+Ce module liste chaque changement d&amp;rsquo;état (activer/désactiver/déplacer/changer les paramètres) pour tous les modules de traitement qui ont été modifiés pour l&amp;rsquo;image courante. Sélectionnez un point dans l&amp;rsquo;historique pour revenir à l&amp;rsquo;étape correspondante de développement de l&amp;rsquo;image. Maj+clic sur un élément de l&amp;rsquo;historique pour déplier le module correspondant dans le panneau des modules, à droite, sans modifier le développement actuel.</description>
+    </item>
+    
+    <item>
+      <title>instantanés</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/snapshots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/snapshots/</guid>
+      <description>Stocke les instantanés de développement et les compare avec la modification actuelle.
+Un instantané est une image bitmap stockée de l&amp;rsquo;image centrale de la vue chambre noire. Des instantanés peuvent être pris à n&amp;rsquo;importe quel moment du processus de développement et être ensuite superposés à la vue centrale actuelle. Cela vous permet d&amp;rsquo;effectuer une comparaison côte à côte (par défaut gauche=instantané, droite=édition active) pendant que vous réglez les paramètres d&amp;rsquo;un module.</description>
+    </item>
+    
+    <item>
+      <title>ligne d&#39;informations de l&#39;image</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/image-info-line/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/image-info-line/</guid>
+      <description>Afficher des informations sur l&amp;rsquo;image actuelle dans un panneau de chambre noire.
+Le contenu de cette ligne peut être défini dans préférences &amp;gt; chambre noire. Voir la section variables pour plus d&amp;rsquo;informations sur les variables qui peuvent être utilisées ici. Vous pouvez également insérer une nouvelle ligne avec $(NL).
+La ligne d&amp;rsquo;informations de l&amp;rsquo;image peut être affichée dans le panneau supérieur, inférieur, gauche ou droit en fonction d&amp;rsquo;un élément de configuration supplémentaire dans préférences &amp;gt; chambre noire.</description>
+    </item>
+    
+    <item>
+      <title>navigation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/navigation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/navigation/</guid>
+      <description>Faire un zoom et un panoramique de l&amp;rsquo;image actuellement en développement.
+En haut à gauche de la chambre noire, le panneau navigation affiche un aperçu complet de l&amp;rsquo;image actuelle. Un rectangle indique la zone actuellement visible dans le panneau central. Faites glisser le rectangle pour effectuer un panoramique de la vue agrandie. L&amp;rsquo;échelle de zoom actuelle est affichée à droite de l&amp;rsquo;image d&amp;rsquo;aperçu. Cliquez sur cette figure pour accéder rapidement à certains niveaux de zoom courants.</description>
+    </item>
+    
+    <item>
+      <title>ordre des modules</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/module-order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/module-order/</guid>
+      <description>Changer l&amp;rsquo;ordre des modules de traitement dans la chambre noire à l&amp;rsquo;aide des préréglages.
+Lors du traitement d&amp;rsquo;une image, les modules actifs sont appliqués dans un ordre précis affiché dans le panneau de droite de la vue chambre noire. Le module ordre des modules, situé au bas du panneau de droite, fournit des informations sur l&amp;rsquo;ordre actuel des modules de traitement dans le pipeline graphique. Le nom du préréglage actif apparaît dans l&amp;rsquo;entête du module (ou &amp;ldquo;personnalisé&amp;rdquo; si l&amp;rsquo;utilisateur a modifié manuellement cet ordre).</description>
+    </item>
+    
+    <item>
+      <title>pipette de couleur globale</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/global-color-picker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/global-color-picker/</guid>
+      <description>Prendre des échantillons de couleurs de l&amp;rsquo;image actuellement dans le panneau central de la chambre noire, afficher leurs valeurs de plusieurs manières et comparer les couleurs de différents emplacements.
+La pipette de couleur est activée en cliquant son icône. Les paramètres du module resteront en vigueur jusqu&amp;rsquo;à ce que vous quittiez le mode chambre noire.
+Outre la pipette de couleur globale décrite ici, de nombreux modules de darktable (par exemple courbe des tonalités) contiennent également des pipettes de couleur locales utilisées pour définir les paramètres de certains modules.</description>
+    </item>
+    
+    <item>
+      <title>vérification du gamut</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/gamut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/gamut/</guid>
+      <description>Il met en évidence les zones de l&amp;rsquo;image qui peuvent présenter un écrêtage du gamut.
+Cliquez sur l&amp;rsquo;icône  pour activer le mode d&amp;rsquo;affichage vérification de gamut de votre image. Cette fonction met en évidence, en cyan, tous les pixels hors gamut par rapport au profil d&#39;épreuvage écran sélectionné. Vous pouvez également activer la vérification de gamut avec le raccourci clavier Ctrl+G. Un message «vérification de gamut» en bas à gauche de votre image vous indique que vous êtes en mode d&amp;rsquo;affichage vérification de gamut.</description>
+    </item>
+    
+    <item>
+      <title>épreuvage écran</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/soft-proof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/soft-proof/</guid>
+      <description>Affichez votre image rendue à l&amp;rsquo;aide d&amp;rsquo;un profil de couleur sélectionné.
+Cliquez sur l&amp;rsquo;icône  pour activer le mode d&amp;rsquo;affichage épreuvage écran pour votre image. Cela vous permet de prévisualiser votre image rendue à l&amp;rsquo;aide d&amp;rsquo;un profil d&amp;rsquo;imprimante. Vous pourrez voir ainsi quelles seront les couleurs sur l&amp;rsquo;impression finale. Vous pouvez également activer l&#39;épreuvage écran avec le raccourci clavier Ctrl+S. Un message «épreuvage» en bas à gauche de votre image vous indique que vous êtes en mode d&amp;rsquo;affichage épreuvage écran.</description>
+    </item>
+    
+    <item>
+      <title>évaluation des couleurs</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/color-assessment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/darkroom/color-assessment/</guid>
+      <description>Évaluez les couleurs et la luminosité de votre image à l&amp;rsquo;aide des conditions d&amp;rsquo;affichage recommandées par ISO 12646:2008.
+Lors du développement d&amp;rsquo;une image, la façon dont nous percevons la luminosité, le contraste et la saturation est influencée par les conditions ambiantes. Si une image est affichée sur un fond sombre, comme avec le thème par défaut dans darktable, cela peut avoir un certain nombre d&amp;rsquo;effets négatifs sur notre perception de cette image :</description>
+    </item>
+    
+  </channel>
+</rss>

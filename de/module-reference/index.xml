@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modul Referenz on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/module-reference/</link>
+    <description>Recent content in Modul Referenz on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/module-reference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Übersicht</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/overview/</guid>
+      <description>Die Module in diesem Kapitel werden in zwei klare Typen aufgeteilt:
+ Dunkelkammer-Module Prozessmodule, die ausschließlich in der Ansicht &amp;ldquo;Dunkelkammer&amp;rdquo; genutzt werden können. Jedes Modul führt einen Bearbeitungsschritt am Bild durch, bevor die Ausgabe zur weiteren Bearbeitung an das nächste Modul übergeben wird. Alle diese Schritte zusammen bilden die Pixelpipe. Hilfsmodule Hilfsmodule können in jeder Ansicht von darktable benutzt werden. Sie dienen nicht direkt der Bearbeitung der Pixel eines Bildes, aber sie bieten Zusatzdienste an, wie z.</description>
+    </item>
+    
+  </channel>
+</rss>

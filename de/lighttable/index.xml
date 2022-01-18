@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leuchttisch on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/lighttable/</link>
+    <description>Recent content in Leuchttisch on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/lighttable/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Übersicht</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lighttable/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lighttable/overview/</guid>
+      <description>In der Ansicht Leuchttisch kannst du deine Bildersammlung sichten und verwalten.
+Die Hauptansicht zeigt die Vorschaubilder deiner Bilder &amp;ndash; wie diese dargestellt werden hängt von gewählten Modus ab.
+Wenn sich die Maus über einem Vorschaubild befindet oder Bilder ausgewählt wurden, können unterschiedliche Aktionen mit Kurzbefehlen ausgeführt werden:
+0 – 5 Setzt die Bewertung des Bildes Hat ein Bild 1 Stern und wird die Taste &amp;quot;1&amp;quot; gedrückt, wird es unbewertet. R Bewertet das Bild als &amp;quot;abgewiesen&amp;quot; F1 – F5 Setzt eine Farbmarkierung Strg+C Kopiert den Bearbeitungsverlauf des Bildes Strg+V Wendet den kopierten Bearbeitungsverlauf auf das Bild an D Öffnet das Bild in der Dunkelkammer W Zeigt eine Vollbildansicht solange die Taste gedrückt ist Strg+W Zeigt eine Vollbildansicht und fokussierte Bereiche im Bild </description>
+    </item>
+    
+    <item>
+      <title>Ansicht Leuchttisch Layout</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lighttable/lighttable-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lighttable/lighttable-view-layout/</guid>
+      <description>🔗Linkes Bedienfeld Von oben nach unten:
+ Import Importiert Bilder von einem Verzeichnis oder einer angeschlossenen Kamera. Sammlungen Filtere die angezeigten Bilder in der Hauptansicht der Ansicht Leuchttisch &amp;ndash; aber auch für die Bilder in den Modulen Filmstreifen und Zeitleiste. Kürzlich benutzte Sammlungen Betrachte kürzlich benutzte Bildersammlungen. Bild Informationen Zeige die Bild Informationen an. lua scripts installer (optional) Installiere Lua Skripte.  🔗Rechtes Bedienfeld Von oben nach unten:
+ Zeige Zeige Bilder im Leuchttisch, ausgewählt nach einfachen Kriterien.</description>
+    </item>
+    
+    <item>
+      <title>Rückgängig machen/wieder zurückholen</title>
+      <link>https://darktable-org.github.io/dtdocs/de/lighttable/undo-redo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/lighttable/undo-redo/</guid>
+      <description>Die meisten Änderungen mit dem Leuchttisch werden aufgezeichnet und können wieder rückgängig gemacht werden. Das beinhaltet Änderungen der Farbmarkierungen, Sterne-Bewertungen, Geolokationen, Schlagworte, Metadaten, Orientierung, Kopieren/Anwenden eines Bearbeitungsverlaufs, Bildduplikate oder die Anwendung eines Stils. Solange man sich im Leuchttisch befindet, ist das Rücksetzen/Wiederherstellen in der Anzahl der Schritte unbegrenzt, doch wenn die Ansicht gewechselt wird, sind die letzten Änderungen verloren.
+Strg+Z um die letzte Aktion rückgängig zu machen und Strg+Y, um die letzten gelöschten Modifikationen wieder zurückzuholen (falls es sie gibt).</description>
+    </item>
+    
+  </channel>
+</rss>

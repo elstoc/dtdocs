@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eine Einführung in den Arbeitsablauf von darktable on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/overview/workflow/</link>
+    <description>Recent content in Eine Einführung in den Arbeitsablauf von darktable on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/overview/workflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Einführung</title>
+      <link>https://darktable-org.github.io/dtdocs/de/overview/workflow/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/overview/workflow/introduction/</guid>
+      <description>Dieser Abschnitt soll dazu dienen, dir eine Ahnung zu geben, wozu darktable fähig ist, und dir einen &amp;ldquo;A bis Z Arbeitsablauf&amp;rdquo; vorzuschlagen. Neue Nutzer sollten sich durch diese Einführung durcharbeiten, und dann den Hinweisen für zusätzliche Details folgen.
+Bitte notiere, dass dies nicht eine überaus gründliche Anweisung ist, und dass nützliche Themen nicht behandelt werden. Du musst dazu referenzierten Abschnitte dieser Anleitung lesen, wenn du einmal mit den Grundlagen vertraut bist.</description>
+    </item>
+    
+    <item>
+      <title>Import &amp; Überprüfung</title>
+      <link>https://darktable-org.github.io/dtdocs/de/overview/workflow/import-review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/overview/workflow/import-review/</guid>
+      <description>Um mit darktable loszulegen, müssen zunächst Bilder mit dem Modul Importieren in der Ansicht Leuchttisch zur Bibliothek hinzugefügt werden. Dadurch werden Eingänge für die Bilder in der Bibliotheksdatenbank erzeugt, so das darktable alle Änderungen an den Bildern verfolgen kann. Bilder können auf drei Arten importiert werden, die über Schaltflächen im Modul Importieren zugänglich sind:
+ importieren Diese Option fügt Bilder zur Bibliothek hinzu, ohne diese zu kopieren oder zu bewegen, d.</description>
+    </item>
+    
+    <item>
+      <title>Prozess</title>
+      <link>https://darktable-org.github.io/dtdocs/de/overview/workflow/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/overview/workflow/process/</guid>
+      <description>Dieser Abschnitt macht mit der Entwicklung von Bildern in der Ansicht &amp;ldquo;Dunkelkammer&amp;rdquo; in der szenenbezogenen Bearbeitung vertraut. Es ist ratsam, der folgenden Anleitung bis zum Ende des Abschnittes Bildbearbeitung mit 3 Modulen zu folgen. Anschließend können Themen je nach Bedarf herausgesucht und gelernt werden, wenn die jeweiligen Techniken für Bilder benötigt werden.
+🔗Erste Schritte 🔗Nimm ein gut belichtetes Foto auf Jede gute Bildbearbeitung fängt in der Kamera an &amp;ndash; ein ausgewogen belichtetes Bild (ohne ausgebrannte Lichter oder zugelaufene Schatten) wird die Bearbeitung immer zielgerichteter machen.</description>
+    </item>
+    
+    <item>
+      <title>Exportieren</title>
+      <link>https://darktable-org.github.io/dtdocs/de/overview/workflow/export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/overview/workflow/export/</guid>
+      <description>darktable ist ein nicht-destruktiver Bild-Editor. D.h. alle Änderungen an einem Bild werden in der Bibliotheksdatenbank aufgezeichnet (mit einer Sicherungskopie in einer XMP-Begleitdatei), und die originale RAW-Datei bleibt unverändert. Daher müssen Bilder exportiert werden, um eine Bearbeitung in eine Ausgabedatei zu schreiben, die außerhalb von darktable genutzt werden kann.
+  Wähle ein Szenario für den Export.
+Im Modul Export gibt es viele Optionen, aber die weitem am meisten genutzte ist &amp;ldquo;speichere ein entwickeltes RAW Bild als JPEG&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

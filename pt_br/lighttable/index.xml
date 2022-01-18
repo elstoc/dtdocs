@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mesa de luz on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/lighttable/</link>
+    <description>Recent content in Mesa de luz on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/lighttable/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>visão geral</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lighttable/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lighttable/overview/</guid>
+      <description>A vista da mesa de luz lhe permite ver e administrar sua coleção de imagens.
+A vista central contém miniaturas de suas imagens &amp;ndash; a forma como elas são exibidas depende do modo em que você está trabalhando.
+Enquanto o mouse estiver sobre a miniatura de uma imagem ou imagens estão selecionadas, existe uma série de ações que você pode realizar com atalhos de teclado.
+0-5	define a classificação da imagem se uma imagem tiver 1 estrela e você pressionar a tecla 1, a imagem ficará sem classificação R classifica a imagem como &amp;quot;recusada&amp;quot; F1 - F5 define uma etiqueta de cor Ctrl+C copia a pilha de histórico Ctrl+V cola a pilha de histórico copiada D abre a sala escura para processamento da imagem W amplia completamente a imagem atual enquanto a tecla estiver pressionada Ctrl+W amplia completamente a imagem atual mostrando as áreas em foco </description>
+    </item>
+    
+    <item>
+      <title>disposição da mesa de luz</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lighttable/lighttable-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lighttable/lighttable-view-layout/</guid>
+      <description>🔗painel esquerdo De cima para baixo:
+ importar Importa imagens a partir do gerenciador de arquivos ou de uma câmera conectada. coleções Filtra as imagens que são exibidas no painel central da mesa de luz &amp;ndash; também é usado para controlar as imagens exibidas nos módulos rolo de filme e linha do tempo. coleções usadas recentemente Exibe as coleções de imagens usadas recentemente. informações da imagem Mostra as informações da imagem.</description>
+    </item>
+    
+    <item>
+      <title>desfazer/refazer</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lighttable/undo-redo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lighttable/undo-redo/</guid>
+      <description>A maioria das alterações feitas na mesa de luz são registradas e podem ser revertidas para um estado anterior. Isto inclui modificações nas etiquetas de cor, classificações, geolocalização, metadados, orientação, copiar/colar de histórico, duplicata da imagem ou aplicação de um estilo. Observe que o recurso de desfazer/refazer ações é ilimitado no número de passos enquanto estiver no modo da mesa de luz, mas é descartado a cada vez que você alterna para uma vista diferente.</description>
+    </item>
+    
+  </channel>
+</rss>

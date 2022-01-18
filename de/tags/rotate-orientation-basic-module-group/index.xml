@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rotate orientation basic-module-group on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/tags/rotate-orientation-basic-module-group/</link>
+    <description>Recent content in rotate orientation basic-module-group on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/tags/rotate-orientation-basic-module-group/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Drehung</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/processing-modules/orientation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/processing-modules/orientation/</guid>
+      <description>Dreht das Bild um 90 Grad oder spiegelt das Bild horizontal und/oder vertikal.
+Das Modul ist standardmäßig eingeschaltet und die Orientierung (Rotation) wird automatisch anhand der Exif-Daten gewählt.
+Die Drehung kann auch gesetzt werden Modul ausgewählte Bilder in der Ansicht Leuchttisch.
+🔗Moduleinstellungen  Transformieren Mit Doppelklick auf das Label wird die Transformation des Bildes zurückgesetzt.   Ratation entgegen Uhrzeigersinn Dreht das Bild um 90 Grad gegen den Uhrzeigersinn.   Ratation im Uhrzeigersinn Dreht das Bild um 90 Grad im Uhrzeigersinn.</description>
+    </item>
+    
+  </channel>
+</rss>

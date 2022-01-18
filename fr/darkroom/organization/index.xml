@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>organisation on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/darkroom/organization/</link>
+    <description>Recent content in organisation on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/darkroom/organization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/darkroom/organization/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/darkroom/organization/overview/</guid>
+      <description>Les modules de traitement sont organisés et accessibles via le panneau de droite de la chambre noire :
+  Cliquez sur les icônes en haut de ce panneau pour faire apparaître, de gauche à droite,
+   panneau d&amp;rsquo;accès rapide Un panneau personnalisable permettant un accès rapide aux contrôles des modules couramment utilisés.   modules actifs Un groupe contenant les modules qui sont actuellement actifs dans le pipeline graphique.</description>
+    </item>
+    
+    <item>
+      <title>les groupes de modules</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/darkroom/organization/module-groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/darkroom/organization/module-groups/</guid>
+      <description>Un certain nombre de groupes de modules prédéfinis sont livrés avec darktable et peuvent être sélectionnés en tant que préréglages. Ceux-ci sont résumés ci-dessous.
+Tous ces préréglages (à l&amp;rsquo;exception de modules : dépréciés et chercher seulement) incluent également le panneau d&amp;rsquo;accès rapide. Tous, à l&amp;rsquo;exception du groupe modules : dépréciés, incluent la barre de recherche.
+🔗modules : tous Ce préréglage contient comme suit tous les modules, triés selon les groupes de modules traditionnels utilisés avant darktable 3.</description>
+    </item>
+    
+    <item>
+      <title>panneau d&#39;accès rapide</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/darkroom/organization/quick-access-panel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/darkroom/organization/quick-access-panel/</guid>
+      <description>Le panneau d&amp;rsquo;accès rapide vous permet, en un seul endroit, d&amp;rsquo;accéder aux widgets d&amp;rsquo;un certain nombre de modules de traitement.
+  Vous pouvez ajouter de nouveaux widgets en cliquant avec le bouton droit sur l&amp;rsquo;icône en haut à gauche ou en utilisant l&amp;rsquo;écran gérer les dispositions de modules.
+Cliquez sur l&amp;rsquo;icône à droite du nom du module pour ouvrir la version complète de ce module. Cliquez sur l&amp;rsquo;icône à gauche du nom du module pour activer/désactiver le module.</description>
+    </item>
+    
+    <item>
+      <title>gérer les dispositions de modules</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/darkroom/organization/manage-module-layouts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/darkroom/organization/manage-module-layouts/</guid>
+      <description>Gérer la disposition et le regroupement des modules de traitement ainsi que le panneau d&amp;rsquo;accès rapide.
+  Cet écran de maintenance est accessible à partir du menu préréglages à côté de la zone de recherche de module ou des icônes de groupe de modules (sous le module des scopes dans la vue chambre noire). Ctrl+clic sur le menu prédéfini pour ouvrir cet écran directement.
+Les paramètres sont automatiquement enregistrés lorsque vous quittez l&amp;rsquo;écran.</description>
+    </item>
+    
+  </channel>
+</rss>

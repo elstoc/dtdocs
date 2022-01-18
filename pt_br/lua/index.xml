@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scripting com Lua on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/lua/</link>
+    <description>Recent content in Scripting com Lua on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/lua/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>visão geral</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lua/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lua/overview/</guid>
+      <description>Os scripts de Lua podem ser usados para definir ações para o darktable executar quando um evento é disparado. Um exemplo pode ser chamar um aplicativo externo durante a exportação de um arquivo para aplicar passos adicionais de processamento fora do darktable.
+O Lua é um projeto independente fundado em 1993, que proporciona uma linguagem de scripting potente, rápida, leve e integrável. O Lua é amplamente usado por muitos aplicativos de código aberto, programas comerciais e para a programação de jogos.</description>
+    </item>
+    
+    <item>
+      <title>principios básicos: arquivos luarc</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lua/basic-principles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lua/basic-principles/</guid>
+      <description>Na inicialização, o darktable executará automaticamente os scripts de Lua que se encontrem em $DARKTABLE/share/darktable/luarc e $HOME/.config/darktable/luarc (onde $DARKTABLE é a pasta de instalação do darktable e$HOME sua pasta pessoal).
+Esta é a única vez que o darktable rodará scripts Lua por si mesmo. Estes scripts podem registrar devoluções de chamada para realizar ações em vários eventos do darktable. Este mecanismo de devolução de chamada é o método principal para desencadear ações de lua.</description>
+    </item>
+    
+    <item>
+      <title>um exemplo simples em lua</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lua/a-simple-example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lua/a-simple-example/</guid>
+      <description>Vamos começar com um exemplo simples que imprima algo no terminal. Crie um arquivo chamado luarc na pasta de configuração (usualmente $HOME/.config/darktable/) e adicione as seguintes linhas:
+print(“Olá Mundo!”) Execute o darktable e você verá a frase “Olá Mundo!” impressa no terminal. Nada impressionante, mas é um começo.
+Neste ponto, não há nada específico do darktable no script. Simplesmente usamos a função de impressão padrão do Lua para imprimir um texto.</description>
+    </item>
+    
+    <item>
+      <title>imprimir imagens com etiqueta</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lua/printing-labeled-images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lua/printing-labeled-images/</guid>
+      <description>O primeiro exemplo nos mostrou os conceitos básicos de Lua e permitiu que nos certificássemos de que tudo está funcionando corretamente. Agora vamos fazer algo um pouco mais complexo. Vamos tentar imprimir uma lista de imagens que possuam a etiqueta “vermelho” adicionada. Mas primeiramente o que é uma imagem?
+local darktable = require “darktable” local debug = require “darktable.debug” print(darktable.debug.dump(darktable.database[1])) Executar o código acima produzirá uma grande quantidade de resultados. Vamos dar uma olhada nesses resultados daqui a pouco, mas primeiro vejamos o código em si.</description>
+    </item>
+    
+    <item>
+      <title>adicionar um atalho simples</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lua/simple-shortcut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lua/simple-shortcut/</guid>
+      <description>Até agora, nossos scripts são executados durante a inicialização do darktable. Isto é um uso limitado e não nos permite reagir a ações reais do usuário. Para tarefas mais avançadas, nós precisamos registrar uma função que será chamada em um determinado evento. O evento mais comum é reagir a um atalho de teclado.
+darktable = require “darktable” local function hello_shortcut(event, shortcut) darktable.print(“Olá, eu acabei de receber &#39;”..event.. “&#39; com o parâmetro &#39;”.</description>
+    </item>
+    
+    <item>
+      <title>exportar imagens com lua</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lua/exporting-images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lua/exporting-images/</guid>
+      <description>Até agora, aprendemos a usar o lua para adaptar o darktable ao nosso fluxo de trabalho em particular. Vejamos agora como usar o lua para exportar facilmente as imagens para um serviço online. Se você puder carregar uma imagem para um serviço via linha de comando, então você pode usar o lua para integrar isto à interface do usuário do darktable.
+No próximo exemplo, usaremos o lua para exportar via scp.</description>
+    </item>
+    
+    <item>
+      <title>construir elementos de interface do usuário</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lua/building-ui-elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lua/building-ui-elements/</guid>
+      <description>Nosso exemplo anterior foi um pouco limitado. Em particular, o uso de uma preferência para o caminho de exportação não é muito legal. Nós podemos fazer melhor adicionando elementos à interface do usuário na janela de exportação.
+Os elementos de interface do usuário são criados por meio da função darktable_new_widget. Esta função toma um tipo de widget como parâmetro e devolve um novo objeto correspondente a esse widget. Em seguida, você pode configurar vários campos neste widget para definir seus parâmetros.</description>
+    </item>
+    
+    <item>
+      <title>compartilhar scripts</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lua/sharing-scripts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lua/sharing-scripts/</guid>
+      <description>Até agora, todo nosso código lua esteve no luarc. Esta é uma boa maneira de desenvolver seu script mas não é muito prático para distribuição. Nós precisamos tornar isto um módulo lua adequado. Para fazer isso, nós devemos salvar o código em um arquivo separado (scp-storage.lua neste caso):
+--[[ SCP STORAGE um storage simples para exportar imagens via scp AUTOR Jérémy Rosen (jeremy.rosen@enst-bretagne.fr) INSTALAÇÃO * copie este arquivo em $CONFIGDIR/lua/ onde CONFIGDIR é sua pasta de configuração do darktable * adicione a seguinte linha no arquivo $CONFIGDIR/luarc require “scp-storage” USO * selecione “Exportar via SCP” no menu de seleção “armazenar em” * defina a pasta de destino * exporte suas imagens LICENSE GPLv2 ]] darktable = require &amp;quot;darktable&amp;quot; darktable.</description>
+    </item>
+    
+    <item>
+      <title>chamar lua a partir do dbus</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lua/calling-from-dbus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lua/calling-from-dbus/</guid>
+      <description>É possível enviar um comando lua ao darktable via sua interface DBus. O método org.darktable.service.Remote.Lua toma um parâmetro de cadeia de texto único que é interpretado como comando lua. O comando será executado no contexto lua atual e deveria devolver nulo ou uma cadeia de texto. O resultado será passado de volta como resultado do método DBus.
+Se a chamada Lua resultar em um erro, a chamada ao método DBus devolverá um erro org.</description>
+    </item>
+    
+    <item>
+      <title>usar o darktable a partir de um script lua</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lua/darktable-from-lua/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lua/darktable-from-lua/</guid>
+      <description>Advertência: esta função é muito experimental. É sabido que diversos elementos não funcionam ainda no modo biblioteca. Cautela ao testar é altamente recomendável.
+A interface do lua permite que você use o darktable a partir de qualquer script do lua. Isto carregará o darktable como uma biblioteca e lhe proporcionará a maior parte da API lua (o darktable está configurado sem cabeçalho, assim as funções relacionadas à interface do usuário não estão disponíveis).</description>
+    </item>
+    
+    <item>
+      <title>API do lua</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lua/api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lua/api/</guid>
+      <description>A API do Lua no darktable está documentada em seu próprio manual com uma descrição detalhada de todas as estruturas e funções de dados. Você pode baixar a API aqui.</description>
+    </item>
+    
+  </channel>
+</rss>

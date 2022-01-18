@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Довідка про модулі on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/uk/module-reference/</link>
+    <description>Recent content in Довідка про модулі on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/uk/module-reference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>огляд</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/module-reference/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/module-reference/overview/</guid>
+      <description>Модулі в цьому довідковому розділі розбиті на два різні типи:
+ модулі обробки Модулі обробки використовуються виключно в темній кімнаті. Кожен модуль виконує операцію обробки зображення перед передачею його результату наступному модулю для подальшої обробки. Разом ця послідовність кроків обробки утворює конвеєр. сервісні модулі Сервісні модулі можуть використовуватися в будь-якому режимі darktable. Вони не беруть безпосередньої участі в обробці пікселів зображення, але виконують інші допоміжні функції (керування метаданими та тегами зображення, редагування історії, зміна порядку модулів у конвеєрі, миттєві знімки та дублікати, експорт зображень тощо).</description>
+    </item>
+    
+  </channel>
+</rss>

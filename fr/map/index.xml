@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Carte on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/map/</link>
+    <description>Recent content in Carte on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/map/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/map/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/map/overview/</guid>
+      <description>La vue carte vous permet de voir où vos images géolocalisées ont été prises, ainsi qu&amp;rsquo;ajouter les informations de géolocalisation aux images qui en sont dépourvues.
+La vue carte montre une carte du monde avec les images de la collection courante collection placées à la position géographique (si disponible). Cela implique que les images aient l&amp;rsquo;information de géolocalisation. Certains appareils photo récents, téléphones mobiles inclus, sont équipés d&amp;rsquo;un récepteur GPS. D&amp;rsquo;autres appareils photo ont besoin d&amp;rsquo;un GPS complémentaire.</description>
+    </item>
+    
+    <item>
+      <title>disposition de la vue carte</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/map/map-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/map/map-view-layout/</guid>
+      <description>🔗panneau gauche Ces modules sont identiques à ceux de la table lumineuse. De haut en bas :
+ collections Filtrer la liste des images affichées dans la vue carte. collections récemment utilisées Afficher les collections d&amp;rsquo;images récemment utilisées. informations de l&amp;rsquo;image Afficher les informations de l&amp;rsquo;image.  🔗panneau droit Ici vous trouvez les modules spécifiques à la vue carte. De haut en bas :
+ trouver un lieu Rechercher un lieu sur la carte emplacements Gérer une liste hiérarchisée d&amp;rsquo;emplacements associés à une zone géographique.</description>
+    </item>
+    
+  </channel>
+</rss>

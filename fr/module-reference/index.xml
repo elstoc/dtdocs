@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Références des modules on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/module-reference/</link>
+    <description>Recent content in Références des modules on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/module-reference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/overview/</guid>
+      <description>Les modules de cette section de référence sont divisés en deux types :
+ les modules de traitement Les modules de traitement sont utilisés exclusivement dans la vue chambre noire. Chaque module effectue une opération de traitement sur l&amp;rsquo;image avant de transmettre le résultat au module suivant pour un traitement ultérieur. Ensemble, cette séquence d&amp;rsquo;étapes de traitement forme le pipeline graphique. les modules utilitaires Les modules utilitaires peuvent être utilisés dans n&amp;rsquo;importe quelle vue de darktable.</description>
+    </item>
+    
+  </channel>
+</rss>

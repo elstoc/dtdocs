@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>використання darktable-chart on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/uk/special-topics/darktable-chart/</link>
+    <description>Recent content in використання darktable-chart on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/uk/special-topics/darktable-chart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>огляд</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/darktable-chart/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/darktable-chart/overview/</guid>
+      <description>darktable-chart &amp;ndash; це інструмент для отримання значень яскравості та кольору із зображень кольорових карток, таких як мішені IT8.7/1. Його основна мета &amp;ndash; порівняти джерельне зображення (як правило, в основному необроблене raw зображення) із цільовим (як правило, зображення у форматі JPEG, створене в камері) та створити стиль darktable, який може використовувати значення яскравості та кольору джерельного зображення для отримання цільового зображення. Цей стиль використовує модуль тонова крива, модуль вхідний ICC профіль та модуль таблиця пошуку кольорів для цієї мети.</description>
+    </item>
+    
+    <item>
+      <title>використання</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/darktable-chart/usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/darktable-chart/usage/</guid>
+      <description>Інструмент складається з трьох вкладок у верхній частині та рамки для виведення тексту в нижній частині.
+  Перша вкладка використовується для визначення джерельного зображення, друга вкладка визначає еталон (ціль), а третя вкладка містить елементи керування для створення результуючого стилю darktable.</description>
+    </item>
+    
+    <item>
+      <title>джерельне зображення</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/darktable-chart/source-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/darktable-chart/source-image/</guid>
+      <description>На вкладці “source image” (“джерельне зображення”) ви встановлюєте джерельне зображення, яке вимагає двох елементів. Перший елемент &amp;ndash; це вхідний файл у форматі Lab Portable Float Map (розширення .pfm). Джерельний файл представляє в основному немодифіковані дані, як їх бачить камера. Інформація про те, як сфотографувати кольорову довідкову картку та створити вихідний файл .pfm, описана нижче. Другим елементом є файл картки, який містить формальний опис макета кольорової картки (розширення .cht). Файли карток зазвичай постачаються з кольоровою карткою або їх можна завантажити з Інтернету.</description>
+    </item>
+    
+    <item>
+      <title>контрольні значення</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/darktable-chart/reference-values/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/darktable-chart/reference-values/</guid>
+      <description>Вкладка “reference values” (“контрольні значення”) визначає цільові значення, до яких джерельне зображення повинно бути змінено отриманим стилем. Ви можете надати контрольні значення у вигляді виміряних даних вашої кольорової картки (режим “cie/it8 file”), або ви можете надати фотографічне зображення (режим “color chart image” (“кольорова картка”)) приблизно так само, як описано вище . Це друге зображення також має подаватися у форматі Lab Portable Float Map (PFM). Немає необхідності вказувати файл картки ще раз, оскільки для &amp;ldquo;darktable-chart&amp;rdquo; потрібен той самий, що визначений під &amp;ldquo;джерельним зображенням&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>обробка</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/darktable-chart/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/darktable-chart/process/</guid>
+      <description>Якщо всі необхідні налаштування на вкладках &amp;ldquo;source image&amp;rdquo; (&amp;ldquo;джерельне зображення&amp;rdquo;) та &amp;ldquo;reference values&amp;rdquo; (&amp;ldquo;контрольні значення&amp;rdquo;) готові, ви можете перейти до вкладки &amp;ldquo;process&amp;rdquo; (&amp;ldquo;обробка&amp;rdquo;).
+  По-перше, вам потрібно сказати darktable-chart, які зі зразків представляють сіру смугу. На скріншоті, показаному вище, сіра смуга розташована в нижній частині таблиці кольорів, позначена як &amp;ldquo;GS00&amp;hellip;GS23&amp;rdquo;.
+Вхід &amp;ldquo;number of final patches&amp;rdquo; (&amp;ldquo;кількість кінцевих зразків&amp;rdquo;) визначає, скільки редагованих кольорових зразків використовуватиме отриманий стиль у межах модуля таблиця пошуку кольорів.</description>
+    </item>
+    
+    <item>
+      <title>створення вхідних зображень для darktable-chart</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/darktable-chart/making-input-images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/darktable-chart/making-input-images/</guid>
+      <description>Для початку вам потрібна фотографія вашої кольорової еталонної картки у форматі RAW+JPEG. Пояснення подробиць того, як зробити цю фотографію, виходить за рамки цього посібника, але в двох словах вам потрібно зробити знімок у сонячний день близько полудня з джерелом світла (сонцем), яке світить під кутом на карту. Вам потрібно уникати будь-яких відблисків на зображенні. Нейтральний білий колір в сірому рядку (G00) повинен мати значення L, вказане в описі вашої картки. Часто це L=92 і воно вимагає переекспонування знімка приблизно на 1/3 EV.</description>
+    </item>
+    
+  </channel>
+</rss>

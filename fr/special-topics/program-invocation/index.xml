@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>appel du programme on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/special-topics/program-invocation/</link>
+    <description>Recent content in appel du programme on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/special-topics/program-invocation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>darktable</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/special-topics/program-invocation/darktable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/special-topics/program-invocation/darktable/</guid>
+      <description>Le binaire darktable démarre darktable avec son interface graphique et ses fonctionnalités complètes. C&amp;rsquo;est la manière standard d&amp;rsquo;utiliser darktable.
+darktable peut être appelé avec les paramètres de ligne de commande suivants :
+darktable [-d {all,cache,camctl,camsupport,control,dev, fswatch,input,lighttable,lua,masks,memory,nan, opencl,perf,pwstorage,print,sql,ioporder, imageio,undo,signal}] [&amp;lt;fichier en entrée&amp;gt;|&amp;lt;répertoire des images&amp;gt;] [--version] [--disable-opencl] [--library &amp;lt;fichier bibliothèque&amp;gt;] [--datadir &amp;lt;répertoire des données&amp;gt;] [--moduledir &amp;lt;répertoire des modules&amp;gt;] [--tmpdir &amp;lt;répertoire tmp&amp;gt;] [--configdir &amp;lt;répertoire config de l&#39;utilisateur&amp;gt;] [--cachedir &amp;lt;répertoire cache de l&#39;utilisateur&amp;gt;] [--localedir &amp;lt;répertoire locale&amp;gt;] [--luacmd &amp;lt;commande lua&amp;gt;] [--noiseprofiles &amp;lt;fichier json des profils de bruit&amp;gt;] [--d-signal &amp;lt;signal&amp;gt;] [--d-signal-act &amp;lt;all,raise,connect,disconnect,print-trace&amp;gt;] [--enforce-tiling] [--conf &amp;lt;clé&amp;gt;=&amp;lt;valeur&amp;gt;] [-t &amp;lt;nombre de fils d&#39;exécution openmp&amp;gt;] Tous les paramètres sont optionnels.</description>
+    </item>
+    
+    <item>
+      <title>darktable-cli</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/special-topics/program-invocation/darktable-cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/special-topics/program-invocation/darktable-cli/</guid>
+      <description>L&amp;rsquo;exécutable darktable-cli lance la variante en ligne de commande de l’interface de darktable qui permet l’exportation d’images.
+Cette variante n&amp;rsquo;ouvre aucun affichage &amp;ndash; elle travaille en mode console pur sans lancer d&amp;rsquo;interface graphique. Ce mode est particulièrement utile pour les serveurs exécutant des tâches en arrière-plan.
+darktable-cli peut être appelé avec les paramètres suivants de la ligne de commande :
+darktable-cli [&amp;lt;input file or folder&amp;gt;] [&amp;lt;xmp file&amp;gt;] &amp;lt;output file or folder&amp;gt; [--width &amp;lt;max width&amp;gt;] [--height &amp;lt;max height&amp;gt;] [--bpp &amp;lt;bpp&amp;gt;] [--hq &amp;lt;0|1|true|false&amp;gt;] [--upscale &amp;lt;0|1|true|false&amp;gt;] [--style &amp;lt;style name&amp;gt;] [--style-overwrite] [--apply-custom-presets &amp;lt;0|1|false|true&amp;gt;] [--out-ext &amp;lt;extension&amp;gt;] [--import &amp;lt;file or dir&amp;gt;] [--icc-type &amp;lt;type&amp;gt;] [--icc-file &amp;lt;file&amp;gt;] [--icc-intent &amp;lt;intent&amp;gt;] [--verbose] [--help [option]] [--core &amp;lt;darktable options&amp;gt;] L’utilisateur doit fournir un nom de fichier d’entrée et un nom de fichier de sortie.</description>
+    </item>
+    
+    <item>
+      <title>darktable-generate-cache</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/special-topics/program-invocation/darktable-generate-cache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/special-topics/program-invocation/darktable-generate-cache/</guid>
+      <description>L&amp;rsquo;exécutable darktable-generate-cache met à jour le cache des miniatures. Vous pouvez lancer ce programme, en arrière-plan quand votre ordinateur est inactif, pour générer toutes les miniatures manquantes .
+darktable-generate-cache est appelé avec les paramètres suivants de la ligne de commande :
+darktable-generate-cache [-h, --help] [--version] [--min-mip &amp;lt;0-8&amp;gt;] [-m, --max-mip &amp;lt;0-8&amp;gt;] [--min-imgid &amp;lt;N&amp;gt;] [--max-imgid &amp;lt;N&amp;gt;] [--core &amp;lt;darktable options&amp;gt;] Tous les paramètres sont optionnels. S&amp;rsquo;il est démarré sans paramètre darktable-generate-cache utilise des valeurs par défaut raisonnables.</description>
+    </item>
+    
+    <item>
+      <title>darktable-chart</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/special-topics/program-invocation/darktable-chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/special-topics/program-invocation/darktable-chart/</guid>
+      <description>Cet exécutable est un utilitaire dédié à la création de styles à partir de paires d&amp;rsquo;images telles que RAW+JPEG fournies par le boîtier. Des détails de son utilisation peuvent être trouvés dans la section utiliser darktable-chart
+darktable-chart soit démarre une interface graphique soit est utilisé comme programme en ligne de commande.
+darktable-chart [--help] [&amp;lt;input Lab pfm file&amp;gt;] [&amp;lt;cht file&amp;gt;] [&amp;lt;reference cgats/it8 or Lab pfm file&amp;gt;] Tous les paramètres sont optionnels, cependant, si vous voulez fournir le deuxième nom de fichier vous devez aussi fournir le premier.</description>
+    </item>
+    
+    <item>
+      <title>darktable-cltest</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/special-topics/program-invocation/darktable-cltest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/special-topics/program-invocation/darktable-cltest/</guid>
+      <description>L&amp;rsquo;exécutable darktable-cltest vérifie s&amp;rsquo;il y a sur votre système un environnement OpenCL utilisable par darktable. Il émet une sortie de débogage équivalente à celle qu&amp;rsquo;on obtient par l&amp;rsquo;appel darktable -d opencl et puis s&amp;rsquo;arrête.
+darktable-cltest est appelé sans paramètre sur la ligne de commande.</description>
+    </item>
+    
+    <item>
+      <title>darktable-cmstest</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/special-topics/program-invocation/darktable-cmstest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/special-topics/program-invocation/darktable-cmstest/</guid>
+      <description>L&amp;rsquo;exécutable darktable-cmstest (sous Linux uniquement) détermine si le sous-système de votre ordinateur gérant la couleur est correctement configuré et affiche des informations utiles sur le(s) profil(s)-moniteur installé(s) .
+darktable-cmstest est appelé sans paramètre sur la ligne de commande.</description>
+    </item>
+    
+    <item>
+      <title>purge_non_existing_images.sh</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/special-topics/program-invocation/purge_non_existing_images_sh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/special-topics/program-invocation/purge_non_existing_images_sh/</guid>
+      <description>Recherche et supprime des entrées de la base de données de la bibliothèque référençant des images qui n&amp;rsquo;existent plus dans le système de fichiers. Vous devez fermer darktable avant d&amp;rsquo;exécuter ce script.
+Le script peut être appelé avec les paramètres suivants de la ligne de commande :
+purge_non_existing_images.sh [-c|--configdir &amp;lt;path&amp;gt;] [-l|--library &amp;lt;path&amp;gt;] [-p|--purge] Exécutez le script sans aucune option pour effectuer un « galop d&amp;rsquo;essai », qui génère un rapport des fichiers manquants sans engager de modifications dans la base de données.</description>
+    </item>
+    
+  </channel>
+</rss>

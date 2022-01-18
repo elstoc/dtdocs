@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dunkelkammer on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/darkroom/</link>
+    <description>Recent content in Dunkelkammer on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/darkroom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Übersicht</title>
+      <link>https://darktable-org.github.io/dtdocs/de/darkroom/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/darkroom/overview/</guid>
+      <description>Die Ansicht Dunkelkammer ist da, wo du deine Bilder entwickelst. Die Mittelansicht enthält das in Bearbeitung befindliche Bild.
+🔗Zoom Mit Mittelklick auf das Bild im Zentrum kannst du umschalten auf &amp;ldquo;passend in Bildschirm&amp;rdquo;, 1:1 und 2:1 Zoom
+Als Alternative kannst du zoomen zwischen 1:1 und &amp;ldquo;passend in Bildschirm&amp;rdquo; mit scrollen mit dem Mausrad. Scrolle während du Strg gedrückt hältst, um den Zoombereich von 2:1 und 1:10 auszuweiten.</description>
+    </item>
+    
+    <item>
+      <title>Ansicht Dunkelkammer Layout</title>
+      <link>https://darktable-org.github.io/dtdocs/de/darkroom/darkroom-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/darkroom/darkroom-view-layout/</guid>
+      <description>🔗Linkes Bedienfeld Von oben nach unten:
+ Navigation Navigiere und zoome die Mittelansicht. Snapshots Erstelle und betrachte Snapshots zum Vergleichen mit dem gegenwärtigen Stand der Bearbeitung. Duplikat-Manager Erstelle und verwalte Duplikate. Pipette Wähle Informationen zu Farben genommen aus Teilen des Bildes und zeige diese. Tagging Verwalte Tags. Bild Informationen Zeige die Informationen über das gegenwärtige Bild an. Maskenverwaltung Betrachte und bearbeite gezeichnete Formen. Ausgewählte exportieren Exportiere ausgewählte Bilder an lokale Ordner oder externe Anwendungen.</description>
+    </item>
+    
+  </channel>
+</rss>

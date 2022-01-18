@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>máscaras on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/masking-and-blending/masks/</link>
+    <description>Recent content in máscaras on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/darkroom/masking-and-blending/masks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>visão geral</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/masking-and-blending/masks/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/darkroom/masking-and-blending/masks/overview/</guid>
+      <description>Máscaras permitem que você limite o efeito de um módulo de maneira que ele somente seja aplicado em certas partes da imagem.
+Uma máscara pode ser vista como uma imagem em tons de cinza onde cada pixel tem um valor entre 0 e 1 (ou entre 0% e 100%). Este valor é a opacidade, e é usado para determinar quanto um módulo afeta cada pixel.
+As seções a seguir mostram como construir máscaras no darktable.</description>
+    </item>
+    
+    <item>
+      <title>máscaras desenhadas</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/masking-and-blending/masks/drawn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/darkroom/masking-and-blending/masks/drawn/</guid>
+      <description>Com a ferramenta de máscara desenhada você pode construir uma máscara desenhando formas diretamente na tela. As formas podem ser usadas isoladas ou em conjunto. Uma vez que uma forma tenha sido desenhada em uma imagem, ela pode ser ajustada, removida ou reutilizada em outros módulos.
+Formas são armazenadas internamente como vetores e são mostradas com a resolução necessária durante o processamento da pixelpipe. Formas são expressas no sistema de coordenadas da imagem original e transformadas com o resto da imagem por quaisquer módulos de distorção na pipeline (correção da lente, rotação e perspectiva por exemplo).</description>
+    </item>
+    
+    <item>
+      <title>máscaras paramétricas</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/masking-and-blending/masks/parametric/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/darkroom/masking-and-blending/masks/parametric/</guid>
+      <description>A ferramenta de máscara paramétrica oferece controle fino seletivo sobre como cada pixel individual é mascarado. Isso é feito através da geração automática de uma máscara intermediária de mesclagem a partir dos parâmetros definidos pelo usuário. Estes parâmetros são coordenadas de cores ao invés das coordenadas geométricas usadas em máscaras desenhadas.
+Para cada canal de dados de um módulo (por exemplo Lab, RGB) e vários canais virtuais de dados (por exemplo matiz, saturação) você pode construir uma função de opacidade por canal.</description>
+    </item>
+    
+    <item>
+      <title>combinando máscaras desenhadas e paramétricas</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/masking-and-blending/masks/drawn-and-parametric/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/darkroom/masking-and-blending/masks/drawn-and-parametric/</guid>
+      <description>Máscaras desenhadas e paramétricas podem ser usadas em combinação para formar uma única máscara que pode ser aplicada a um módulo.
+Há dois elementos principais que controlam como máscaras individuais são combinadas: a polaridade de cada máscara individual (definida pelos botões de mais e menos) e a configuração na caixa combinada “combinar máscaras”.
+A caixa &amp;ldquo;combinar máscaras&amp;rdquo; contém as seguintes opções, definindo como as máscaras desenhada e paramétrica serão combinadas:</description>
+    </item>
+    
+    <item>
+      <title>refinamento da máscara e controles adicionais</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/masking-and-blending/masks/refinement-controls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/darkroom/masking-and-blending/masks/refinement-controls/</guid>
+      <description>Quando uma máscara paramétrica está ativa, vários controles deslizantes adicionais são mostrados, permitindo que a máscara seja refinada.
+ limiar de detalhes Este controle permite alterar a opacidade da máscara baseando-se na quantidade de detalhes na imagem. Use este controle deslizante para selecionar áreas com muito detalhes (valores positivos) ou áreas que são &amp;ldquo;planas&amp;rdquo; e com poucos detalhes (valores negativos). O padrão (zero) evita o refinamento de detalhes. Isto é principalmente útil para aplicar efeitos de melhoria de nitidez e de suavização ignorando as partes desfocadas da imagem, ou para deixar nítidas somente as partes desfocadas, prevenindo nitidez excessiva nas regiões em foco.</description>
+    </item>
+    
+    <item>
+      <title>máscaras rasterizadas</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/masking-and-blending/masks/raster/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/darkroom/masking-and-blending/masks/raster/</guid>
+      <description>Como descrito nas sessões anteriores, a saída final da máscara de um módulo (o efeito combinado de máscaras desenhadas e paramétricas) é uma matriz de pixels em tons de cinza representando quanto o efeito do módulo deve ser aplicado em cada pixel. Esta imagem rasterizada é guardada internamente por módulos ativos e pode ser reusada posteriormente por outros módulos na pixelpipe.
+Assim como com qualquer máscara, se a opacidade do valor de um pixel na máscara rasterizada é zero, a entrada é passada pelo módulo sem modificações.</description>
+    </item>
+    
+  </channel>
+</rss>

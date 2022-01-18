@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Слайд-шоу on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/uk/slideshow/</link>
+    <description>Recent content in Слайд-шоу on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/uk/slideshow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>огляд</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/slideshow/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/slideshow/overview/</guid>
+      <description>Режим слайд-шоу дозволяє переглянути слайд-шоу вашої поточної колекції з відповідними правилами фільтрації та застосованим порядком сортування.
+Щоб дізнатись більше про те, як визначити правила створення колекцій та фільтрації, див. розділ про колекції. Виберіть критерії сортування та порядок сортування зображень на верхній панелі.
+У наступному розділі наведено докладнішу інформацію про використання режиму слайд-шоу.</description>
+    </item>
+    
+    <item>
+      <title>використання</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/slideshow/usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/slideshow/usage/</guid>
+      <description>Режим слайд-шоу все ще перебуває на початковій стадії розробки з лише базовим набором функцій.
+Якщо вам не потрібен режим автоматичного просування, ви можете натомість скористатися липким режимом попереднього перегляду.
+ пробіл запуск і зупинка режиму автоматичного просування, який автоматично перемикається до наступних зображень кожні п’ять секунд за замовчуванням. ESC вихід із режиму слайд-шоу і повернення до режиму перегляду. + або збільшення затримки між зображеннями. стрілка вгору - або зменшення затримки між зображеннями.</description>
+    </item>
+    
+  </channel>
+</rss>

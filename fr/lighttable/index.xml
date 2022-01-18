@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Table lumineuse on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/lighttable/</link>
+    <description>Recent content in Table lumineuse on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/lighttable/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/lighttable/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/lighttable/overview/</guid>
+      <description>La vue de la table lumineuse vous permet de visualiser et de gérer votre collection d&amp;rsquo;images.
+La zone centrale contient des miniatures de vos images &amp;ndash; la manière dont elles sont affichées dépend du mode dans lequel vous travaillez.
+Lorsque la souris se trouve sur une miniature d&amp;rsquo;image ou lorsque des images sont sélectionnées, vous pouvez exécuter les actions suivantes à l&amp;rsquo;aide de raccourcis clavier :
+0 – 5 définir l&#39;évaluation de l&#39;image si une image a 1 étoile et si vous appuyez sur la touche 1, l&#39;image devient non évaluée R évaluer l&#39;image comme « rejetée » F1 – F5 définir un label de couleur Ctrl+C copier l&#39;historique Ctrl+V coller l&#39;historique copié D ouvrir la vue chambre noire pour développer W zoomer complètement l&#39;image actuelle tant que la touche est enfoncée Ctrl+W zoomer complètement l&#39;image actuelle et afficher les zones de mise au point </description>
+    </item>
+    
+    <item>
+      <title>disposition de la vue table lumineuse</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/lighttable/lighttable-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/lighttable/lighttable-view-layout/</guid>
+      <description>🔗panneau gauche De haut en bas :
+ importer Importer des images depuis le système de fichiers ou depuis un boîtier connecté. collections Filtrer les images affichées dans le panneau central de la table lumineuse &amp;ndash; aussi utilisé pour contrôler les images affichées dans les modules pellicule et chronologie. collections récemment utilisées Afficher les collections d&amp;rsquo;images récemment utilisées. informations de l&amp;rsquo;image Afficher les informations de l&amp;rsquo;image. installer les scripts Lua (optionnel) Installer les scripts Lua.</description>
+    </item>
+    
+    <item>
+      <title>annuler/refaire</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/lighttable/undo-redo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/lighttable/undo-redo/</guid>
+      <description>La plupart des modifications de la table lumineuse sont enregistrées et peuvent être annulées. Cela inclut les modifications apportées aux labels de couleur, aux évaluations, à la géolocalisation, aux mots-clés, aux métadonnées, à l&amp;rsquo;orientation, au copier/coller de l&amp;rsquo;historique, au clonage de l&amp;rsquo;image ou à l&amp;rsquo;application d&amp;rsquo;un style. Notez que cette fonction annuler/refaire accepte un nombre illimité d&amp;rsquo;enregistrements d&amp;rsquo;états tant qu&amp;rsquo;on reste dans la table lumineuse, mais elle est réinitialisée à chaque fois que vous passez à une autre vue.</description>
+    </item>
+    
+  </channel>
+</rss>

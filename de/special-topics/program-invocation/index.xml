@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programm Aufruf on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/special-topics/program-invocation/</link>
+    <description>Recent content in Programm Aufruf on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/special-topics/program-invocation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>darktable</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/program-invocation/darktable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/program-invocation/darktable/</guid>
+      <description>Das darktable Programm startet darktable mit dessen GUI und der vollen Funktionalität. Das ist die Standard-Weg darktable zu nutzen.
+darktable kann mit folgenden Kommando-Linien Parametern gestartet werden:
+darktable [-d {all,cache,camctl,camsupport,control,dev, fswatch,input,lighttable,lua,masks,memory,nan, opencl,perf,pwstorage,print,sql,ioporder, imageio,undo,signal}] [&amp;lt;input file&amp;gt;|&amp;lt;image folder&amp;gt;] [--version] [--disable-opencl] [--library &amp;lt;library file&amp;gt;] [--datadir &amp;lt;data directory&amp;gt;] [--moduledir &amp;lt;module directory&amp;gt;] [--tmpdir &amp;lt;tmp directory&amp;gt;] [--configdir &amp;lt;user config directory&amp;gt;] [--cachedir &amp;lt;user cache directory&amp;gt;] [--localedir &amp;lt;locale directory&amp;gt;] [--luacmd &amp;lt;lua command&amp;gt;] [--noiseprofiles &amp;lt;noiseprofiles json file&amp;gt;] [--d-signal &amp;lt;signal&amp;gt;] [--d-signal-act &amp;lt;all,raise,connect,disconnect,print-trace&amp;gt;] [--enforce-tiling] [--conf &amp;lt;key&amp;gt;=&amp;lt;value&amp;gt;] [-t &amp;lt;num openmp threads&amp;gt;] Alle Parameter sind optional.</description>
+    </item>
+    
+    <item>
+      <title>darktable-cli</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/program-invocation/darktable-cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/program-invocation/darktable-cli/</guid>
+      <description>Das darktable-cliBinärprogramm startet automatisch die Kommandozeile Schnittstellen-Variante, welche es erlaubt Bilder zu exportieren.
+Diese Variante öffnet keine Anzeige &amp;ndash; sie arbeitet im reinen Konsolen-Modus, ohne ein GUI zu lancieren. Dieser Modus ist speziell geeignet für Server, die Hintergrund-Jobs abarbeiten.
+darktable-clikann mit den folgenden Kommando-Zeilen-Parametern aufgerufen werden:
+darktable-cli [&amp;lt;input file or folder&amp;gt;] [&amp;lt;xmp file&amp;gt;] &amp;lt;output file or folder&amp;gt; [--width &amp;lt;max width&amp;gt;] [--height &amp;lt;max height&amp;gt;] [--bpp &amp;lt;bpp&amp;gt;] [--hq &amp;lt;0|1|true|false&amp;gt;] [--upscale &amp;lt;0|1|true|false&amp;gt;] [--style &amp;lt;style name&amp;gt;] [--style-overwrite] [--apply-custom-presets &amp;lt;0|1|false|true&amp;gt;] [--out-ext &amp;lt;extension&amp;gt;] [--import &amp;lt;file or dir&amp;gt;] [--icc-type &amp;lt;type&amp;gt;] [--icc-file &amp;lt;file&amp;gt;] [--icc-intent &amp;lt;intent&amp;gt;] [--verbose] [--help [option]] [--core &amp;lt;darktable options&amp;gt;] Der Nutzer muss einen Eingabe-Dateinamen und einen Ausgabe-Dateinamen eingeben.</description>
+    </item>
+    
+    <item>
+      <title>`darktable-generate-cache`</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/program-invocation/darktable-generate-cache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/program-invocation/darktable-generate-cache/</guid>
+      <description>Das darktable-generate-cache datiert den Cache der Vorschaubilder von darktable. Rufe dieses Programm auf, um alle nicht angezeigten Vorschaubilder im Hintergrund zu generieren, wenn dein Computer untätig ist.
+darktable-generate-cache kann mit folgenden Kommandozeilen-Parameter aufgerufen werden:
+darktable-generate-cache [-h, --help] [--version] [--min-mip &amp;lt;0-8&amp;gt;] [-m, --max-mip &amp;lt;0-8&amp;gt;] [--min-imgid &amp;lt;N&amp;gt;] [--max-imgid &amp;lt;N&amp;gt;] [--core &amp;lt;darktable options&amp;gt;] Alle Parameter sind optional. Falls darktable-generate-cache ohne Parameter gestartet wird, dann wird es vernünftige Standards nutzen.
+ -h, --help Zeigt Informationen zur Verwendung auf und schließt es.</description>
+    </item>
+    
+    <item>
+      <title>darktable-chart</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/program-invocation/darktable-chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/program-invocation/darktable-chart/</guid>
+      <description>Das darktable-chart Programm ist ein spezialisiertes Dienstprogramm, um aus Paaren von JPEG und RAW+JPEG mit in-Kamera Bearbeitungen Stile zu kreieren. Details über den Gebrauch können im Abschnitt using darktable-chart gefunden werden.
+darktable-chart können entweder einen GUI starten oder als Kommando-Linien gebraucht werden.
+darktable-chart [--help] [&amp;lt;input Lab pfm file&amp;gt;] [&amp;lt;cht file&amp;gt;] [&amp;lt;reference cgats/it8 or Lab pfm file&amp;gt;] Alle Parameter sind optional, jedoch, falls du den zweiten Datei-Namen zufügen willst, musst du auch den ersten zufügen.</description>
+    </item>
+    
+    <item>
+      <title>darktable-cltest</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/program-invocation/darktable-cltest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/program-invocation/darktable-cltest/</guid>
+      <description>Das darktable-cltest Programm überprüft, ob es eine nutzbare OpenCL-Umgebung auf deinem System gibt, die darktable nutzen kann. Es sendet einige Überprüfungs-Outputs, die äquivalent zum Aufruf von darktable-d opencl sind und schließt dann.
+darktable-cltest wird ohne Kommandolinien-Parameter aufgerufen.</description>
+    </item>
+    
+    <item>
+      <title>darktable-cmstest</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/program-invocation/darktable-cmstest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/program-invocation/darktable-cmstest/</guid>
+      <description>Das darktable-cmstest Programm (nur für Linux) überprüft, ob das Farbmamagement deines Computers korrekt konfiguriert wurde und vernünftige Informationen über die installierten Monitor-Profile vorsieht.
+darktable-cmstest wird ohne Kommandolinien Parameter aufgerufen.</description>
+    </item>
+    
+    <item>
+      <title>Säubere _nicht_existierende_Bilder.sh</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/program-invocation/purge_non_existing_images_sh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/program-invocation/purge_non_existing_images_sh/</guid>
+      <description>Finde und entferne Einträge aus der Library Datenbank, die auf Bilder zeigen, die nicht länger im Dateisystem existieren. Du musst darktable schließen vor du dieses Skript anwendest.
+Das Skript kann mit den folgenden Kommando-Zeilen-Parametern aufgerufen werden:
+purge_non_existing_images.sh [-c|--configdir &amp;lt;path&amp;gt;] [-l|--library &amp;lt;path&amp;gt;] [-p|--purge] Lasse das Skript ohne Optionen laufen, um einen &amp;ldquo;dry run&amp;rdquo;, der einen Report der fehlenden Dateien generiert, ohne irgendwelche Änderungen an der Datenbank hinzuzufügen.
+Die vorhandenen Optionen sind:</description>
+    </item>
+    
+  </channel>
+</rss>

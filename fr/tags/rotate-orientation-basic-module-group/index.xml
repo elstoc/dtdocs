@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rotate orientation basic-module-group on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/tags/rotate-orientation-basic-module-group/</link>
+    <description>Recent content in rotate orientation basic-module-group on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/tags/rotate-orientation-basic-module-group/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>orientation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/processing-modules/orientation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/processing-modules/orientation/</guid>
+      <description>Tourner l&amp;rsquo;image par pas de 90 degrés ou la retourner horizontalement et/ou verticalement.
+Le module est actif par défaut et l&amp;rsquo;orientation (rotation) est fixée automatiquement d&amp;rsquo;après les données Exif de l&amp;rsquo;image.
+L&amp;rsquo;orientation peut également être fixée avec le module images sélectionnées dans la vue table lumineuse.
+🔗contrôles du module  transformer Double-cliquez sur l&amp;rsquo;étiquette pour réinitialiser les transformations par défaut.   tourner dans le sens inverse des aiguilles d&amp;rsquo;une montre Tourne l&amp;rsquo;image de 90 degrés dans le sens inverse des aiguilles d&amp;rsquo;une montre.</description>
+    </item>
+    
+  </channel>
+</rss>

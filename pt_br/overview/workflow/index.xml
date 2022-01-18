@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>uma introdução do fluxo de trabalho do darktable on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/overview/workflow/</link>
+    <description>Recent content in uma introdução do fluxo de trabalho do darktable on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/overview/workflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>introdução</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/overview/workflow/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/overview/workflow/introduction/</guid>
+      <description>Esta seção tem como objetivo fornecer uma ideia do que o darktable pode fazer e oferecer uma sugestão de fluxo de trabalho de processamento ponta a ponta. Os novos usuários devem começar trabalhando nesta introdução e seguindo os links fornecidos para obter mais detalhes.
+Observe que este não é um guia completo e muitos tópicos úteis não são abordados. É aconselhável ler as seções de referência deste manual assim que estiver familiarizado com o básico.</description>
+    </item>
+    
+    <item>
+      <title>importar &amp; revisar</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/overview/workflow/import-review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/overview/workflow/import-review/</guid>
+      <description>Antes de fazer qualquer coisa no darktable você precisa primeiro adicionar algumas imagens à biblioteca usado o módulo importar na vista da mesa de luz. Isto criará entradas para as imagens importadas na base de dados da biblioteca do darktable para que ele possa acompanhar as mudanças que você fizer. Existem três maneiras para importar imagens, cada uma delas acessível por meio de botões no módulo de importação:
+ adicionar à biblioteca Esta opção adiciona imagens à biblioteca sem copiá-las ou movê-las &amp;ndash; seus arquivos originais permanecerão em suas localizações atuais e não serão alterados.</description>
+    </item>
+    
+    <item>
+      <title>processar</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/overview/workflow/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/overview/workflow/process/</guid>
+      <description>Esta seção tem o objetivo de deixá-lo confortável com o processamento de imagens na vista da sala escura usando um fluxo de trabalho relativo à cena. É aconselhável seguir as orientações fornecidas abaixo, até o final da seção processar a imagem com 3 módulos e então escolher outras áreas para aprender ou, de acordo com a necessidade, buscar informações sobre outras técnicas a serem usadas no processamento de suas imagens.</description>
+    </item>
+    
+    <item>
+      <title>exportar</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/overview/workflow/export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/overview/workflow/export/</guid>
+      <description>O darktable é um editor não destrutivo, o que significa que todas as mudanças são salvas na base de dados do darktable (com uma cópia de segurança sendo armazenada em um arquivo auxiliar XMP) e as imagens originais em RAW não são alteradas. Você precisa exportar as imagens de modo a converter suas edições em um arquivo de saída que pode ser distribuído fora do darktable.
+  Escolha um cenário de exportação.</description>
+    </item>
+    
+  </channel>
+</rss>

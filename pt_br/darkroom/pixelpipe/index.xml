@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>a pixelpipe on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/pixelpipe/</link>
+    <description>Recent content in a pixelpipe on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/darkroom/pixelpipe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>a anatomia de um módulo de processamento</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/pixelpipe/the-anatomy-of-a-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/darkroom/pixelpipe/the-anatomy-of-a-module/</guid>
+      <description>O elemento básico de processamento de imagens no darktable é o módulo de processamento. Para processar uma imagem raw, vários destes módulos atuam sobre a imagem de entrada sequencialmente, cada um realizando uma diferente operação nos dados da imagem. Para aqueles familiarizados com o Adobe Photoshop, o conceito de um módulo de processamento no darktable é análogo a uma camada de ajuste em que ambos fazem um ajuste incremental da imagem, construindo sobre os ajustes que vieram antes.</description>
+    </item>
+    
+    <item>
+      <title>a pixelpipe e a ordem dos módulos</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/pixelpipe/the-pixelpipe-and-module-order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/darkroom/pixelpipe/the-pixelpipe-and-module-order/</guid>
+      <description>A sequência ordenada de módulos de processamento que operam em um arquivo de entrada para gerar uma imagem de saída é conhecida como &amp;ldquo;pixelpipe&amp;rdquo;.
+A ordem da pixelpipe é representada graficamente pela ordem em que os módulos são apresentados na interface com o usuário: a pixelpipe inicia com uma imagem RAW na parte inferior da lista de módulos e aplica os módulos de processamento, um por um, acumulando camadas de processamento de baixo para cima, até atingir o topo da lista, onde gera a imagem completamente processada.</description>
+    </item>
+    
+    <item>
+      <title>o histórico</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/pixelpipe/history-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/darkroom/pixelpipe/history-stack/</guid>
+      <description>O histórico armazena todo o histórico de edições (ações) de uma determinada imagem, na ordem em que se aplicaram essas edições. Ele é salvo na base de dados da biblioteca do darktable e no arquivo auxiliar XMP, sendo persistente entre as sessões de edição.
+Cada vez que um módulo de processamento é habilitado, desabilitado, movido ou modificado, uma nova entrada é adicionada no topo do histórico.
+O histórico pode ser consultado e modificado no módulo histórico na sala escura.</description>
+    </item>
+    
+    <item>
+      <title>desfazer e refazer</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/darkroom/pixelpipe/undo-redo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/darkroom/pixelpipe/undo-redo/</guid>
+      <description>Enquanto você edita sua imagem, o darktable registra todas as modificações realizadas nesta imagem. Isto significa que é possível desfazer e refazer mudanças para recuperar um estado de edição anterior. Note que a função de desfazer/refazer é ilimitada no número de passos ao editar uma imagem, mas isso é reiniciado a cada vez que a sala escura abre uma nova imagem.
+Pressione Ctrl+Z para desfazer a última modificação e Ctrl+Y para refazer a última modificação desfeita (se houver alguma).</description>
+    </item>
+    
+  </channel>
+</rss>

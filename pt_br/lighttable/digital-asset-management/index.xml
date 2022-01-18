@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gerenciamento de ativos digitais on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/lighttable/digital-asset-management/</link>
+    <description>Recent content in gerenciamento de ativos digitais on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/lighttable/digital-asset-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>coleções &amp; rolos de filme</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lighttable/digital-asset-management/collections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lighttable/digital-asset-management/collections/</guid>
+      <description>Uma coleção é um conjunto de imagens que correspondem a um determinado critério de seleção.
+O tipo de coleção mais básico é um rolo de filme, que contém todas as imagens que foram importadas de uma pasta específica no disco. Sempre que você importar imagens a partir do sistema de arquivos, estas imagens são organizadas em um rolo de filme cujo nome é derivado de sua pasta principal.
+Você pode construir facilmente outros tipos de coleção baseada em diversos atributos das imagens (dados Exif, nome do arquivo, etiquetas etc) no módulo coleções.</description>
+    </item>
+    
+    <item>
+      <title>miniaturas</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lighttable/digital-asset-management/thumbnails/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lighttable/digital-asset-management/thumbnails/</guid>
+      <description>Cada imagem da coleção atual é representada por uma miniatura na vista da mesa de luz e módulo de rolo de filme. Uma cache das miniaturas mais recentemente usadas é armazenada em um arquivo no disco e carregada na memória durante a inicialização. O tamanho desta cache pode ser ajustado em preferências &amp;gt; processamento &amp;gt; cpu / gpu / memória.
+🔗criação de miniaturas Uma miniatura é criada quando uma imagem é importada no darktable pela primeira vez, depois de uma imagem ter sido modificada na sala escura, ou ao acessar novamente uma imagem cuja miniatura não está mais disponível.</description>
+    </item>
+    
+    <item>
+      <title>classificações com estrelas &amp; etiquetas de cor</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lighttable/digital-asset-management/star-color/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lighttable/digital-asset-management/star-color/</guid>
+      <description>As classificações com estrelas e etiquetas de cor lhe auxiliam o ordenar e ranquear imagens de acordo com seu próprio critério. Uma classificação de estrelas e etiqueta de cor de uma imagem pode ser exibida sobre as miniaturas na vista de mesa de luz e no módulo de rolo de filme.
+🔗classificações de estrelas Você pode atribuir a uma imagem de zero à cinco estrelas. Sempre que você importa imagens, cada imagem recebe uma classificação padrão que você pode definir no módulo importar.</description>
+    </item>
+    
+    <item>
+      <title>agrupamento de imagens</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lighttable/digital-asset-management/grouping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lighttable/digital-asset-management/grouping/</guid>
+      <description>O agrupamento de imagens auxilia a melhorar a estrutura e clareza da sua coleção de imagens quando exibida no modo da mesa de luz.
+Você pode combinar imagens em um grupo selecionando-as e então clicando no botão “agrupar” no módulo imagens selecionadas, ou pressionando Ctrl+G. Do mesmo modo, você pode remover as imagens selecionadas de um grupo clicando no botão “desagrupar” ou pressionando Ctrl+Shift+G. Imagens duplicadas são automaticamente agrupadas. De maneira semelhante, se você importar várias imagens da mesma pasta, possuindo o mesmo nome base mas extensões diferentes (por exemplo IMG_1234.</description>
+    </item>
+    
+    <item>
+      <title>metadados e etiquetas</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/lighttable/digital-asset-management/metadata-tagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/lighttable/digital-asset-management/metadata-tagging/</guid>
+      <description>O darktable permite que você armazene informações adicionais sobre suas imagens de modo a permitir que elas sejam mais facilmente pesquisadas e agrupadas. Estas informações são armazenadas na base de dados do darktable e nos arquivos auxiliares XMP e podem também ser incluídas nas imagens exportadas.
+🔗metadados Os metadados (por exemplo, título, descrição) são textos em formato livre que geralmente são diferentes para cada imagem. Você pode adicionar metadados à imagens no módulo editor de metadados.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Preferências e Configurações on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/</link>
+    <description>Recent content in Preferências e Configurações on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>visão geral</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/overview/</guid>
+      <description>O darktable vem com uma série de preferências configuráveis pelo usuário. Elas podem ser ajustadas na janela de preferências que pode ser acessada clicando no ícone de engrenagem no canto direito do painel superior. As preferências são separadas em abas, cada uma delas sendo descrita em mais detalhes na seções a seguir.
+Quando aberta a partir das vistas da mesa de luz e da sala escura, a aba apropriada será carregada por padrão para permitir que você modifique as configurações da vista.</description>
+    </item>
+    
+    <item>
+      <title>geral</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/general/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/general/</guid>
+      <description>Controla o aspecto geral e o comportamento do darktable.
+ idioma da interface Define o idioma da interface do usuário. O padrão do sistema é marcado com um *. (precisa reiniciar) tema Define o tema para a interface do usuário. Acima de qualquer consideração estética, a cor de interface recomendada para melhor avaliação de cores é o cinza médio. A percepção visual é afetada pelo brilho do ambiente e uma interface do usuário com pouco brilho pode provocar todo o tipo de ilusões.</description>
+    </item>
+    
+    <item>
+      <title>importar</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/import/</guid>
+      <description>Controla aos padrões de nomeação de arquivos usados ao importar imagens.
+🔗opções da sessão As opções a seguir definem o padrão de nomeação a ser usado nas opções &amp;ldquo;copiar &amp;amp; importar&amp;rdquo; ou &amp;ldquo;copiar &amp;amp; importar da câmera&amp;rdquo; do módulo &amp;ldquo;importar&amp;rdquo; ou ao tirar fotos na vista de acesso remoto.
+O padrão de nomeação consiste de três partes: uma parte base que define a pasta pai, uma parte da sessão definindo um subdiretório (que é específico para cada sessão de importação) e uma parte de nome de arquivo que define a estrutura do nome de arquivo de cada imagem importada.</description>
+    </item>
+    
+    <item>
+      <title>mesa de luz</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/lighttable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/lighttable/</guid>
+      <description>Controla as funcionalidades da vista e dos módulos da mesa de luz.
+🔗geral  ocultar predefinições nativas para módulos utilitários Se ativado, somente predefinições definidas pelo usuário serão exibidas no menu de predefinições para módulos utilitários &amp;ndash; predefinições nativas serão ocultas (desligado por padrão). usar clique único no módulo coleções Ativa o modo de &amp;ldquo;clique único&amp;rdquo; no módulo coleções, que permite que intervalos sejam selecionados (desligado por padrão). expandir um único módulo de cada vez Controle como os módulos utilitários são expandidos.</description>
+    </item>
+    
+    <item>
+      <title>sala escura</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/darkroom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/darkroom/</guid>
+      <description>Controla as funcionalidades da vista da sala escura e módulos associados.
+🔗geral  controle de pressão da caneta para máscaras de pincel Controla como a leitura da pressão de uma mesa digitalizadora afeta as pinceladas de uma máscara desenhada gerada. Você pode controlar a largura, a dureza e a opacidade do pincel. O controle “absoluto” significa que a leitura da pressão define diretamente o atributo com um valor entre 0% e 100%.</description>
+    </item>
+    
+    <item>
+      <title>processamento</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/processing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/processing/</guid>
+      <description>Controla como as imagens são processadas.
+🔗processamento da imagem  usar sempre LittleCMS 2 para aplicar o perfil de cor de saída Se esta opção estiver ativa, o darktable usará a biblioteca de sistema LittleCMS 2 para aplicar o perfil de saída ao invés de suas próprias rotinas internas. Isto é significativamente mais lento que o padrão mas pode produzir resultados mais precisos em alguns casos.  Se o ICC fornecido é baseado em LUT ou contiver tanto LUT como uma matriz, o darktable usará o LittleCMS 2 para renderizar as cores independentemente do valor deste parâmetro (que é desativado por padrão).</description>
+    </item>
+    
+    <item>
+      <title>segurança</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/security/</guid>
+      <description>Controle se mensagens de alerta são exibidas antes de realizar determinadas atividades.
+🔗geral  perguntar antes de remover imagens da biblioteca Pergunta sempre antes de remover uma imagem da base de dados da biblioteca do darktable, onde são guardadas informações do arquivo da imagem/xmp (ativado por padrão). perguntar antes de apagar imagens do disco Pergunta sempre antes de apagar um arquivo de imagem (ativado por padrão). perguntar antes de descartar pilha de histórico Pergunta sempre antes de descartar a pilha de histórico de uma imagem (ativado por padrão).</description>
+    </item>
+    
+    <item>
+      <title>armazenamento</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/storage/</guid>
+      <description>As opções a seguir estão relacionadas com a base de dados da biblioteca do darktable e os arquivos auxiliares XMP.
+🔗base de dados  verificar se a base de dados precisa de manutenção Indica quando o darktable deve verificar se a base de dados está fragmentada e realizar a manutenção. As opções são “nunca”, “ao iniciar”, “ao fechar” e “em ambos”. Cada um destes itens também está disponível com a opção “(não perguntar)” para que a verificação seja feita de forma automática sem perguntas (“ao fechar” por padrão).</description>
+    </item>
+    
+    <item>
+      <title>miscelânea</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/miscellaneous/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/miscellaneous/</guid>
+      <description>🔗interface  ordenar predefinições nativas primeiro Seleciona como o menu de predefinições é ordenado. Se esta opção estiver ativa, as predefinições nativas serão exibidas primeiro. Se estiver desativada, as predefinições do usuário são exibidas primeiro (ativado por padrão). roda do mouse movimenta o painel lateral por padrão Quando ativo, a roda do mouse movimenta o painel lateral por padrão e Ctrl+Alt+roda movimenta os campos de entrada de dados. Quando desativado, este comportamento é invertido (desativado por padrão).</description>
+    </item>
+    
+    <item>
+      <title>atalhos</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/shortcuts/</guid>
+      <description>Você pode realizar quase qualquer ação no darktable com um atalho de teclado/mouse. Você também pode usar vários outros dispositivos de entrada, incluindo dispositivos MIDI e controladores de jogos &amp;ndash; consulte a seção suporte a dispositivo midi para obter detalhes. Eles são referidos como dispositivos externos ou apenas dispositivos neste guia.
+🔗definir atalhos Um atalho é uma combinação de pressionamentos de tecla ou botão e/ou movimentos do mouse ou dispositivo que executa uma ação no darktable.</description>
+    </item>
+    
+    <item>
+      <title>predefinições</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/presets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/presets/</guid>
+      <description>Este menu fornece uma descrição geral das predefinições que estão definidas para os módulos do darktable e permite que você modifique algumas de suas propriedades.
+Os ajustes predefinidos internos (aqueles que são incluídos por padrão com o darktable) são exibidos com um símbolo de cadeado. Suas propriedades não podem ser modificadas.
+As predefinições feitas pelo usuário podem ser importadas a partir de arquivos .dtpreset usando o botão “importar” na base da tela.</description>
+    </item>
+    
+    <item>
+      <title>opções do lua</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/lua-options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/preferences-settings/lua-options/</guid>
+      <description> não mostrar novamente o instalador de scripts lua Ative esta opção para ocultar o instalador de scripts lua na mesa de luz se não houver scripts lua instalados.  </description>
+    </item>
+    
+  </channel>
+</rss>

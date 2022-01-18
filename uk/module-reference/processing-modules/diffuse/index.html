@@ -1,0 +1,3192 @@
+<!doctype html>
+<html lang="uk">
+    <head>
+      <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable 3.8 user manual - дифузія / різкість</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+      <link rel="stylesheet" href="/dtdocs/css/style.min.3b298d8f37646aff6a802627ff27a707153196970e12552ddf3f7e6fdf49ebb1.css">
+      
+
+
+<script> var indexURL="https:\/\/darktable-org.github.io\/dtdocs\/uk\/index.json"</script>
+<script src="/dtdocs/js/jquery.js"></script>
+<script src="/dtdocs/js/popper.js" type="module"></script>
+<script src="/dtdocs/js/bootstrap.js"></script>
+<script src="/dtdocs/js/lunr.js"></script>
+<script src="/dtdocs/js/app.js"></script>
+
+
+    </head>
+    <body>
+        
+
+        <header class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark">
+   <a class="navbar-brand" href="/dtdocs" rel="home" title="darktable 3.8 user manual">
+	darktable 3.8 user manual
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+	    
+	      <li class="nav-item dropdown" aria-describedby="language-picker-description">
+		   <p class="sr-only" id="language-picker-description">languages</p>
+		   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+             <img src="https://darktable-org.github.io/dtdocs//language-icons/icon20x24px-exported-transparent.png" alt="Language Icon" height="20" class="translation-icon"/>
+		     <span>translations</span>
+		   </a>
+		   <div class="dropdown-menu dropdonw-trans" role="listbox">
+		      <a class="dropdown-item" aria-selected="true" hreflang="uk" role="option" lang="uk" href="https://darktable-org.github.io/dtdocs/uk/module-reference/processing-modules/diffuse/">Ukrainian</a>
+		        
+		      <a class="dropdown-item" hreflang="en" role="option" lang="en" href="https://darktable-org.github.io/dtdocs/en/module-reference/processing-modules/diffuse/">English</a>
+		    
+		      <a class="dropdown-item" hreflang="fr" role="option" lang="fr" href="https://darktable-org.github.io/dtdocs/fr/module-reference/processing-modules/diffuse/">Français</a>
+		    
+		      <a class="dropdown-item" hreflang="de" role="option" lang="de" href="https://darktable-org.github.io/dtdocs/de/module-reference/processing-modules/diffuse/">German</a>
+		    
+		      <a class="dropdown-item" hreflang="pt_br" role="option" lang="pt_br" href="https://darktable-org.github.io/dtdocs/pt_br/module-reference/processing-modules/diffuse/">Português</a>
+		    
+		   </div>
+	       </li>
+	    
+	</ul>
+        <ul>
+           <form class="form-inline my-2 my-lg-0">
+                <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
+           </form>
+        </ul>
+
+
+    </div>
+</header>
+
+<div id="search-results" class="search-results">
+</div>
+
+
+        <div class="container-fluid">
+	    <div class="row">
+		<nav class="navigation col-sm-12 order-sm-12 col-md-3 order-md-1">
+		    <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/" class="">
+          Огляд
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/user-interface/" class="">
+          інтерфейс користувача
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/user-interface/views/" class="">
+          режими
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/user-interface/screen-layout/" class="">
+          макет екрана
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/user-interface/filmstrip/" class="">
+          стрічка знімків
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/user-interface/top-panel/" class="">
+          верхня панель
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/user-interface/keyboard-shortcuts/" class="">
+          клавіатурні прискорювачі
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/supported-file-formats/" class="">
+          підтримувані формати файлів
+      </a>
+
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/sidecar-files/" class="">
+          файли xmp та неруйнівне редагування
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/sidecar-files/sidecar/" class="">
+          файли xmp
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/sidecar-files/sidecar-import/" class="">
+          імпортування файлів xmp, створених іншими програмами
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/sidecar-files/local-copies/" class="">
+          локальні копії
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/workflow/" class="">
+          введення в робочий процес darktable
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/workflow/introduction/" class="">
+          вступ
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/workflow/import-review/" class="">
+          імпорт і огляд
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/workflow/process/" class="">
+          обробка
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/overview/workflow/export/" class="">
+          експорт
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lighttable/" class="">
+          Світлий стіл
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lighttable/overview/" class="">
+          огляд
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lighttable/lighttable-view-layout/" class="">
+          розкладка режиму світлого стола
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lighttable/undo-redo/" class="">
+          скасувати/повторити
+      </a>
+
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lighttable/lighttable-modes/" class="">
+          режими світлого стола
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lighttable/lighttable-modes/filemanager/" class="">
+          файловий менеджер
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lighttable/lighttable-modes/zoomable-lighttable/" class="">
+          масштабований світлий стіл
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lighttable/lighttable-modes/culling/" class="">
+          вибракування
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lighttable/lighttable-modes/full-preview/" class="">
+          повний попередній перегляд
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lighttable/digital-asset-management/" class="">
+          управління цифровими активами
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lighttable/digital-asset-management/collections/" class="">
+          колекції та плівки
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lighttable/digital-asset-management/thumbnails/" class="">
+          мініатюри
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lighttable/digital-asset-management/star-color/" class="">
+          рейтинги зірок та кольорові позначки
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lighttable/digital-asset-management/grouping/" class="">
+          групування зображень
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lighttable/digital-asset-management/metadata-tagging/" class="">
+          метадані та тегування
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/" class="">
+          Темна кімната
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/overview/" class="">
+          огляд
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/darkroom-view-layout/" class="">
+          розкладка режиму темної кімнати
+      </a>
+
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/pixelpipe/" class="">
+          конвеєр обробки
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/pixelpipe/the-anatomy-of-a-module/" class="">
+          анатомія модуля обробки
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/pixelpipe/the-pixelpipe-and-module-order/" class="">
+          конвеєр обробки та порядок модулів
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/pixelpipe/history-stack/" class="">
+          стек історії змін
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/pixelpipe/undo-redo/" class="">
+          скасування і повторення
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/processing-modules/" class="">
+          модулі обробки
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/processing-modules/module-header/" class="">
+          заголовок модуля
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/processing-modules/multiple-instances/" class="">
+          кілька екземплярів
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/processing-modules/presets/" class="">
+          пресети
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/processing-modules/module-controls/" class="">
+          елементи керування модулем
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/processing-modules/curves/" class="">
+          криві
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/processing-modules/wavelets/" class="">
+          вейвлети
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/processing-modules/deprecated/" class="">
+          застарілі модулі
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/masking-and-blending/" class="">
+          маскування і змішування
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/masking-and-blending/overview/" class="">
+          огляд
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/masking-and-blending/blend-modes/" class="">
+          режими змішування
+      </a>
+
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/masking-and-blending/masks/" class="">
+          маски
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/masking-and-blending/masks/overview/" class="">
+          огляд
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/masking-and-blending/masks/drawn/" class="">
+          намальовані маски
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/masking-and-blending/masks/parametric/" class="">
+          параметричні маски
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/masking-and-blending/masks/drawn-and-parametric/" class="">
+          поєднання намальованих та параметричних масок
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/masking-and-blending/masks/refinement-controls/" class="">
+          уточнення маски та додаткові елементи керування
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/masking-and-blending/masks/raster/" class="">
+          растрові маски
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/organization/" class="">
+          організація
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/organization/overview/" class="">
+          огляд
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/organization/module-groups/" class="">
+          групи модулів
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/organization/quick-access-panel/" class="">
+          панель швидкого доступу
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/darkroom/organization/manage-module-layouts/" class="">
+          керування розкладкою модулів
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/tethering/" class="">
+          Керування камерою
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/tethering/overview/" class="">
+          огляд
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/tethering/tethering-view-layout/" class="">
+          розкладка режиму камери
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/tethering/examples/" class="">
+          приклади
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/tethering/troubleshooting/" class="">
+          вирішення проблем
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/map/" class="">
+          Мапа
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/map/overview/" class="">
+          огляд
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/map/map-view-layout/" class="">
+          розкладка режиму мапи
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/slideshow/" class="">
+          Слайд-шоу
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/slideshow/overview/" class="">
+          огляд
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/slideshow/usage/" class="">
+          використання
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/print/" class="">
+          Друк
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/print/overview/" class="">
+          огляд
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/print/print-view-layout/" class="">
+          розкладка режиму друку
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/" class="">
+          Довідка про модулі
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/overview/" class="">
+          огляд
+      </a>
+
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/" class="">
+          модулі обробки
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/filmic-rgb/" class="">
+          filmic rgb
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/lut-3d/" class="">
+          lut 3D
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/raw-chromatic-aberrations/" class="">
+          raw хроматичні аберації
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/velvia/" class="">
+          velvia
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/base-curve/" class="">
+          базова крива
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/white-balance/" class="">
+          баланс білого
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/spot-removal/" class="">
+          видалення плям (застарілий)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/haze-removal/" class="">
+          видалення серпанку
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/output-color-profile/" class="">
+          вихідний ICC профіль
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/watermark/" class="">
+          водяний знак
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/input-color-profile/" class="">
+          вхідний ICC профіль
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/color-reconstruction/" class="">
+          відновлення кольору
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/highlight-reconstruction/" class="">
+          відновлення переекспонованих ділянок
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/vignetting/" class="">
+          віньєтування
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/global-tonemap/" class="">
+          глобальне тональне відображення (застарілий)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/graduated-density/" class="">
+          градієнтний фільтр
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/demosaic/" class="">
+          демозаїкізація
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/hot-pixels/" class="">
+          дефектні пікселі
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/dithering/" class="">
+          дизеринг
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/diffuse/" class=" active">
+          дифузія / різкість
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/contrast-equalizer/" class="">
+          еквалайзер контрасту
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/tone-equalizer/" class="">
+          еквалайзер тонів
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/exposure/" class="">
+          експозиція
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/fill-light/" class="">
+          заповнююче світло (застарілий)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/grain/" class="">
+          зерно
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/channel-mixer/" class="">
+          змішувач каналів (застарілий)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/denoise-profiled/" class="">
+          знешумлення (профільоване)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/raw-denoise/" class="">
+          знешумлення raw
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/astrophoto-denoise/" class="">
+          знешумлення астрофото
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/zone-system/" class="">
+          зонна система (застарілий)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/crop/" class="">
+          кадрування
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/color-calibration/" class="">
+          калібрування кольору
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/color-balance/" class="">
+          колірний баланс
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/color-balance-rgb/" class="">
+          колірний баланс rgb
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/color-contrast/" class="">
+          колірний контраст
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/color-zones/" class="">
+          колірні зони
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/contrast-brightness-saturation/" class="">
+          контраст, яскравість, насиченість
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/unbreak-input-profile/" class="">
+          корекція вхідного профілю
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/color-correction/" class="">
+          корекція кольору
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/lens-correction/" class="">
+          корекція оптики
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/rgb-curve/" class="">
+          крива rgb
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/local-contrast/" class="">
+          локальний контраст
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/scale-pixels/" class="">
+          масштабування пікселів
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/monochrome/" class="">
+          монохром
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/negadoctor/" class="">
+          негадоктор
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/lowlight-vision/" class="">
+          нічне бачення
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/rotate-pixels/" class="">
+          обертання пікселів
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/rotate-perspective/" class="">
+          обертання та перспектива
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/framing/" class="">
+          обрамлення
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/orientation/" class="">
+          орієнтація
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/basic-adjustments/" class="">
+          основні коригування (застарілий)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/color-mapping/" class="">
+          перенос кольорів
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/liquify/" class="">
+          пластика
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/surface-blur/" class="">
+          поверхневе розмиття
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/soften/" class="">
+          пом&#39;якшення
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/defringe/" class="">
+          прибирання кайми (застарілий)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/vibrance/" class="">
+          резонанс (застарілий)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/retouch/" class="">
+          ретуш
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/blurs/" class="">
+          розмиття
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/levels/" class="">
+          рівні
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/rgb-levels/" class="">
+          рівні rgb
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/sharpen/" class="">
+          різкість
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/bloom/" class="">
+          світіння
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/split-toning/" class="">
+          спліт-тонування
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/color-look-up-table/" class="">
+          таблиця пошуку кольорів
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/tone-mapping/" class="">
+          тональне відображення (застарілий)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/tone-curve/" class="">
+          тонова крива
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/colorize/" class="">
+          тонування
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/raw-black-white-point/" class="">
+          точки чорного і білого в raw
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/crop-rotate/" class="">
+          трансформації (застарілий)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/shadows-and-highlights/" class="">
+          тіні та світлі тони
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/highpass/" class="">
+          фільтр високих частот
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/lowpass/" class="">
+          фільтр низьких частот
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/chromatic-aberrations/" class="">
+          хроматичні аберації
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/censorize/" class="">
+          цензурування
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/processing-modules/invert/" class="">
+          інверсія (застарілий)
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/" class="">
+          сервісні модулі
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/print/" class="">
+          друк
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/print/print-settings/" class="">
+          налаштування друку
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/tethering/" class="">
+          керування камерою
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/tethering/live-view/" class="">
+          live view
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/tethering/camera-settings/" class="">
+          налаштування камери
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/tethering/session/" class="">
+          сеанс
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/map/" class="">
+          мапа
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/map/locations/" class="">
+          місця
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/map/map-settings/" class="">
+          налаштування мапи
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/map/find-location/" class="">
+          пошук на мапі
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/lighttable/" class="">
+          світлий стіл
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/lighttable/lua-scripts-installer/" class="">
+          lua scripts installer
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/lighttable/select/" class="">
+          вибрати
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/lighttable/selected-image/" class="">
+          дії з вибраними зображеннями
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/lighttable/styles/" class="">
+          стилі
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/lighttable/timeline/" class="">
+          шкала часу
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/lighttable/import/" class="">
+          імпорт
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/lighttable/history-stack/" class="">
+          історія змін
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/shared/" class="">
+          спільні
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/shared/focus-peaking/" class="">
+          виділення контурів у фокусі
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/shared/geotagging/" class="">
+          геотегування
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/shared/scopes/" class="">
+          гістограми
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/shared/export/" class="">
+          експорт
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/shared/collections/" class="">
+          колекції
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/shared/recent-collections/" class="">
+          недавно використані колекції
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/shared/metadata-editor/" class="">
+          редактор метаданих
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/shared/filmstrip/" class="">
+          стрічка знімків
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/shared/tagging/" class="">
+          теги
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/shared/image-information/" class="">
+          інформація про зображення
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/darkroom/" class="">
+          темна кімната
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/darkroom/soft-proof/" class="">
+          екранна кольоропроба
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/darkroom/duplicate-manager/" class="">
+          менеджер дублікатів
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/darkroom/mask-manager/" class="">
+          менеджер масок
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/darkroom/snapshots/" class="">
+          миттєві знімки
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/darkroom/navigation/" class="">
+          навігація
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/darkroom/guides-overlays/" class="">
+          напрямні та накладки
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/darkroom/color-assessment/" class="">
+          оцінка кольорів
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/darkroom/gamut/" class="">
+          перевірка охоплення
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/darkroom/clipping/" class="">
+          попередження про кліппінг
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/darkroom/raw-overexposed/" class="">
+          попередження про переекспозицію в raw
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/darkroom/module-order/" class="">
+          порядок застосування модулів
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/darkroom/global-color-picker/" class="">
+          піпетка кольору
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/darkroom/image-info-line/" class="">
+          рядок інформації про зображення
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/module-reference/utility-modules/darkroom/history-stack/" class="">
+          історія змін
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/preferences-settings/" class="">
+          Налаштування
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/preferences-settings/overview/" class="">
+          огляд
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/preferences-settings/general/" class="">
+          загальні
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/preferences-settings/import/" class="">
+          імпорт
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/preferences-settings/lighttable/" class="">
+          світлий стіл
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/preferences-settings/darkroom/" class="">
+          темна кімната
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/preferences-settings/processing/" class="">
+          обробка
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/preferences-settings/security/" class="">
+          безпека
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/preferences-settings/storage/" class="">
+          збереження даних
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/preferences-settings/miscellaneous/" class="">
+          різне
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/preferences-settings/shortcuts/" class="">
+          клавіатурні прискорювачі
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/preferences-settings/presets/" class="">
+          пресети
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/preferences-settings/lua-options/" class="">
+          опції lua
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lua/" class="">
+          Сценарії за допомогою Lua
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lua/overview/" class="">
+          огляд
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lua/basic-principles/" class="">
+          основні принципи: файли luarc
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lua/a-simple-example/" class="">
+          простий приклад lua
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lua/printing-labeled-images/" class="">
+          друк зображень із міткою
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lua/simple-shortcut/" class="">
+          додавання простого прискорювача
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lua/exporting-images/" class="">
+          експортування зображень за допомогою lua
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lua/building-ui-elements/" class="">
+          побудова елементів інтерфейсу користувача
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lua/sharing-scripts/" class="">
+          обмін сценаріями
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lua/calling-from-dbus/" class="">
+          виклик lua з dbus
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lua/darktable-from-lua/" class="">
+          використання darktable зі сценарію lua
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/lua/api/" class="">
+          lua API
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/guides-tutorials/" class="">
+          Посібники та підручники
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/guides-tutorials/monochrome/" class="">
+          обробка монохромних зображень
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/guides-tutorials/other-resources/" class="">
+          інші ресурси
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/" class="">
+          Спеціальні теми
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/color-management/" class="">
+          управління кольором
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/color-management/overview/" class="">
+          огляд
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/color-management/display-profile/" class="">
+          профіль дисплея
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/color-management/rendering-method/" class="">
+          метод візуалізації
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/color-management/rendering-intent/" class="">
+          метод візуалізації
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/color-management/color-spaces/" class="">
+          колірні простори darktable
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/color-management/unbounded-colors/" class="">
+          необмежені кольори
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/color-management/color-artifacts/" class="">
+          можливі кольорові артефакти
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/color-management/color-dimensions/" class="">
+          виміри кольору darktable
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/memory/" class="">
+          пам&#39;ять
+      </a>
+
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/opencl/" class="">
+          opencl
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/opencl/background/" class="">
+          загальна інформація
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/opencl/how-opencl-works/" class="">
+          як працює opencl
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/opencl/activate-opencl/" class="">
+          активація opencl у darktable
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/opencl/setting-up/" class="">
+          налаштування opencl
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/opencl/problems-solutions/" class="">
+          можливі проблеми та рішення
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/opencl/amd-ati/" class="">
+          пристрої amd/ati
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/opencl/performance/" class="">
+          оптимізація продуктивності
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/opencl/scheduling-profile/" class="">
+          профіль планування
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/opencl/multiple-devices/" class="">
+          кілька пристроїв
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/opencl/still-doesnt-work/" class="">
+          opencl все ще не працює в мене
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/darktable-chart/" class="">
+          використання darktable-chart
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/darktable-chart/overview/" class="">
+          огляд
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/darktable-chart/usage/" class="">
+          використання
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/darktable-chart/source-image/" class="">
+          джерельне зображення
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/darktable-chart/reference-values/" class="">
+          контрольні значення
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/darktable-chart/process/" class="">
+          обробка
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/darktable-chart/making-input-images/" class="">
+          створення вхідних зображень для darktable-chart
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/program-invocation/" class="">
+          виклик програми
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/program-invocation/darktable/" class="">
+          darktable
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/program-invocation/darktable-cli/" class="">
+          darktable-cli
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/program-invocation/darktable-generate-cache/" class="">
+          darktable-generate-cache
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/program-invocation/darktable-chart/" class="">
+          darktable-chart
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/program-invocation/darktable-cltest/" class="">
+          darktable-cltest
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/program-invocation/darktable-cmstest/" class="">
+          darktable-cmstest
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/program-invocation/purge_non_existing_images_sh/" class="">
+          purge_non_existing_images.sh
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/variables/" class="">
+          змінні
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/module-order/" class="">
+          порядок модулів за замовчуванням
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/color-pipeline/" class="">
+          колірний конвеєр darktable
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/midi-device-support/" class="">
+          підтримка пристроїв MIDI
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/contributing/" class="">
+          внесок у dtdocs
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/uk/special-topics/translating/" class="">
+          переклад dtdocs
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+
+		</nav>
+		<div class="content col-sm-12 order-sm-1 col-md-9 mx-md-auto order-md-12">
+		    
+
+
+
+<div class="crumbs">
+    <span class="crumb">
+	
+
+
+<a href='/dtdocs/uk/'>darktable</a> / <a href='/dtdocs/uk/module-reference/'>Довідка про модулі</a> / <a href='/dtdocs/uk/module-reference/processing-modules/'>модулі обробки</a> / дифузія / різкість
+    </span>
+</div>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/uk/module-reference/processing-modules/dithering/" class="next">&lt; дизеринг</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/uk/module-reference/processing-modules/contrast-equalizer/" class="prev">еквалайзер контрасту &gt;</a>
+	
+    </div>
+</div>
+
+
+<article role="main">
+
+    <h1 class="title">
+        дифузія / різкість
+    </h1>
+
+    
+
+    <p>Дифузія &ndash; це сімейство фізичних процесів, за допомогою яких частинки рухаються й поширюються поступово з часом від джерела, що їх породжує. При обробці зображень дифузія переважно відбувається в двох місцях:</p>
+<ul>
+<li>
+<p>дифузія фотонів через скло об&rsquo;єктива (розмиття) або вологе повітря (серпанок),</p>
+</li>
+<li>
+<p>дифузія пігментів у вологих чорнилах або акварелі.</p>
+</li>
+</ul>
+<p>В обох випадках дифузія робить зображення менш різким за рахунок &ldquo;витікання&rdquo; частинок і згладжування локальних відмінностей.</p>
+<p>Модуль <em>дифузія / різкість</em> використовує узагальнену фізичну модель для опису кількох видів дифузії і може використовуватися про роботі зі зображеннями для моделювання або обернення процесів дифузії.</p>
+<p>Оскільки це високотехнічний модуль, надано кілька пресетів, щоб продемонструвати його використання для різних цілей.</p>
+<p>Дифузію можна видалити, щоб:</p>
+<ul>
+<li>
+<p>відновити оригінальне зображення з сенсорів, які мають фільтр згладжування або зменшити розмиття, створене більшістю алгоритмів демозаїки (використовуйте пресет <em>зменшення розмиття демозаїки</em> і перемістіть модуль перед модулем <em>вхідний ICC профіль</em> у конвеєрі),</p>
+</li>
+<li>
+<p>обернути статичні розмиття/дефокусування об’єктива (використовуйте один із пресетів <em>відновлення різкості об&rsquo;єктива</em>),</p>
+</li>
+<li>
+<p>видалити атмосферну імлу (використовуйте пресет <em>видалення серпанку</em>),</p>
+</li>
+<li>
+<p>збільшити чіткість для кращої розбірливості (використовуйте пресет <em>додати локальний контраст</em>).</p>
+</li>
+</ul>
+<p>Зауважте, що розмиття руху неможливо обернути, скасувавши процес дифузії, оскільки вони не є дифузійними за своєю природою.</p>
+<p>Дифузію можна додати, щоб:</p>
+<ul>
+<li>
+<p>створити ефект світіння або ефект Ортона (використовуйте пресет <em>світіння</em>),</p>
+</li>
+<li>
+<p>домалювати відсутні або пошкоджені частини зображення (використовуйте пресет <em>домальовувати переекспоноване</em>),</p>
+</li>
+<li>
+<p>знешумлювати із збереженням контурів (використовуйте один із пресетів <em>знешумлення</em>)</p>
+</li>
+<li>
+<p>застосувати розмиття поверхні (використовуйте пресет <em>поверхневе розмиття</em>).</p>
+</li>
+</ul>
+<p>Оскільки процес фізичний, навіть його неправильності можуть бути використані в творчих цілях. Наприклад, ви можете:</p>
+<ul>
+<li>
+<p>імітувати малюнок або акварель (використовуйте пресети <em>імітувати малюнок</em> та <em>імітувати акварель</em>),</p>
+</li>
+<li>
+<p>створювати випадкові візерунки та текстури, збільшуючи шум (з часом, з ітераціями, шум буде з’єднуватися з сусідами, створюючи випадкові цятки).</p>
+</li>
+</ul>
+<hr>
+<p><strong>Примітка:</strong> Цей модуль дуже ресурсомісткий, оскільки насправді є анізотропним, багатомасштабним розв’язувачем диференціальних рівнянь з частинними похідними. Час виконання модуля збільшується з кількістю ітерацій, тому OpenCL настійно рекомендується. Деякі &ldquo;швидкі&rdquo; пресети також надаються для використання в системах без OpenCL.</p>
+<hr>
+<h1 id="концепції"><a href="#%d0%ba%d0%be%d0%bd%d1%86%d0%b5%d0%bf%d1%86%d1%96%d1%97">🔗</a>концепції</h1>
+<h2 id="час"><a href="#%d1%87%d0%b0%d1%81">🔗</a>час</h2>
+<p>Дифузія &ndash; це процес, що залежить від часу: чим більше часу у нього є, тим далі можуть поширюватися частинки. У цьому модулі час моделюється за допомогою кількості ітерацій (кількості разів, коли алгоритм виконується поверх самого себе). Збільшення кількості ітерацій може зробити реконструкцію (відновлення різкості, знешумлення, видалення серпанку) більш точною, якщо її правильно налаштувати, але також може призвести до її виродження.</p>
+<h2 id="спрямованість"><a href="#%d1%81%d0%bf%d1%80%d1%8f%d0%bc%d0%be%d0%b2%d0%b0%d0%bd%d1%96%d1%81%d1%82%d1%8c">🔗</a>спрямованість</h2>
+<p>Природна дифузія зазвичай відбувається від точок з високим потенціалом (висока енергія або висока концентрація частинок) до точок з низьким потенціалом (низька енергія або низька концентрація частинок). На зображенні це означає, що дифузія завжди відбувається від найсвітліших пікселів до найтемніших.</p>
+<p>Ця конкретна реалізація може імітувати природну дифузію, використовуючи те, що називається ізотропною дифузією (всі напрямки мають однакову вагу, як у тепловій дифузії), але також може примусово створювати зважений напрямок, паралельний градієнтам (примушуючи дифузію через контури об’єкта та створюючи примарні контури) , або зважений напрямок, перпендикулярний до градієнтів, званий ізофотом (примушує дифузію утримуватися всередині контурів, як у краплі акварелі). Відносна вага кожного напрямку (градієнта та ізофота) визначається користувачем і може бути знайдена в розділі <a href="#diffusion-directionality"><em>спрямованість дифузії</em></a> модуля.</p>
+<h2 id="швидкість"><a href="#%d1%88%d0%b2%d0%b8%d0%b4%d0%ba%d1%96%d1%81%d1%82%d1%8c">🔗</a>швидкість</h2>
+<p>Залежно від того, наскільки текуче середовище, частинки можуть рухатися більш чи менш вільно і, отже, більш чи менш швидко. Швидкість дифузії можна встановити в розділі <a href="#diffusion-speed"><em>швидкість дифузії</em></a> модуля.</p>
+<p>При виконанні реконструкції (знешумлення, відновлення різкості, видалення серпанку) доцільно використовувати менші швидкості для кращої точності. Це запобігає числовим овершутам (і, отже, виродженню рішення) і може вимагати більше ітерацій. Для невеликої кількості ітерацій можна використовувати вищі швидкості. Зауважте, що великі розмиття потребують багато ітерацій для правильної реконструкції, тому швидкість слід відрегулювати, щоб уникнути виродження рішення.</p>
+<p>Усі швидкості додаються (з першого по четвертий порядки), а суми &ldquo;<code>перший порядок + другий порядок</code>&rdquo; і &ldquo;<code>третій порядок + четвертий порядок</code>&rdquo; ніколи не повинні перевищувати +100% чи -100%, якщо ви не хочете створити <a href="https://en.wikipedia.org/wiki/Glitch_art" target="_blank">глітч-арт</a>.</p>
+<h2 id="масштаб"><a href="#%d0%bc%d0%b0%d1%81%d1%88%d1%82%d0%b0%d0%b1">🔗</a>масштаб</h2>
+<p>Природна дифузія має відбуватися лише до найближчих сусідніх координат. Тобто на кожній ітерації кожен піксель повинен взаємодіяти лише зі своїми 9 найближчими сусідами.</p>
+<p>Тут ми трохи прискорюємо роботу, щоб заощадити час, і повторно використовуємо багатомасштабну схему вейвлетів із модуля <a href="/dtdocs/uk/module-reference/processing-modules/contrast-equalizer/"><em>еквалайзер контрасту</em></a>, щоб ми могли виконувати дифузію в різних масштабах. Максимальний масштаб дифузії визначається параметром <em>діапазон радіусів</em>.</p>
+<p>Незалежно від дифузії, параметр <em>різкість</em> дозволяє вам збільшувати або зменшувати деталі в кожному масштабі, так само, як елементи керування сплайнами <em>еквалайзера контрасту</em>. Разом із повзунком <em>чутливість до контурів</em>, це надає ті ж функції, що й модуль <em>еквалайзер контрасту</em> (вкладки <em>яскравість</em> і <em>контури</em>), але в RGB-просторі на основі сцен.</p>
+<h1 id="елементи-керування-модулем"><a href="#%d0%b5%d0%bb%d0%b5%d0%bc%d0%b5%d0%bd%d1%82%d0%b8-%d0%ba%d0%b5%d1%80%d1%83%d0%b2%d0%b0%d0%bd%d0%bd%d1%8f-%d0%bc%d0%be%d0%b4%d1%83%d0%bb%d0%b5%d0%bc">🔗</a>елементи керування модулем</h1>
+<h2 id="властивості-дифузії"><a href="#%d0%b2%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%b2%d0%be%d1%81%d1%82%d1%96-%d0%b4%d0%b8%d1%84%d1%83%d0%b7%d1%96%d1%97">🔗</a>властивості дифузії</h2>
+<dl>
+<dt>ітерації</dt>
+<dd>Кількість разів, коли алгоритм повинен виконуватися поверх самого себе. Високі значення сповільнюють роботу модуля, але дозволяють більш точні реконструкції, за умови, що швидкості дифузії досить низькі.</dd>
+<dt>центральний радіус</dt>
+<dd>Основний масштаб дифузії. Нуль змушує дифузію сильніше впливати на дрібні деталі (використовується для відновлення різкості та знешумлення). Ненульові значення визначають розмір деталей, які мають бути сильно розсіяними (використовуються для збільшення локального контрасту).</dd>
+<dt>діапазон радіусів</dt>
+<dd>Це дозволяє вибрати діапазон радіусів деталей, на якому потрібно діяти, навколо центрального радіуса. Інтервал дифузії визначає діапазон масштабів деталей (між <code>центр - діапазон</code> і <code>центр + діапазон</code>), в межах якого обмежується дифузія. Високі значення застосовують дифузію на великій смузі радіусів за рахунок часу обчислень. Низькі значення застосовують дифузію ближче навколо центрального радіуса. Якщо ви плануєте відновити різкість, діапазон радіусів має дорівнювати приблизно ширині розмиття вашого об’єктива, а центральний радіус має бути нульовим. Якщо ви плануєте збільшити локальний контраст, але не хочете впливати на різкість або шум, діапазон радіусів має становити максимально 3/4 вашого центрального радіуса.</dd>
+</dl>
+<p>Радіуси виражаються в пікселях повнорозмірного зображення, тому налаштування копіювання та вставки між зображеннями різної роздільної здатності можуть призвести до дещо інших результатів, за винятком різкості на рівні пікселів.</p>
+<p>Для інженерів-електриків: тут встановлюється смуговий фільтр у просторі вейвлетів, що використовує гауссове частотне вікно з центром у <code>центральному радіусі</code> зі спадом (стандартним відхиленням) у <code>діапазон радіусів</code>. Масштаби вейвлетів аналогічні гармонічним частотам, і кожен масштаб вейвлетів визначає радіус деталей, на які потрібно діяти.</p>
+<h2 id="швидкість-дифузії"><a href="#%d1%88%d0%b2%d0%b8%d0%b4%d0%ba%d1%96%d1%81%d1%82%d1%8c-%d0%b4%d0%b8%d1%84%d1%83%d0%b7%d1%96%d1%97">🔗</a>швидкість дифузії</h2>
+<dl>
+<dt>швидкість 1-го порядку (градієнт)</dt>
+<dd>Швидкість дифузії низькочастотних вейвлет-шарів у напрямку, визначеному параметром анізотропії 1-го порядку. Позитивні значення застосовують дифузію, від’ємні значення скасовують дифузію, нуль нічого не робить.</dd>
+<dt>швидкість 2-го порядку (лапласіан)</dt>
+<dd>Швидкість дифузії низькочастотних вейвлет-шарів у напрямку, визначеному параметром анізотропії 2-го порядку. Позитивні значення застосовують дифузію, від’ємні значення скасовують дифузію, нуль нічого не робить.</dd>
+<dt>швидкість 3-го порядку (градієнт лапласіана)</dt>
+<dd>Швидкість дифузії високочастотних вейвлет-шарів у напрямку, визначеному параметром анізотропії 3-го порядку. Позитивні значення застосовують дифузію, від’ємні значення скасовують дифузію, нуль нічого не робить.</dd>
+<dt>швидкість 4-го порядку (лапласіан з лапласіана)</dt>
+<dd>Швидкість дифузії високочастотних вейвлет-шарів у напрямку, визначеному параметром анізотропії 4-го порядку. Позитивні значення застосовують дифузію, від’ємні значення скасовують дифузію, нуль нічого не робить.</dd>
+</dl>
+<h2 id="спрямованість-дифузії"><a href="#%d1%81%d0%bf%d1%80%d1%8f%d0%bc%d0%be%d0%b2%d0%b0%d0%bd%d1%96%d1%81%d1%82%d1%8c-%d0%b4%d0%b8%d1%84%d1%83%d0%b7%d1%96%d1%97">🔗</a>спрямованість дифузії</h2>
+<dl>
+<dt>анізотропія 1-го порядку</dt>
+<dd>Напрямок дифузії низькочастотних вейвлет-шарів відносно орієнтації низькочастотного градієнта. Нуль є ізотропним, негативні значення змушують дифузію ближче слідувати за градієнтами, позитивні значення змушують дифузію ближче слідувати за ізофотами.</dd>
+<dt>анізотропія 2-го порядку</dt>
+<dd>Напрямок дифузії низькочастотних вейвлет-шарів відносно орієнтації високочастотного градієнта. Нуль є ізотропним, негативні значення змушують дифузію ближче слідувати за градієнтами, позитивні значення змушують дифузію ближче слідувати за ізофотами.</dd>
+<dt>анізотропія 3-го порядку</dt>
+<dd>Напрямок дифузії високочастотних вейвлет-шарів відносно орієнтації низькочастотного градієнта. Нуль є ізотропним, негативні значення змушують дифузію ближче слідувати за градієнтами, позитивні значення змушують дифузію ближче слідувати за ізофотами.</dd>
+<dt>анізотропія 4-го порядку</dt>
+<dd>Напрямок дифузії високочастотних вейвлет-шарів відносно орієнтації високочастотного градієнта. Нуль є ізотропним, негативні значення змушують дифузію ближче слідувати за градієнтами, позитивні значення змушують дифузію ближче слідувати за ізофотами.</dd>
+</dl>
+<h2 id="управління-контурами"><a href="#%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d1%96%d0%bd%d0%bd%d1%8f-%d0%ba%d0%be%d0%bd%d1%82%d1%83%d1%80%d0%b0%d0%bc%d0%b8">🔗</a>управління контурами</h2>
+<dl>
+<dt>різкість</dt>
+<dd>Застосувати посилення до деталей вейвлета, незалежно від властивостей дифузії. Нуль нічого не робить, позитивні значення збільшують різкість, негативні значення розмивають. Це в основному корисно як змінна коригування під час додавання світіння або розмиття, щоб зберегти деяку різкість, додаючи світіння навколо контурів. Не рекомендується використовувати лише це для збільшення різкості, оскільки з цим налаштуванням ніщо не перешкоджає появі ореолів або бахроми.</dd>
+<dt>чутливість до контурів</dt>
+<dd>Застосувати штраф до швидкостей дифузії при виявленні контурів. Це виявлення використовує локальну дисперсію навколо кожного пікселя. Нуль вимикає штраф, вищі значення роблять штраф сильнішим і чутливішим до контурів. Збільште, якщо ви помітите контурні артефакти, як-от бахроми та ореоли.</dd>
+<dt>поріг виявлення контурів</dt>
+<dd>Визначте поріг дисперсії, який впливає переважно на області з низькою дисперсією (темні або розмиті ділянки або гладкі поверхні). Позитивні значення збільшують штраф для областей з низькою дисперсією, що добре для збільшення різкості або збільшення локального контрасту без стискання найтемніших тонів. Від’ємні значення зменшать штраф для областей з низькою дисперсією, що добре для знешумлення або розмиття з максимальним ефектом для найтемніших і розмитих областей.</dd>
+</dl>
+<h2 id="просторовість-дифузії"><a href="#%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be%d1%80%d0%be%d0%b2%d1%96%d1%81%d1%82%d1%8c-%d0%b4%d0%b8%d1%84%d1%83%d0%b7%d1%96%d1%97">🔗</a>просторовість дифузії</h2>
+<dl>
+<dt>поріг маскування яскравості</dt>
+<dd>Цей елемент керування корисний, якщо ви хочете домальовувати в переекспонованих ділянках. Для значень, що перевищують 0%, дифузія відбуватиметься лише в областях з яскравістю, більшою за цей параметр. Зауважте, що в цих областях буде додано гауссовий шум, щоб імітувати частинки та ініціалізувати малювання.</dd>
+</dl>
+<h1 id="робочий-процес"><a href="#%d1%80%d0%be%d0%b1%d0%be%d1%87%d0%b8%d0%b9-%d0%bf%d1%80%d0%be%d1%86%d0%b5%d1%81">🔗</a>робочий процес</h1>
+<p>Основна складність цього модуля полягає в тому, що його вихідні дані можуть сильно відрізнятися залежно від вхідних параметрів, але ці параметри не мають інтуїтивного зв’язку з повсякденним життям. Користувачі, ймовірно, будуть перевантажені, якщо вони не знайомі з диференціальними рівняннями Фур’є. У цьому розділі пропонуються деякі способи підходу до цього модуля без тягаря розуміння теорії, що лежить в його основі.</p>
+<h2 id="загальні-поради"><a href="#%d0%b7%d0%b0%d0%b3%d0%b0%d0%bb%d1%8c%d0%bd%d1%96-%d0%bf%d0%be%d1%80%d0%b0%d0%b4%d0%b8">🔗</a>загальні поради</h2>
+<p>Якщо ви маєте намір відновити різкість свого зображення за допомогою цього модуля, завжди починайте з належної корекції будь-яких хроматичних аберацій і шумів у зображенні, оскільки усунення розмиття може збільшити ці артефакти. Також важливо, щоб у вашому зображенні не було обрізаних чорних пікселів. Їх можна виправити за допомогою <em>корекції рівня чорного</em> модуля <a href="/dtdocs/uk/module-reference/processing-modules/exposure/"><em>експозиція</em></a>.</p>
+<p>Оскільки він працює на окремих каналах RGB, краще застосувати цей модуль після <a href="/dtdocs/uk/module-reference/processing-modules/color-calibration/"><em>калібрування кольору</em></a>, щоб почати з повністю нейтрального вхідного зображення з правильним балансом білого. Зауважте, що збільшення локального контрасту або різкості також призведе до невеликого збільшення колірного контрасту та насиченості, що зазвичай добре. Оскільки він використовує регуляризацію на основі дисперсії для виявлення контурів, також краще розмістити цей модуль перед будь-якою нелінійною операцією.</p>
+<h2 id="починаючи-з-пресетів"><a href="#%d0%bf%d0%be%d1%87%d0%b8%d0%bd%d0%b0%d1%8e%d1%87%d0%b8-%d0%b7-%d0%bf%d1%80%d0%b5%d1%81%d0%b5%d1%82%d1%96%d0%b2">🔗</a>починаючи з пресетів</h2>
+<p>Надані пресети були настроєні розробником і протестовані на ряді зображень для типових цілей. Найпростіший спосіб &ndash; просто почати з цих пресетів, а потім коригувати їх за потреби:</p>
+<ul>
+<li>
+<p>якщо ефект здається занадто сильним, зменште кількість ітерацій,</p>
+</li>
+<li>
+<p>якщо з&rsquo;являються контурні артефакти, збільште чутливість до контурів,</p>
+</li>
+<li>
+<p>якщо усунення розмиття починає впливати на дійсні частини розмиття (боке), зменште радіус,</p>
+</li>
+<li>
+<p>якщо розмиття здається правильним у світлих ділянках, але надмірним у темних, збільште <em>поріг</em> виявлення контурів,</p>
+</li>
+<li>
+<p>якщо усунення розмиття обрізає чорні пікселі, зменште <em>корекцію рівня чорного</em> в модулі <em>експозиція</em>,</p>
+</li>
+<li>
+<p>налаштуйте <em>різкість</em> на свій смак.</p>
+</li>
+</ul>
+<h2 id="починаючи-з-нуля"><a href="#%d0%bf%d0%be%d1%87%d0%b8%d0%bd%d0%b0%d1%8e%d1%87%d0%b8-%d0%b7-%d0%bd%d1%83%d0%bb%d1%8f">🔗</a>починаючи з нуля</h2>
+<p>Налаштування модуля за замовчуванням повністю нейтральні і не впливають на ваше зображення. Суть модуля полягає в тому, що кожен порядок певним чином впливає на текстуру зображення.</p>
+<p>Почніть з налаштування параметрів першого порядку (швидкість та анізотропія), щоб отримати початкову базу. Потім відрегулюйте радіус. Це вплине на більш грубі текстури (або розмиватиме їх, або збільшуватиме різкість). Пам’ятайте, що перший порядок діє на низьких частотах шкали вейвлетів і йде в напрямку, паралельному або перпендикулярному градієнту низьких частот.</p>
+<p>Далі починаємо налаштовувати параметри другого порядку (швидкість і анізотропію). Другий порядок також діє на низьких частотах шкали вейвлетів, але цього разу слідує напрямку, паралельному або перпендикулярному градієнту <em>високих</em> частот, який може бути напрямком максимальної різкості або шуму. Це можна використовувати для зменшення шуму (використання другого порядку в режимі дифузії, з додатними значеннями), коли ви використовували перший порядок у режимі різкості (з від’ємними значеннями).</p>
+<p>Ці два кроки можна виконати на зменшеному зображенні. Пам’ятайте, що, в той час як велика увага була приділена тому, щоб візуальний результат алгоритму був досить інваріантним до масштабу, попередній перегляд буде точним лише при масштабуванні 1:1. У будь-якому випадку, все, що відбувається на рівні пікселів (радіус &lt; 2px), не буде видно для рівнів масштабування нижче 50%.</p>
+<p>На цьому етапі ви можете налаштувати чутливість до контурів, щоб подбати про будь-які контурні артефакти. Теоретично, дифузія в напрямку ізофота гарантує, що дифузія міститься всередині контурів, але цього недостатньо, якщо на зображенні присутні кути та гострі опуклі форми.</p>
+<p>Коли елемент керування чутливістю до контурів налаштовано для отримання задовільних результатів, зображення зазвичай стає досить м’яким. У більшості випадків на цьому етапі буде необхідно збільшити кількість ітерацій для компенсації. Це призведе до зниження продуктивності, тому обережно ставтеся до компромісу продуктивність/якість залежно від вашого обладнання. Якщо ви не можете збільшити кількість ітерацій, вам доведеться збільшити швидкість дифузії.</p>
+<p>Останнім кроком є точна настройка третього та четвертого порядку, які піклуються про високі частоти кожної шкали вейвлетів. З цими налаштуваннями потрібно бути набагато обережнішими, ніж для першого та другого порядків, оскільки вони можуть викликати дуже швидке збільшення шуму.</p>
+<p>Третій порядок слідує напрямку градієнта або ізофота низькочастотного шару, тому може використовуватися для спрямування високочастотної дифузії в напрямку, який, швидше за все, буде правомірним щодо реальних контурів (і менш схильний до шуму).</p>
+<p>Четвертий порядок слідує напрямку градієнта або ізофота високочастотного шару і з більшою ймовірністю вловлює шум. Дифузія на четвертому порядку &ndash; найкращий спосіб зменшити шум без надмірного впливу на різкість, або як самостійний знешумлювач, або як крок регуляризації в процесі усунення розмиття.</p>
+<h1 id="використання-кількох-екземплярів-для-реконструкції-зображення"><a href="#%d0%b2%d0%b8%d0%ba%d0%be%d1%80%d0%b8%d1%81%d1%82%d0%b0%d0%bd%d0%bd%d1%8f-%d0%ba%d1%96%d0%bb%d1%8c%d0%ba%d0%be%d1%85-%d0%b5%d0%ba%d0%b7%d0%b5%d0%bc%d0%bf%d0%bb%d1%8f%d1%80%d1%96%d0%b2-%d0%b4%d0%bb%d1%8f-%d1%80%d0%b5%d0%ba%d0%be%d0%bd%d1%81%d1%82%d1%80%d1%83%d0%ba%d1%86%d1%96%d1%97-%d0%b7%d0%be%d0%b1%d1%80%d0%b0%d0%b6%d0%b5%d0%bd%d0%bd%d1%8f">🔗</a>використання кількох екземплярів для реконструкції зображення</h1>
+<p>Пост-фільтрація шуму може отримати користь від <strong>запровадження</strong> процесу дифузії &ndash; це можна застосувати як додатковий крок після модуля <a href="/dtdocs/uk/module-reference/processing-modules/denoise-profiled/"><em>знешумлення (профільоване)</em></a>.</p>
+<p>І навпаки, наступні оптичні проблеми можуть отримати користь від реконструкції шляхом <strong>скасування</strong> процесу дифузії:</p>
+<ol>
+<li>
+<p>розмиття, створене фільтром низьких частот сенсора та/або згладжуванням, що виконується модулем <a href="/dtdocs/uk/module-reference/processing-modules/demosaic/"><em>демозаїкізація</em></a>,</p>
+</li>
+<li>
+<p>статичне розмиття об&rsquo;єктива,</p>
+</li>
+<li>
+<p>серпанок/імла,</p>
+</li>
+<li>
+<p>розсіювання світла (з використанням занадто великого розсіювача), що призводить до рівномірного освітлення та відсутності локального контрасту на об’єкті.</p>
+</li>
+</ol>
+<p>Хоча більше ніж одна з цих проблем може впливати на зображення одночасно, краще спробувати виправити їх окремо, використовуючи кілька екземплярів модуля. Роблячи це, переконайтеся, що проблеми виправлені від грубого масштабу до тонкого, і щоб знешумлення завжди відбувалося спочатку. Тобто ваші екземпляри мають з&rsquo;являтися в такому <a href="/dtdocs/uk/darkroom/pixelpipe/the-pixelpipe-and-module-order/">порядку на конвеєрі</a>:</p>
+<ol>
+<li>
+<p>знешумлення,</p>
+</li>
+<li>
+<p>посилення локального контрасту,</p>
+</li>
+<li>
+<p>видалення серпанку,</p>
+</li>
+<li>
+<p>корекція розмиття об&rsquo;єктива,</p>
+</li>
+<li>
+<p>корекція сенсора та демозаїки.</p>
+</li>
+</ol>
+<p>Початок із реконструкцій більш грубого масштабу зменшує ймовірність появи або збільшення шуму при виконанні більш дрібних реконструкцій. Це неінтуїтивно, оскільки ці процеси відбуваються не в такому порядку під час формування зображення. З тієї ж причини перед будь-якою спробою збільшення різкості завжди має відбуватися знешумлення.</p>
+<h1 id="примітки-та-попередження"><a href="#%d0%bf%d1%80%d0%b8%d0%bc%d1%96%d1%82%d0%ba%d0%b8-%d1%82%d0%b0-%d0%bf%d0%be%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%b6%d0%b5%d0%bd%d0%bd%d1%8f">🔗</a>примітки та попередження</h1>
+<p>Хоча цей модуль розроблений бути інваріантним до масштабу, його вихід можна гарантувати лише при 100% масштабуванні та високоякісному або повнорозмірному експорті. Результати при нижчих рівнях масштабування або розмірах експорту можуть відповідати вашим очікуванням або не відповідати.</p>
+<p>При налаштуванні алгоритму відновлення різкості, намагайтеся пам’ятати, що багато найкращих зображень в історії фотографії були зроблені за допомогою об’єктивів, які не були настільки різкими, як наявні сьогодні. Хоча поточна тенденція полягає в тому, щоб створювати та продавати все більш різкі об’єктиви та застосовувати шалений рівень збільшення різкості поверх цього в програмному забезпеченні, ця мода <em>не</em> призводить до кращих зображень і робить процес ретушування більш виснажливим. М’який фокус і трохи розмитості також мають деякі поетичні переваги, які хірургічно очищені HD-зображення можуть не передати.</p>
+<p>Слід зазначити, що глобальний контраст (з використанням простих тонових кривих або рівнів чорного/білого) також впливає на наше сприйняття різкості, яке значно відрізняється від оптичної різкості (оптичної роздільної здатності). Людські очі чутливі лише до локального контрасту, який може виникнути внаслідок оптичної різкості (наприклад, відсутність дифузії &ndash; тонкі контури), а також від посилених тональних переходів. Якщо встановлено певне глобальне відображення тонів для збільшення контрасту, зображення буде виглядати чіткіше. Якщо використовується тональне відображення для зменшення контрасту, зображення буде виглядати більш розмитим. У жодному з цих випадків фактичні контури об’єктів жодним чином не зачіпаються, а наслідки для сприйняття є чистою ілюзією.</p>
+<p>Частиною процесу старіння є втрата зору. Обсяг різкості, який подобається людям старше 50 років, може бути не таким, як у людей старше 20 років. Варто подумати про збільшення різкості, щоб отримати <em>правдоподібний</em> результат (відповідає вашому повсякденному сприйняттю), а не <em>приємний</em> результат (який може виглядати добре лише для людей з таким же зором, як у вас).</p>
+<p>Нарешті, оцінка різкості зображень, збільшених до 1:1 (100%) або більше, є дурним завданням. У музеях, на виставках і навіть на екрані широка аудиторія дивиться на зображення цілком, а не за допомогою лупи. Більше того, у більшості практичних застосувань фотографії рідко перевищують роздільну здатність 3000×2000 пікселів (приблизно 300 точок на дюйм при розмірах A4/letter), що для сенсорів 24 Мп означає зменшення масштабу в 4 рази. При розгляді файлу розміром 24 Мп у масштабі 1:1 ви насправді дивитеся на зображення, яке ніколи не існуватиме. У цьому контексті підвищення різкості на рівні пікселів є марною тратою часу та циклів процесора.</p>
+
+
+    
+    <h3 class="translations_head">translations</h3>
+    <ul class="translations">
+        
+        <li><a href="/dtdocs/en/module-reference/processing-modules/diffuse/">
+            English: diffuse or sharpen
+        </a></li>
+        
+        <li><a href="/dtdocs/fr/module-reference/processing-modules/diffuse/">
+            Français: diffusion/netteté
+        </a></li>
+        
+        <li><a href="/dtdocs/de/module-reference/processing-modules/diffuse/">
+            German: Diffusion / Schärfen
+        </a></li>
+        
+        <li><a href="/dtdocs/pt_br/module-reference/processing-modules/diffuse/">
+            Português: difusão ou nitidez
+        </a></li>
+        
+    </ul>
+    
+</article>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/uk/module-reference/processing-modules/dithering/" class="next">&lt; дизеринг</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/uk/module-reference/processing-modules/contrast-equalizer/" class="prev">еквалайзер контрасту &gt;</a>
+	
+    </div>
+</div>
+
+
+
+      </div>
+	    </div>
+
+            
+
+        </div>
+
+
+    </body>
+</html>
+
+<script>
+(function($) {
+  
+
+  $.fn.scrollToMiddle = function(options) {
+    var settings = $.extend({
+        duration: 0
+    }, options );
+
+    return this.each(function() {
+      var $el = $(this);
+      var elOffset = $el.offset().top;
+      var elHeight = $el.height();
+      var windowHeight = $(window).height();
+      var offset;
+      if (elHeight < windowHeight) {
+        offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+      }
+      else {
+        offset = elOffset;
+      }
+      $('.navigation').scrollTop(offset);
+    });
+  };
+}(jQuery));
+
+$('.navigation').css('opacity', '0');
+ $(document).ready(function(){
+     $('.parent ul').hide();
+     $('.navigation').css('opacity', 1.0);
+     $('.active').parents('ul').show();
+     $('.active').siblings('ul').show();
+     $('.active').children('i.toggle').removeClass("fa-plus-squre").addClass("fa-minus-square-o");
+     $('.active').parents('li').children('.toggle').removeClass("fa-plus-square").addClass("fa-minus-square-o");
+     $('.active').scrollToMiddle();
+
+     $('.toggle').on('click', function (e) {
+       e.stopPropagation();
+       $(this).siblings('ul').slideToggle();
+
+       if($(this).hasClass("fa-plus-square")) {
+           $(this).addClass("fa-minus-square-o");
+           $(this).removeClass("fa-plus-square");
+       }
+       else {
+           $(this).addClass("fa-plus-square");
+           $(this).removeClass("fa-minus-square-o");
+       }
+     });
+ });
+
+</script>
+
+
+<script>
+ var _paq = window._paq = window._paq || [];
+  
+ _paq.push(['trackPageView']);
+ _paq.push(['enableLinkTracking']);
+ (function() {
+     var u="https://piwik.kees.nl/";
+     _paq.push(['setTrackerUrl', u+'matomo.php']);
+     _paq.push(['setSiteId', '21']);
+     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+ })();
+</script>
+<noscript><p><img src="https://piwik.kees.nl/matomo.php?idsite=21&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+
+

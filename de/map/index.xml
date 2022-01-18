@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Karte on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/map/</link>
+    <description>Recent content in Karte on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/map/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Übersicht</title>
+      <link>https://darktable-org.github.io/dtdocs/de/map/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/map/overview/</guid>
+      <description>Die Ansicht Karte erlaubt es dir, zu sehen, wo deine geo-getaggten Bilder aufgenommen wurden und Informationen über den Ort an nicht geo-getaggte Bilder hinzuzufügen.
+Die Ansicht Karte zeigt eine Weltkarte mit den Bildern in der gegenwärtigen Sammlung, an deren Geo-Lokation geheftet (sofern vorhanden). Das erfordert, dass das Bilder mit Ort-Informationen versehen sind. Einige neuere Kameras und Smartphones sind bereits mit GPS-Empfängern ausgestattet. Andere Kameras brauchen zusätzliche GPS-Hardware, um das zu tun.</description>
+    </item>
+    
+    <item>
+      <title>Karten Eingabefelder</title>
+      <link>https://darktable-org.github.io/dtdocs/de/map/map-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/map/map-view-layout/</guid>
+      <description>🔗Linkes Bedienfeld Die Eingabefelder der linken Seite entsprechen denen aus dem Leuchttisch. Von oben nach unten:
+ Sammlungen Sortiere die Liste der Bilder, die in der Ansicht Karte gezeigt werden. Kürzlich benutzte Sammlungen Betrachte kürzlich benutzte Bildersammlungen. Bild Informationen Zeige die Bild Informationen an.  🔗Rechtes Bedienfeld In diesem Abschnitt werden die spezifischen Module der Ansicht &amp;ldquo;Karte&amp;rdquo; erläutert. Von oben nach unten:
+ Position finden Suche eine Position auf der Karte.</description>
+    </item>
+    
+  </channel>
+</rss>

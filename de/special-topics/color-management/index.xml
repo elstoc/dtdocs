@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Farbverwaltung on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/</link>
+    <description>Recent content in Farbverwaltung on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/special-topics/color-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Übersicht</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/overview/</guid>
+      <description>darktable sieht dafür einen kompletten farb-verwalteten Arbeitsablauf vor:
+  Das Farbprofil der Eingangsdaten wird aus eingebetteten oder vom Anwender bereitgestellten ICC-Profilen oder im Falle von Rohdaten aus einer Bibliothek von spezifischen Farbmatrizen der Kamera bezogen.
+  Für eine akkurate Farbwiedergabe auf dem Bildschirm, liest darktable automatisch das Anzeigeprofil Ihres Monitors, sofern dieser korrekt konfiguriert wurde. Multi-Bildschirm-Setups werden voll unterstützt, solange ein Systemdienst wie colord vorhanden und korrekt konfiguriert ist.</description>
+    </item>
+    
+    <item>
+      <title>Bildschirm Profil</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/display-profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/display-profile/</guid>
+      <description>Damit dartable Farben originalgetreu auf dem Bildschirm darstellen kann, muss es das korrekte Profil für deinen Monitor finden. Generell erfordert das, dass dein Monitor sauber kalibriert ist, und dann muss das Profil in deinem System korrekt installiert sein. darktable fragt deinen X - Display-Server das xatom wie auch das Service Colord (falls vorhanden) nach dem richtigen Profil ab. Falls erforderlich kannst du eine spezifische Methode forcieren in darktable-Voreinstellungen &amp;gt; Verschiedenes.</description>
+    </item>
+    
+    <item>
+      <title>Rendering Methode</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/rendering-method/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/rendering-method/</guid>
+      <description>darktable kann entweder mit seinen eigenen internen Algorithmen oder mit der externen Library LittleCMS2 Farben rendern. Die interne Methode von darktable ist im Hinblick auf das Ausmaß, schneller als die externe. Die esxterne Option gibt dir die Möglichkeit den Rendering-Vorsatz zu wählen und es mag sein, dass diese in einigen Fällen bessere Resultate ergibt.
+Du kannst die Standard-Methode ändern in darktable-Voreinstellungen &amp;gt; Bearbeitung &amp;gt; nutze immer LittleCMS 2, um das Ausgabefarbprofil anzuwenden](.</description>
+    </item>
+    
+    <item>
+      <title>Rendering Vorsatz</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/rendering-intent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/rendering-intent/</guid>
+      <description>Falls Rendering mit LittleCMS2 aktiviert ist (siehe Rendering Methode), kannst du definieren, wie außerhalb des Gamut Farben behandelt werden sollen, wenn sie zwischen Farbräumen konvertiert werden. Eine Auswahl-Box in den Modulen Export, Ausgabefarbprofil, und Softproof gibt dir eine Wahl aus den folgenden Rendering Vorsätzen:
+ Wahrnehmend Am besten geeignet für Fotografien, da es die relative Position der Farben beibehält. Das ist normalerweise die beste Wahl. Relativ kolorimetrisch Farben außerhalb des Gamut werden in Farben konvertiert, welche die gleiche Helligkeit haben aber eine unterschiedliche Sättigung.</description>
+    </item>
+    
+    <item>
+      <title>Die Farbräume von darktable</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/color-spaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/color-spaces/</guid>
+      <description>Eingabe-Bilder sind entweder RGB-Dateien (wie JPEGs oder TIFFs) oder Kamera-RAWs. Beide speichern visuelle Informationen als Kombinationen der Primärfarben (z.B. rot, grün und blau) welche zusammen eine Licht-Emission beschreiben, die vom Bildschirm wiedergegeben werden.
+Das folgende Bild illustriert dieses Konzept.
+  Die linke Seite des Bildes bildet ein farbiges Licht ab, das digital dargestellt werden soll. Wir können drei ideale Farbfilter, um dieses Licht in die drei Primärfarben in verschiedenen Intensitäten aufzuteilen.</description>
+    </item>
+    
+    <item>
+      <title>Grenzenlose Farben</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/unbounded-colors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/unbounded-colors/</guid>
+      <description>Bildschirme und die meisten Dateiformate können nur RGB-Intensitäten in einem bestimmten Bereich kodieren. Zum Beispiel können 8-Bit-kodierte Bilder nur Werte zwischen 0 und 255 enthalten, Bilder mit 10-Bit zwischen 0 und 1023, und so weiter. Grafikstandards setzen voraus, dass das Maximum dieses Bereiches, unabhängig vom aktuellen Wert, immer die maximale Helligkeit darstellt, die das Anzeigemedium imstande ist zu rendern, abhängig vom aktuellen Standard normalerweise zwischen 100 und 160 Cd/m² (oder nits).</description>
+    </item>
+    
+    <item>
+      <title>Mögliche Farbartefakte</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/color-artifacts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/color-artifacts/</guid>
+      <description>ES gibt einige seltene Situationen, die immer noch zu problematischen Resultaten führen können, falls der Nutzer keine Maßnahmen trifft. Gewisse Module, wie Werte und Monochrom, bauen im Lab Farb-Raum darauf auf, dass der L-Kanal alle Licht-Informationen beinhaltet und der b- und a-Kanal nur Chroma und die Farbtöne. Unbegrenzte Farben mit negativen L-Werten sind speziell problematisch für diese Module und können zu schwarzen Pixel-Artefakten führen.
+Es ist bekannt, dass hochgesättigte blaue Lichtquellen im Bildausschnitt potenzielle Kandidaten für Pixel mit negativen L-Werte sind.</description>
+    </item>
+    
+    <item>
+      <title>Farbdimensionen von darktable</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/color-dimensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/color-management/color-dimensions/</guid>
+      <description>Dieser Abschnitt definiert die Wahrnehmungs-Eigenschaften von Farben, beides Konzeptionell und quantitativ, um die kreativen und korrektiven Anpassungen für Farben in daktable zu charakterisieren und quantifizieren.
+🔗Definitionen Farb-Eigenschaften wie &amp;ldquo;Sättigung&amp;rdquo;. &amp;ldquo;Leuchtkraft&amp;rdquo; oder Helligkeit sind in den normalen Gebrauch übernommen worden, sie werden aber weitgehend missbraucht und oft für andere Bedeutungen gebraucht. In der Farb-Wissenschaft hat jeder dieser Ausdrücke eine klare Bedeutung.
+Es gibt zwei Regelwerke, innerhalb welcher Farb-Eigenschaften analysiert und beschrieben werden können:</description>
+    </item>
+    
+  </channel>
+</rss>

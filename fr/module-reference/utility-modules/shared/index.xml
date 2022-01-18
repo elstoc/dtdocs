@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>partagé on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/</link>
+    <description>Recent content in partagé on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>collections</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/collections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/collections/</guid>
+      <description>Filtrer les images affichées dans la table lumineuse et le bandeau pellicule en utilisant les attributs des images. Cet ensemble d&amp;rsquo;images filtrées est appelé collection.
+L&amp;rsquo;importation d&amp;rsquo;images dans darktable permet de stocker les informations les concernant (nom de fichier, chemin d&amp;rsquo;accès, données Exif, données des fichiers XMP sidecar, etc) dans la base de données de la bibliothèque. Une collection peut être définie en appliquant des règles de filtrage à ces attributs, créant ainsi un sous-ensemble d&amp;rsquo;images à afficher dans la vue table lumineuse et le module pellicule.</description>
+    </item>
+    
+    <item>
+      <title>collections récentes</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/recent-collections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/recent-collections/</guid>
+      <description>Affiche une liste des collections récemment utilisées, générées par le module collections.
+Cliquez sur une entrée pour rouvrir la collection sélectionnée. Cela met également à jour le module de collections avec les critères et règles de filtrage appropriés.
+🔗préférences L&amp;rsquo;option &amp;ldquo;préférences&amp;hellip;&amp;rdquo; du menu des préréglages vous permet d&amp;rsquo;ajuster le comportement du module des collections comme suit :
+ nombre de collections à conserver Le nombre de collections récentes à conserver et à afficher dans le module des collections récentes (10 par défaut)  </description>
+    </item>
+    
+    <item>
+      <title>détection de focus</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/focus-peaking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/focus-peaking/</guid>
+      <description>Identifie les parties de l&amp;rsquo;image contenant des bords nets, ce qui indique généralement qu&amp;rsquo;elles sont dans la zone de mise au point.
+Le module s&amp;rsquo;active en cliquant sur l&amp;rsquo;icône (  ). Il met en évidence les parties nettes de l&amp;rsquo;image avec un affichage en surbrillance jaune, vert et bleu :
+Le module fonctionne en filtrant le bruit de l&amp;rsquo;image, en mesurant les gradients d&amp;rsquo;intensité dans l&amp;rsquo;image par des calculs de moyennes et d&amp;rsquo;écarts-types (σ).</description>
+    </item>
+    
+    <item>
+      <title>exporter</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/export/</guid>
+      <description>Exporter les images sélectionnées
+Lorsqu&amp;rsquo;elle est utilisée dans la vue chambre noire, l&amp;rsquo;image actuellement éditée sera exportée si aucune autre image n&amp;rsquo;est sélectionnée dans le bandeau des miniatures.
+Les fichiers peuvent être exportés vers un fichier sur le disque, un e-mail, divers emplacements de stockage en ligne, un album Web ou un modèle de livre.
+🔗contrôles du module 🔗options de stockage  stockage cible Le type d&amp;rsquo;emplacement pour stocker vos images sélectionnées.</description>
+    </item>
+    
+    <item>
+      <title>géolocalisation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/geotagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/geotagging/</guid>
+      <description>Importe et applique les données de traces GPX à une sélection d&amp;rsquo;images.
+Ce module est commun aux vues table lumineuse et carte. La vue carte fournit un mode avancé qui vous permet de prévisualiser la position des images le long des traces GPS tout en ajustant la date/heure (décalage) et le fuseau horaire des images.
+🔗présentation des flux de travail Un récepteur GPS calcule sa position courante à partir des informations qu&amp;rsquo;il reçoit des satellites et les enregistre, avec la date et l&amp;rsquo;heure courante, dans un fichier GPX.</description>
+    </item>
+    
+    <item>
+      <title>informations de l&#39;image</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/image-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/image-information/</guid>
+      <description>Affiche les informations contenues dans les données EXIF d&amp;rsquo;une image ainsi qu&amp;rsquo;un certain nombre de champs spécifiques à darktable.
+Lorsque vous passez la souris sur les miniatures des images, les données affichées sont automatiquement mises à jour avec les informations de l&amp;rsquo;image actuellement sous le curseur de la souris.
+Lorsque plusieurs images sont sélectionnées et que le focus n&amp;rsquo;est pas sur une seule image, le module n&amp;rsquo;affiche que des informations qui sont les mêmes pour toutes les images.</description>
+    </item>
+    
+    <item>
+      <title>mots-clés</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/tagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/tagging/</guid>
+      <description>Gérer les mots-clés associés aux images.
+Les mots-clés permettent d&amp;rsquo;ajouter des informations aux images à l&amp;rsquo;aide d&amp;rsquo;un dictionnaire de mots-clés. Vous pouvez gérer les mots-clés sous forme d&amp;rsquo;arborescence hiérarchique, ce qui peut être utile lorsque leur nombre devient important.
+Les mots-clés sont écrits dans les fichiers annexes XMP ainsi que dans la bibliothèque de darktable. Ils peuvent être inclus dans les images exportées.
+🔗définitions Les définitions suivantes supposent que vous avez configuré un seul mot-clé nommé &amp;ldquo;places|France|Nord|Lille&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>pellicule</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/filmstrip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/filmstrip/</guid>
+      <description>La pellicule peut être utilisée pour basculer rapidement entre les images dans n&amp;rsquo;importe quelle vue de darktable. Les images dont les miniatures sont affichées dans la pellicules sont les mêmes que celles qui sont affichées dans la vue table lumineuse et sont définies par la collection actuellement sélectionnée.
+  La pellicule peut être activée et désactivée à l&amp;rsquo;aide du raccourci Ctrl+F. La hauteur du panneau de la pellicule peut être modifiée en cliquant et en faisant glisser sa bordure supérieure.</description>
+    </item>
+    
+    <item>
+      <title>scopes</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/scopes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/scopes/</guid>
+      <description>Ce module fournit diverses représentations graphiques des niveaux de lumière ou de chromaticité de l&amp;rsquo;image développée.
+  Déplacez la souris sur le panneau pour afficher les boutons qui vous permettent de régler l&amp;rsquo;affichage. Le bouton le plus à gauche permet de passer d&amp;rsquo;un mode à l&amp;rsquo;autre : histogramme, forme d&amp;rsquo;onde, parade RVB et vectorscope. Les autres boutons contrôlent la façon dont le graphique de l&amp;rsquo;oscilloscope actuel est dessiné.
+Quand la souris survole le panneau scopes, la roulette souris avec la touche Ctrl maintenue permet de changer la hauteur du graphique.</description>
+    </item>
+    
+    <item>
+      <title>éditeur de métadonnées</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/metadata-editor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/module-reference/utility-modules/shared/metadata-editor/</guid>
+      <description>Modifie les métadonnées des images sélectionnées.
+Les métadonnées sont du texte au format libre (titre, description, créateur, éditeur, droits, etc.) décrivant vos images.
+🔗contrôles du module  champs de saisie des métadonnées Un champ distinct est affiché pour chaque élément des métadonnées. Maintenez la touche CTRL enfoncée tout en déroulant avec la molette souris pour augmenter la hauteur d&amp;rsquo;un champ. Appuyez sur CTRL + Entrée pour insérer une nouvelle ligne. Appuyez sur Entrée pour appliquer tout texte saisi dans le champ de métadonnées actuel aux images sélectionnées.</description>
+    </item>
+    
+  </channel>
+</rss>

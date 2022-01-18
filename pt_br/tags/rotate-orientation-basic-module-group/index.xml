@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rotate orientation basic-module-group on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/tags/rotate-orientation-basic-module-group/</link>
+    <description>Recent content in rotate orientation basic-module-group on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/tags/rotate-orientation-basic-module-group/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>orientação</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/module-reference/processing-modules/orientation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/module-reference/processing-modules/orientation/</guid>
+      <description>Gira a imagem em passos de 90 graus ou inverte a imagem horizontalmente e/ou verticalmente.
+Este módulo está habilitado por padrão e a orientação (rotação) é definida automaticamente em função dos dados Exif da imagem.
+A orientação também pode ser definida usando o módulo imagens selecionadas na vista mesa de luz.
+🔗controles do módulo  transformar Clique-duplo no rótulo para redefinir para as transformações padrão.   girar no sentido anti-horário Gira a imagem 90 graus no sentido anti-horário.</description>
+    </item>
+    
+  </channel>
+</rss>

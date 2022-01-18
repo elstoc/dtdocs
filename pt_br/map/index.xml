@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mapa on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/map/</link>
+    <description>Recent content in Mapa on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/map/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>visão geral</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/map/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/map/overview/</guid>
+      <description>A vista de mapa permite que você veja onde suas imagens geoetiquetadas foram tiradas, e adiciona informações de localização a imagens que não foram geoetiquetadas.
+A vista do mapa exibe um mapa do mundo com as imagens da coleção atual colocadas em sua localização geoetiquetada (se disponível). Isto requer que as imagens sejam etiquetadas com informações de localização. Algumas câmeras mais modernas, incluindo smartphones, já são equipadas com receptores de GPS.</description>
+    </item>
+    
+    <item>
+      <title>disposição do mapa</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/map/map-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/map/map-view-layout/</guid>
+      <description>🔗painel esquerdo Estes módulos são idênticos à mesa de luz. De cima para baixo:
+ coleções Filtra a lista de imagens que são exibidas na vista do mapa. coleções usadas recentemente Exibe as coleções de imagens usadas recentemente. informações da imagem Mostra as informações da imagem.  🔗painel direito Aqui você pode encontar os módulos específicos da vista do mapa. De cima para baixo:
+ encontrar localização Encontra um local no mapa.</description>
+    </item>
+    
+  </channel>
+</rss>

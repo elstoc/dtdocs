@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Impressão on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/print/</link>
+    <description>Recent content in Impressão on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/print/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>visão geral</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/print/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/print/overview/</guid>
+      <description>Esta vista permite que você imprima suas imagens. Como imprimir não é fácil, muitos aspectos técnicos devem ser levados em consideração.
+Depois de selecionar uma imagem na mesa de luz você pode entrar no módulo de configurações de impressão para ajustar as configurações da impressora e começar a imprimir.
+Este módulo suporta o perfil ICC da impressora, que é de certa forma obrigatório se você quiser obter uma impressão de alta qualidade, próxima da imagem mostrada na tela.</description>
+    </item>
+    
+    <item>
+      <title>disposição da impressão</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/print/print-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/print/print-view-layout/</guid>
+      <description>A área central mostra a disposição da imagem no papel (a área branca). Algumas bordas cinzas podem ser mostradas ao redor da imagem para representar a área de impressão (a página menos as bordas) que não tenha sido preenchida pela imagem.
+O rolo de filme abaixo da imagem permite que você selecione mais imagens.
+🔗painel esquerdo  coleções Filtra a lista de imagens que são mostrada na mesa de luz. informações da imagem Exibe informações da imagem.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Verwende darktable-Chart on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/special-topics/darktable-chart/</link>
+    <description>Recent content in Verwende darktable-Chart on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/special-topics/darktable-chart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Übersicht</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/darktable-chart/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/darktable-chart/overview/</guid>
+      <description>Mit darktable-chart bieten wir ein Tool zur Extraktion von Luminanz- und Farbwerten aus Bildern von Farbreferenzkarten wie IT8.7/1 Charts. Sein Hauptzweck ist es, ein Quellbild (typischerweise ein weitgehend unbearbeitetes Rohbild) mit einem Zielbild (typischerweise ein JPEG-Bild, das in der Kamera erstellt wurde) zu vergleichen und einen darktable-Stil zu erzeugen, der in der Lage ist, Luminanz- und Farbwerte des Quellbildes in das Zielbild umzuwandeln. Dieser Stil verwendet dazu die Module Tonwert Kurve, Eingabe Farb-Profil und Farb-Lookup-Table.</description>
+    </item>
+    
+    <item>
+      <title>Nutzung</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/darktable-chart/usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/darktable-chart/usage/</guid>
+      <description>Das Tool ist in drei Registern im oberen Teil organisiert mit einem Text-Rahmen im untern Teil.
+  Das erste Register wird genutzt, um das Quellbild zu definieren, das zweite Register definiert die Referenz (Ziel) und das dritte Register enthält die Einstellmöglichkeiten, um den resultierenden darktable Stil zu erzeugen.</description>
+    </item>
+    
+    <item>
+      <title>Quellbild</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/darktable-chart/source-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/darktable-chart/source-image/</guid>
+      <description>In der Registerkarte &amp;ldquo;Ausgangsbild&amp;rdquo; legst du dein Quellbild fest, das zwei Elemente erfordert. Das erste Element ist eine Eingabedatei im Lab Portable-Float-Map-Format (Erweiterung .pfm). Die Quelldatei stellt die weitgehend unveränderten Daten so dar, wie sie die Kamera sieht. Details zum Fotografieren einer Farbreferenzkarte und zum Erzeugen der Ausgabedatei (.pfm) werden im Folgenden beschrieben. Das zweite Element ist eine Diagrammdatei, die eine formale Beschreibung des Layouts der zugrundeliegenden Farbreferenzkarte enthält (Erweiterung .</description>
+    </item>
+    
+    <item>
+      <title>Referenz Werte</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/darktable-chart/reference-values/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/darktable-chart/reference-values/</guid>
+      <description>Das Register &amp;ldquo;Referenz Werte&amp;rdquo; bestimmt die Zielwerte zu welchen das Quellbild durch den resultierenden Stil modifiziert werden muss. Du kannst entweder Referenzwerte in Form von gemessenen Daten aus deiner Farb-Referenz-Karte (Modus &amp;ldquo;cie/it8 file&amp;rdquo;) angeben, oder du kannst ein fotografisches Bild (Modus &amp;ldquo;Farb-Karte-Bild&amp;rdquo;) gleich wie oben beschrieben. Dieses zweite Bild muss auch im Lab Portable Float Map Format angegeben werden. Es ist nicht nötig, diese wieder als Karten-Datei zu liefern, da darktable-chartdas Gleiche nimmt wie unter &amp;ldquo;Quellbild&amp;rdquo; definiert.</description>
+    </item>
+    
+    <item>
+      <title>Prozess</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/darktable-chart/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/darktable-chart/process/</guid>
+      <description>Wenn alle erforderlichen Einstellungen im &amp;ldquo;Quellbild&amp;rdquo; und den &amp;ldquo;Referenz-Werten&amp;rdquo; bereits sind, dann kannst du zum Register &amp;ldquo;Prozess&amp;rdquo; weitergehen.
+  Zuerst muss darktable-chart die Patches der Grauwerte zugeordnet werden. Im Screenshot oben befinden sich die Grauwerte im unteren Teil der Farbreferenzkarte, bezeichnet als „GS00 bis GS23“.
+Die Eingabe &amp;ldquo;Anzahl der endgültigen Patches&amp;rdquo; legt fest, wie viele editierbare Farbfelder der resultierende Stil innerhalb des Moduls color look up table verwendet.
+Durch Anklicken der Schaltfläche &amp;ldquo;Prozess&amp;rdquo; startet die Berechnung.</description>
+    </item>
+    
+    <item>
+      <title>Eingabebilder für den dartable-Chart erstellen</title>
+      <link>https://darktable-org.github.io/dtdocs/de/special-topics/darktable-chart/making-input-images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/special-topics/darktable-chart/making-input-images/</guid>
+      <description>Zunächst benötigst du ein passendes Foto deiner Farbreferenzkarte im RAW+JPEG-Format. Es geht über den Rahmen dieses Handbuchs hinaus, um die Details zu erklären, wie man dieses Foto macht, aber kurz gesagt, man muss die Aufnahme an einem sonnigen Tag um die Mittagszeit machen, wenn die Lichtquelle (Sonne) schräg auf die Karte scheint. Du musst jede Blendung im Bild vermeiden. Der neutralweiße Farbfleck in der grauen Rampe (G00) sollte auf den in der Beschreibung Ihrer Karte angegebenen L-Wert enden.</description>
+    </item>
+    
+  </channel>
+</rss>

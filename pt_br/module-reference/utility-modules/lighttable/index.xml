@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mesa de luz on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/module-reference/utility-modules/lighttable/</link>
+    <description>Recent content in mesa de luz on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/module-reference/utility-modules/lighttable/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>estilos</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/module-reference/utility-modules/lighttable/styles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/module-reference/utility-modules/lighttable/styles/</guid>
+      <description>Cria estilos nomeados a partir da pilha de histórico das imagens e aplica estilos às imagens selecionadas.
+Os estilos podem ser criados neste painel ou no módulo pilha de histórico na sala escura.
+Uma lista de todos os estilos disponíveis é exibida no módulo. Um campo de pesquisa acima da lista permite localizar um estilo por nome ou descrição. Este módulo também permite que estilos sejam editados e excluídos.
+Clique duas vezes no nome de um estilo para aplicá-lo a todas as imagens selecionadas.</description>
+    </item>
+    
+    <item>
+      <title>imagens selecionadas</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/module-reference/utility-modules/lighttable/selected-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/module-reference/utility-modules/lighttable/selected-image/</guid>
+      <description>Executa ações em imagens que foram selecionadas na vista da mesa de luz.
+🔗controles do módulo Os controles do módulo são distribuídos em duas abas para manipular os arquivos de imagem e os metadados relacionados.
+🔗aba de imagens  remover Remove as imagens selecionadas da biblioteca do darktable sem excluí-las. As imagens removidas não podem mais ser visualizadas ou editadas no darktable, mas os arquivos de imagem permanecem no sistema de arquivos junto com quaisquer arquivos auxiliares XMP.</description>
+    </item>
+    
+    <item>
+      <title>importar</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/module-reference/utility-modules/lighttable/import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/module-reference/utility-modules/lighttable/import/</guid>
+      <description>Adiciona imagens à biblioteca do darktable, opcionalmente copiando-as de outro local no sistema de arquivos ou de uma câmera conectada.
+Consulte formatos de arquivo suportados para obter mais informações.
+🔗controles do módulo Os seguintes botões são mostrados na interface do módulo por padrão:
+ adicionar à biblioteca Adiciona imagens existentes à biblioteca do darktable sem copiar ou mover arquivos. Se você adicionar uma única imagem à biblioteca, ela automaticamente será carregada na sala escura.</description>
+    </item>
+    
+    <item>
+      <title>instalador de scripts lua</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/module-reference/utility-modules/lighttable/lua-scripts-installer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/module-reference/utility-modules/lighttable/lua-scripts-installer/</guid>
+      <description>Este módulo fornece uma interface para instalação de scripts lua do darktable. Na primeira vez que é executado, as instruções são exibidas no módulo.
+Ele pode ser desabilitado com uma opção em preferências &amp;gt; opções de lua.</description>
+    </item>
+    
+    <item>
+      <title>linha do tempo</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/module-reference/utility-modules/lighttable/timeline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/module-reference/utility-modules/lighttable/timeline/</guid>
+      <description>Visualiza suas imagens pela data/hora em que foram tiradas.
+  Na visualização do gerenciador de arquivos da mesa de luz, você pode mostrar/ocultar o módulo da linha do tempo no painel inferior com o atalho Ctrl+F.
+Dentro da linha do tempo, você pode mostrar a próxima data e a anterior movimentando a roda do mouse; Ctrl+roda para aumentar/diminuir o zoom.
+Você também pode usar a linha do tempo para selecionar imagens por intervalo de datas clicando e arrastando o mouse.</description>
+    </item>
+    
+    <item>
+      <title>pilha de histórico</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/module-reference/utility-modules/lighttable/history-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/module-reference/utility-modules/lighttable/history-stack/</guid>
+      <description>Manipula a pilha de histórico de uma ou mais imagens selecionadas.
+🔗controles do módulo  copiar seletivamente&amp;hellip; Copia partes da pilha de histórico da imagem selecionada. Exibe uma caixa de diálogo na qual você pode escolher os itens a serem copiados da pilha de histórico. Se mais de uma imagem for selecionada, a pilha de histórico é obtida da imagem que foi selecionada primeiro. Clique duas vezes em um item do histórico para copiar apenas esse item e fechar imediatamente a caixa de diálogo.</description>
+    </item>
+    
+    <item>
+      <title>selecionar</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/module-reference/utility-modules/lighttable/select/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/module-reference/utility-modules/lighttable/select/</guid>
+      <description>Seleciona imagens na mesa de luz de acordo com critérios simples.
+🔗controles do módulo  selecionar tudo Seleciona todas as imagens na coleção atual. selecionar nenhuma Cancela a seleção de todas imagens. inverter seleção Seleciona todas as imagens na coleção atual que não estão selecionadas no momento, e cancela a seleção das que estavam selecionadas anteriormente. selecionar rolo de filme Selecione todas as imagens na coleção atual que estão no mesmo rolo de filme que as imagens selecionadas no momento.</description>
+    </item>
+    
+  </channel>
+</rss>

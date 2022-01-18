@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>opencl on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/</link>
+    <description>Recent content in opencl on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>os bastidores</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/background/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/background/</guid>
+      <description>O processamento de imagens em alta resolução é uma tarefa exigente que requer um computador moderno. Em termos de memória e potência de CPU, obter o melhor de uma imagem típica de 15, 20 ou 25 megapixels pode levar rapidamente o seu computador ao limite.
+Os requisitos do darktable não são exceção. Todos os cálculos são realizados em 4 vezes com números de ponto flutuante de 32 bits. Isso é mais lento do que a álgebra de números inteiros “normal” de 8 ou 16 bits, mas elimina todos os problemas de quebras tonais ou de perda de informação.</description>
+    </item>
+    
+    <item>
+      <title>como funciona o opencl</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/how-opencl-works/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/how-opencl-works/</guid>
+      <description>Como você pode imaginar, a arquitetura de hardware das GPUs pode variar significativamente. Existem diferentes fabricantes e até mesmo diferentes gerações de GPUs do mesmo fabricante que podem não ser comparáveis. Ao mesmo tempo, os fabricantes de GPU normalmente não divulgam todos os detalhes de hardware de seus produtos ao público. Uma das consequências disso é a necessidade de usar drivers proprietários no GNU/Linux, se você quiser tirar o máximo proveito de sua placa de vídeo.</description>
+    </item>
+    
+    <item>
+      <title>ativar o opencl no darktable</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/activate-opencl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/activate-opencl/</guid>
+      <description>O uso do OpenCL no darktable requer que seu PC esteja equipado com uma placa gráfica adequada e que tenha as bibliotecas necessárias instaladas. A maioria das placas gráficas modernas da NVIDIA e AMD vem com suporte total para OpenCL. O compilador OpenCL normalmente é distribuído como parte do controlador gráfico proprietário e é usado como uma biblioteca dinâmica chamada libOpenCL.so. Esta biblioteca deve estar em uma pasta onde possa ser encontrada pelo vinculador dinâmico do seu sistema.</description>
+    </item>
+    
+    <item>
+      <title>configurar o opencl</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/setting-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/setting-up/</guid>
+      <description>A enorme diversidade de sistemas e as diferenças marcantes entre os fornecedores do OpenCL e as versões do controlador tornam impossível dar uma visão geral abrangente de como configurar o OpenCL. Podemos dar apenas um exemplo, neste caso, para a versão 331.89 do driver NVIDIA no Ubuntu 14.04. Esperamos que isso sirva como uma introdução básica e ajude você a resolver quaisquer problemas específicos de sua configuração.
+O princípio do fluxo da função OpenCL se dá dessa forma:</description>
+    </item>
+    
+    <item>
+      <title>possíveis problemas e soluções</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/problems-solutions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/problems-solutions/</guid>
+      <description>O darktable detectará erros de tempo de execução OpenCL automaticamente. Ao detectar um erro, ele irá reprocessar tudo na CPU. Embora isso retarde o processamento, não deve afetar o resultado final.
+Podem haver vários motivos para o OpenCL falhar durante a fase de inicialização. O OpenCL depende dos requisitos de hardware e da presença de certos controladores e bibliotecas. Além disso, todos eles devem se ajustar em termos de fabricante, modelo e número de revisão.</description>
+    </item>
+    
+    <item>
+      <title>dispositivos amd/ati</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/amd-ati/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/amd-ati/</guid>
+      <description>Embora os dispositivos NVIDIA e a maioria dos dispositivos AMD/ATI modernos geralmente rodem de imediato sem necessidade de configuração adicional, há mais a fazer para as placas de vídeo AMD/ATI mais antigas, ou seja, aquelas anteriores à série HD7xxx. Isso começa com o fato de que esses dispositivos reportarão apenas parte da memória total da GPU para o darktable. Para um dispositivo de 1 GB, isso normalmente equivale a apenas 512 MB, um valor que o darktable em sua configuração padrão recusará como insuficiente.</description>
+    </item>
+    
+    <item>
+      <title>otimização de performance</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/performance/</guid>
+      <description>Existe uma série de parâmetros de configuração em $HOME/.config/darktable/darktablerc que podem auxiliar a ajustar o desempenho do OpenCL no seu sistema. A performance neste contexto significa principalmente a latência do darktable durante o trabalho interativo (isto é, quanto tempo leva para reprocessar a pixelpipe). Para um fluxo de trabalho cômodo, é essencial manter a latência baixa.
+Para obter informações sobre a criação de perfis, você deve iniciar o darktable de um terminal com o comando darktable -d opencl -d perf.</description>
+    </item>
+    
+    <item>
+      <title>perfil de agendamento de tarefas</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/scheduling-profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/scheduling-profile/</guid>
+      <description>O darktable pode usar a CPU e uma ou várias GPUs compatíveis com OpenCL. Dependendo do desempenho relativo desses dispositivos, os usuários podem escolher entre determinados perfis de agendamento para otimizar o desempenho. Isso é obtido definindo o parâmetro de configuração preferências &amp;gt; processamento &amp;gt; cpu / gpu / memória &amp;gt; perfil de agendamento do OpenCL, que oferece as seguintes opções:
+ padrão Se uma GPU compatível com OpenCL for encontrada no darktable, usa-a para processar a visualização da imagem central enquanto a janela de visualização da navegação é processada na CPU em paralelo.</description>
+    </item>
+    
+    <item>
+      <title>múltiplos dispositivos</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/multiple-devices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/multiple-devices/</guid>
+      <description>O agendamento de dispositivos OpenCL pode ser otimizado na maioria dos sistemas usando as configurações de “perfil de agendamento do OpenCL”. No entanto, se o seu sistema estiver equipado com mais de uma GPU, você pode querer definir a prioridade relativa do dispositivo manualmente. Para fazer isso, você precisa selecionar o perfil de agendamento “padrão” e alterar as configurações no parâmetro de configuração “opencl_device_priority”.
+É importante entender como o darktable usa dispositivos OpenCL.</description>
+    </item>
+    
+    <item>
+      <title>opencl ainda não funciona para mim</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/still-doesnt-work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/special-topics/opencl/still-doesnt-work/</guid>
+      <description>Como foi mencionado, os sistemas OpenCL vêm com uma grande variedade de configurações: diferentes fabricantes e modelos de GPU, quantidades variáveis de memória de GPU, drivers diferentes, distribuições diferentes, etc.
+Muitos dos problemas só aparecerão com combinações muito específicas desses fatores. Como os desenvolvedores do darktable só têm acesso a uma pequena fração dessas variações, entenda que talvez não possamos resolver seu problema específico. Não há muito o que possamos fazer se não formos capazes de reproduzir o seu problema.</description>
+    </item>
+    
+  </channel>
+</rss>

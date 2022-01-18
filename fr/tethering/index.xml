@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Capture on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/tethering/</link>
+    <description>Recent content in Capture on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/tethering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/tethering/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/tethering/overview/</guid>
+      <description>La vue capture vous permet de capturer des images directement dans darktable à partir d&amp;rsquo;un boîtier connecté.
+Pour utiliser la fonctionnalité de capture, vous devez tout d&amp;rsquo;abord connecter votre boîtier à votre PC à l&amp;rsquo;aide d&amp;rsquo;un câble USB. Votre ordinateur peut vous demander de monter le boîtier connecté ou d&amp;rsquo;afficher son contenu. Ne le faites pas. Si votre boîtier est monté ou visualisé automatiquement, vous devrez le «démonter/éjecter» afin que darktable puisse y accéder.</description>
+    </item>
+    
+    <item>
+      <title>disposition de la vue capture</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/tethering/tethering-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/tethering/tethering-view-layout/</guid>
+      <description>🔗panneau gauche  informations de l&amp;rsquo;image Afficher les informations de l&amp;rsquo;image.  🔗panneau droit De haut en bas :
+ scopes Une représentation graphique des niveaux de lumière et des couleurs de l&amp;rsquo;image actuelle. Ce module peut être déplacé vers le panneau de gauche si vous le souhaitez (voir préférences &amp;gt; divers &amp;gt; position du module scopes). session Paramètres de la session. visée directe Paramètres de la visée directe. paramètres du boîtier Paramètres du boîtier.</description>
+    </item>
+    
+    <item>
+      <title>exemples</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/tethering/examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/tethering/examples/</guid>
+      <description>Les sections suivantes présentent deux cas d&amp;rsquo;utilisation typiques de la vue capture.
+🔗configuration de studio avec écran Ceci est un cas d’utilisation assez habituel. Vous avez mis en place votre studio et votre sujet, le boîtier est connecté à votre ordinateur et la vue capture est active dans darktable. Vous opérez avec le boîtier et prenez des images. Quand vous le voulez, vous pouvez contrôler les images directement sur l’écran de votre ordinateur plutôt que d’utiliser l&amp;rsquo;écran LCD du boîtier.</description>
+    </item>
+    
+    <item>
+      <title>dépannage</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/tethering/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/tethering/troubleshooting/</guid>
+      <description>Ce guide de dépannage peut être utilisé pour vérifier que votre appareil peut ou non fonctionner en mode capture. Ceci est effectué en utilisant les mêmes outils (gphoto2) que darktable utilise pour s’interfacer avec votre boîtier.
+Avant de commencer, vous devez d&amp;rsquo;abord trouver le nom du port auquel votre boîtier est connecté. Généralement le port &amp;ldquo;usb:&amp;rdquo; est suffisant et est donc utilisé dans le guide suivant.
+🔗votre boîtier est-il détecté ?</description>
+    </item>
+    
+  </channel>
+</rss>

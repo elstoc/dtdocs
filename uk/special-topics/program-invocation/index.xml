@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>виклик програми on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/uk/special-topics/program-invocation/</link>
+    <description>Recent content in виклик програми on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/uk/special-topics/program-invocation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>darktable</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/program-invocation/darktable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/program-invocation/darktable/</guid>
+      <description>Бінарний файл darktable запускає darktable з його графічним інтерфейсом та повною функціональністю. Це стандартний спосіб використання darktable.
+darktable можна викликати з такими параметрами командного рядка:
+darktable [-d {all,cache,camctl,camsupport,control,dev, fswatch,input,lighttable,lua,masks,memory,nan, opencl,perf,pwstorage,print,sql,ioporder, imageio,undo,signal}] [&amp;lt;вхідний файл&amp;gt;|&amp;lt;папка зображень&amp;gt;] [--version] [--disable-opencl] [--library &amp;lt;файл бібліотеки&amp;gt;] [--datadir &amp;lt;каталог даних&amp;gt;] [--moduledir &amp;lt;каталог модулів&amp;gt;] [--tmpdir &amp;lt;каталог тимчасових файлів&amp;gt;] [--configdir &amp;lt;каталог конфігурації користувача&amp;gt;] [--cachedir &amp;lt;каталог кешу користувача&amp;gt;] [--localedir &amp;lt;каталог перекладів інтерфейсу програми&amp;gt;] [--luacmd &amp;lt;команда lua&amp;gt;] [--noiseprofiles &amp;lt;файл json профілів шуму&amp;gt;] [--d-signal &amp;lt;сигнал&amp;gt;] [--d-signal-act &amp;lt;all,raise,connect,disconnect,print-trace&amp;gt;] [--enforce-tiling] [--conf &amp;lt;ключ&amp;gt;=&amp;lt;значення&amp;gt;] [-t &amp;lt;кількість потоків openmp&amp;gt;] Усі параметри необов’язкові.</description>
+    </item>
+    
+    <item>
+      <title>darktable-cli</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/program-invocation/darktable-cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/program-invocation/darktable-cli/</guid>
+      <description>Виконуваний файл darktable-cli запускає варіант darktable з інтерфейсом командного рядка, який дозволяє експортувати зображення.
+Цей варіант не відкриває жодного вікна &amp;ndash; він працює в чисто консольному режимі без запуску графічного інтерфейсу. Цей режим особливо корисний для серверів, що виконують фонові завдання.
+darktable-cli можна викликати з такими параметрами командного рядка:
+darktable-cli [&amp;lt;вхідний файл чи папка&amp;gt;] [&amp;lt;файл xmp&amp;gt;] &amp;lt;вихідний файл чи папка&amp;gt; [--width &amp;lt;макс. ширина&amp;gt;] [--height &amp;lt;макс. висота&amp;gt;] [--bpp &amp;lt;bpp&amp;gt;] [--hq &amp;lt;0|1|true|false&amp;gt;] [--upscale &amp;lt;0|1|true|false&amp;gt;] [--style &amp;lt;ім&#39;я стилю&amp;gt;] [--style-overwrite] [--apply-custom-presets &amp;lt;0|1|false|true&amp;gt;] [--out-ext &amp;lt;розширення&amp;gt;] [--import &amp;lt;файл чи папка&amp;gt;] [--icc-type &amp;lt;тип&amp;gt;] [--icc-file &amp;lt;файл&amp;gt;] [--icc-intent &amp;lt;метод&amp;gt;] [--verbose] [--help [опція]] [--core &amp;lt;опції darktable&amp;gt;] Користувач повинен вказати ім&amp;rsquo;я вхідного файлу та ім&amp;rsquo;я вихідного файлу.</description>
+    </item>
+    
+    <item>
+      <title>darktable-generate-cache</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/program-invocation/darktable-generate-cache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/program-invocation/darktable-generate-cache/</guid>
+      <description>Двійковий файл `darktable-generate-cache &amp;lsquo;оновлює кеш мініатюр darktable. Запустіть цю програму, щоб генерувати всі відсутні мініатюри у фоновому режимі, коли комп’ютер не працює.
+darktable-generate-cache можна викликати з такими параметрами командного рядка:
+darktable-generate-cache [-h, --help] [--version] [--min-mip &amp;lt;0-8&amp;gt;] [-m, --max-mip &amp;lt;0-8&amp;gt;] [--min-imgid &amp;lt;N&amp;gt;] [--max-imgid &amp;lt;N&amp;gt;] [--core &amp;lt;darktable options&amp;gt;] Усі параметри необов’язкові. Якщо запустити без параметрів, darktable-generate-cache використовує розумні значення за замовчуванням.
+ -h, --help Відобразити інформацію про використання та завершитись. --version Відобразити інформацію про авторські права та версію та завершитись.</description>
+    </item>
+    
+    <item>
+      <title>darktable-chart</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/program-invocation/darktable-chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/program-invocation/darktable-chart/</guid>
+      <description>Бінарний файл darktable-chart &amp;ndash; це спеціальна утиліта для створення стилів з пар зображень, таких як RAW+JPEG з обробкою в камері. Детально про його використання можна дізнатись у розділі використання darktable-chart.
+darktable-chart може або запускати графічний інтерфейс або використовуватись як програма командного рядка.
+darktable-chart [--help] [&amp;lt;вхідний файл Lab pfm&amp;gt;] [&amp;lt;файл cht&amp;gt;] [&amp;lt;контрольний файл cgats/it8 або Lab pfm&amp;gt;] Усі параметри необов’язкові, однак, якщо ви хочете вказати друге ім’я файлу, вам також потрібно вказати перше.</description>
+    </item>
+    
+    <item>
+      <title>darktable-cltest</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/program-invocation/darktable-cltest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/program-invocation/darktable-cltest/</guid>
+      <description>Бінарний файл darktable-cltest перевіряє, чи є у вашій системі придатне середовище OpenCL, яке darktable може використовувати. Він видає деякі результати налагодження, еквівалентні виклику darktable -d opencl, а потім завершує роботу.
+darktable-cltest викликається без параметрів командного рядка.</description>
+    </item>
+    
+    <item>
+      <title>darktable-cmstest</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/program-invocation/darktable-cmstest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/program-invocation/darktable-cmstest/</guid>
+      <description>Бінарний файл darktable-cmstest (лише для Linux) досліджує, чи правильно налаштована підсистема керування кольором вашого комп&amp;rsquo;ютера, та відображає деяку корисну інформацію про встановлені профілі монітора.
+darktable-cmstest викликається без параметрів командного рядка.</description>
+    </item>
+    
+    <item>
+      <title>purge_non_existing_images.sh</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/special-topics/program-invocation/purge_non_existing_images_sh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/special-topics/program-invocation/purge_non_existing_images_sh/</guid>
+      <description>Знаходить і видаляє записи з бази даних бібліотеки, що посилаються на зображення, яких більше немає у файловій системі. Перед запуском потрібно закрити darktable.
+Цей сценарій можна викликати з такими параметрами командного рядка:
+purge_non_existing_images.sh [-c|--configdir &amp;lt;шлях&amp;gt;] [-l|--library &amp;lt;шлях&amp;gt;] [-p|--purge] Запустіть сценарій без опцій для виконання &amp;ldquo;сухого запуску&amp;rdquo;, який формує звіт про відсутні файли без внесення жодних змін до бази даних.
+Доступні такі опції:
+ -c|--configdir &amp;lt;шлях&amp;gt; Вказує шлях до каталогу конфігурації darktable, який буде використовуватися сценарієм.</description>
+    </item>
+    
+  </channel>
+</rss>

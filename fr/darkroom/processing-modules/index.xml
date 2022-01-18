@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>modules de traitement on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/darkroom/processing-modules/</link>
+    <description>Recent content in modules de traitement on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/darkroom/processing-modules/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>entête d&#39;un module</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/darkroom/processing-modules/module-header/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/darkroom/processing-modules/module-header/</guid>
+      <description>En haut de chaque module de traitement se trouve l&#39;entête du module.
+  Cliquez sur le nom du module pour développer le module et afficher les paramètres qui contrôlent son fonctionnement.
+Par défaut, darktable n&amp;rsquo;autorisera qu&amp;rsquo;un seul module de traitement à être déplié à la fois &amp;ndash; si vous cliquez sur l&amp;rsquo;entête d&amp;rsquo;un autre module, le module précédemment ouvert sera replié. Si vous souhaitez déplier plus d&amp;rsquo;un module, vous pouvez le faire en Shift+cliquant sur les entêtes d&amp;rsquo;autres modules et tous ceux qui ont été précédemment dépliés le resteront.</description>
+    </item>
+    
+    <item>
+      <title>instances multiples</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/darkroom/processing-modules/multiple-instances/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/darkroom/processing-modules/multiple-instances/</guid>
+      <description>De nombreux modules de darktable peuvent être appliqués plus d&amp;rsquo;une fois dans le pipeline graphique. Chaque instance d&amp;rsquo;un module se comporte de manière indépendante, obtenant son entrée du module qui le précède dans le pipeline graphique et délivrant sa sortie au module qui le suit.
+Comme pour l&amp;rsquo;instance de base d&amp;rsquo;un module, toutes les instances peuvent être déplacées indépendamment dans le pipeline graphique soit en maintenant Ctrl+Maj pendant le glisser-déposer, soit en choisissant « monter » ou « descendre » dans le menu déroulant multiples instances.</description>
+    </item>
+    
+    <item>
+      <title>préréglages</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/darkroom/processing-modules/presets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/darkroom/processing-modules/presets/</guid>
+      <description>Les préréglages vous permettent de stocker les paramètres de module couramment utilisés pour une utilisation future. Certains modules sont déjà fournis avec des préréglages prédéfinis (internes) et vous pouvez également définir les vôtres (définis par l&amp;rsquo;utilisateur). Les préréglages internes et définis par l&amp;rsquo;utilisateur peuvent être affichés en cliquant sur le menu des préréglages dans l&amp;rsquo;en-tête du module.
+La plupart des fonctionnalités décrites ici s&amp;rsquo;appliquent uniquement aux modules de traitement. Cependant, les préréglages peuvent également être utilisés avec certains modules utilitaires.</description>
+    </item>
+    
+    <item>
+      <title>contrôles du module</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/darkroom/processing-modules/module-controls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/darkroom/processing-modules/module-controls/</guid>
+      <description>Cette section décrit comment interagir avec les contrôles des modules de traitement.
+🔗curseurs Les curseurs proposent cinq méthodes d&amp;rsquo;interaction différentes, en fonction du niveau de contrôle dont vous avez besoin.
+ clic-gauche Cliquez n&amp;rsquo;importe où dans la zone du curseur pour définir la valeur. Vous pouvez également cliquer et faire glisser pour le modifier. Vous n&amp;rsquo;avez pas à viser le triangle ou même la ligne &amp;ndash; vous pouvez cliquer n&amp;rsquo;importe où sur toute la hauteur du curseur, y compris le label.</description>
+    </item>
+    
+    <item>
+      <title>courbes</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/darkroom/processing-modules/curves/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/darkroom/processing-modules/curves/</guid>
+      <description>Les modules courbe de base, courbes des tonalités et courbe rvb utilisent des courbes pour contrôler les tons de l&amp;rsquo;image. Ces modules ont des caractéristiques communes qui méritent une discussion séparée.
+  🔗nœuds Dans leur état par défaut, les courbes sont des lignes droites, définies par deux nœuds d&amp;rsquo;ancrage en haut à droite et en bas à gauche du graphique. Vous pouvez déplacer les nœuds pour modifier la courbe ou générer de nouveaux nœuds en cliquant sur la courbe.</description>
+    </item>
+    
+    <item>
+      <title>ondelettes</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/darkroom/processing-modules/wavelets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/darkroom/processing-modules/wavelets/</guid>
+      <description>Les ondelettes sont utilisées pour séparer (ou décomposer) une image en un certain nombre de couches distinctes, chacune contenant un niveau de détail différent. Après avoir décomposé une image de cette manière, un module peut limiter son traitement à une ou plusieurs de ces couches de détail, puis reconstituer les couches à la fin pour former son image de sortie. Cela nous permet d&amp;rsquo;avoir une précision chirurgicale sur les caractéristiques de l&amp;rsquo;image que nous souhaitons impacter lorsque nous travaillons avec un module.</description>
+    </item>
+    
+    <item>
+      <title>modules dépréciés</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/darkroom/processing-modules/deprecated/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/darkroom/processing-modules/deprecated/</guid>
+      <description>L&amp;rsquo;équipe de darktable examine régulièrement les anciens modules et met à jour leur implémentation quand des problèmes sont trouvés ou quand des mises à jour de la science signifie qu&amp;rsquo;ils peuvent être améliorés. La plupart du temps, nous essayons de mettre à jour les modules existants avec de nouvelles fonctionnalités. Mais cela devient parfois problématique. Souvent parce qu’il faut maintenir plusieurs versions du module. Dans de telles circonstances, un nouveau module de remplacement est créé et l&amp;rsquo;ancien module devient déprécié.</description>
+    </item>
+    
+  </channel>
+</rss>

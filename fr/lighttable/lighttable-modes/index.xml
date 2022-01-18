@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>modes de la table lumineuse on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/lighttable/lighttable-modes/</link>
+    <description>Recent content in modes de la table lumineuse on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/lighttable/lighttable-modes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>navigateur de fichiers</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/lighttable/lighttable-modes/filemanager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/lighttable/lighttable-modes/filemanager/</guid>
+      <description>Dans le mode par défaut, les images sont affichées dans une grille avec un nombre réglable d&amp;rsquo;images par ligne.
+🔗contrôles  zoomer Le nombre d&amp;rsquo;images dans chaque ligne peut être modifié à l&amp;rsquo;aide du curseur dans le panneau inférieur ou en maintenant la touche Ctrl enfoncée tout en faisant défiler la vue centrale avec votre souris. naviguer Vous pouvez naviguer dans les images à l&amp;rsquo;aide des touches fléchées (←/→/↑/↓) ou en faisant défiler avec votre souris.</description>
+    </item>
+    
+    <item>
+      <title>table lumineuse zoomable</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/lighttable/lighttable-modes/zoomable-lighttable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/lighttable/lighttable-modes/zoomable-lighttable/</guid>
+      <description>Le mode table lumineuse zoomable fournit une manière alternative de parcourir de grandes collections d&amp;rsquo;images, mais avec quelques similitudes avec le mode navigateur de fichiers (décrit ci-dessous).
+🔗contrôles  zoomer Faites défiler avec la molette de la souris pour effectuer un zoom avant et arrière de la table lumineuse (à comparer à Ctrl+défilement dans le mode navigateur de fichiers. Le zoom des miniatures ne modifie pas le nombre de miniatures par ligne, de sorte que la table lumineuse peut dépasser la zone visible de tous les côtés.</description>
+    </item>
+    
+    <item>
+      <title>sélection</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/lighttable/lighttable-modes/culling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/lighttable/lighttable-modes/culling/</guid>
+      <description>Le mode sélection vous permet d&amp;rsquo;afficher des images côte à côte pour les comparer facilement.
+🔗contrôles  zoomer En mode sélection, vous pouvez zoomer les images (jusqu&amp;rsquo;à 100%) en maintenant la touche Ctrl enfoncée tout en faisant défiler avec la molette de la souris. Effectuez un panoramique dans les images zoomées avec un clic+glisser. Par défaut, zoomer et faire un panoramique sont synchronisés entre toutes les images visibles. Si vous souhaitez zoomer ou faire un panoramique uniquement sur une image spécifique, ajoutez la touche Maj aux actions ci-dessus.</description>
+    </item>
+    
+    <item>
+      <title>aperçu complet</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/lighttable/lighttable-modes/full-preview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/lighttable/lighttable-modes/full-preview/</guid>
+      <description>Dans chacun des modes de la table lumineuse, vous pouvez afficher un aperçu entièrement agrandi de l&amp;rsquo;image qui se trouve actuellement sous le pointeur de la souris en appuyant et en maintenant enfoncée la touche W. Ceci est utile pour inspecter de plus près une image lors de l&amp;rsquo;évaluation et de la sélection d&amp;rsquo;images.
+Maintenir enfoncées les touches Ctrl+W réalise un zoom complet de l&amp;rsquo;image et identifie aussi les zones de netteté qui peuvent désigner la zone de mise au point de l&amp;rsquo;image.</description>
+    </item>
+    
+  </channel>
+</rss>

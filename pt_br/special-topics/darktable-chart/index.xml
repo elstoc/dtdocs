@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>usando o darktable-chart on manual do usuário darktable 3.8</title>
+    <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/darktable-chart/</link>
+    <description>Recent content in usando o darktable-chart on manual do usuário darktable 3.8</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/pt_br/special-topics/darktable-chart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>visão geral</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/darktable-chart/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/special-topics/darktable-chart/overview/</guid>
+      <description>O darktable-chart é uma ferramenta para extrair valores de luminância e cor de imagens de cartões de referência de cor como o IT8.7/1. Seu propósito principal é comparar uma imagem fonte (tipicamente uma imagem RAW sem processamento) a uma imagem alvo (tipicamente a imagem JPEG criada internamente pela câmera) e produzir um estilo do darktable que seja capaz de usar valores de luminância e cor da imagem fonte para produzir a imagem de destino.</description>
+    </item>
+    
+    <item>
+      <title>uso</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/darktable-chart/usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/special-topics/darktable-chart/usage/</guid>
+      <description>A ferramenta está organizada em três abas na parte superior e um quadro de saída de texto na parte inferior.
+  A primeira aba é usada para definir a imagem fonte, a segunda aba define a referência (alvo) e a terceira aba contém os controles para gerar o estilo do darktable resultante.</description>
+    </item>
+    
+    <item>
+      <title>imagem fonte</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/darktable-chart/source-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/special-topics/darktable-chart/source-image/</guid>
+      <description>Na aba de “imagem fonte” você define sua imagem fonte, que requer dois elementos. O primeiro elemento é um arquivo de entrada no formato Lab Portable Float Map (extensão .pfm). O arquivo fonte representa os dados em grande parte não modificados como a câmera os vê. Informações sobre como fotografar um cartão de referência de cor e produzir um arquivo de saída .pfm são fornecidas abaixo. O segundo elemento é um arquivo de cartão que contém uma descrição formal do desenho do cartão de referência de cor subjacente (extensão .</description>
+    </item>
+    
+    <item>
+      <title>valores de referência</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/darktable-chart/reference-values/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/special-topics/darktable-chart/reference-values/</guid>
+      <description>A aba &amp;ldquo;valores de referência&amp;rdquo; determina os valores alvo que devem ser modificados na imagem fonte pelo estilo resultante. Você pode fornecer valores de referência na forma de dados medidos de seu cartão de referência de cor (modo &amp;ldquo;arquivo cie/it8&amp;rdquo;), ou pode fornecer uma imagem fotográfica (modo &amp;ldquo;imagem de cartão de cor&amp;rdquo;) da mesma maneira descrita anteriormente. Esta segunda imagem também deve ser fornecida no formato de Mapa Flutuante Portátil Lab (Lab Portable Float Map).</description>
+    </item>
+    
+    <item>
+      <title>processar</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/darktable-chart/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/special-topics/darktable-chart/process/</guid>
+      <description>Se todas as configuração necessárias nas abas &amp;ldquo;imagem fonte&amp;rdquo; e &amp;ldquo;valores de referência&amp;rdquo; estiverem prontas, você pode passar para a aba &amp;ldquo;processamento&amp;rdquo;.
+  Primeiro, você precisa dizer ao darktable-chart quais patches representam a rampa de cinzas. Na captura de tela exibida acima, a rampa de cinza está posicionada na parte inferior do cartão de referência de cor, indicada como &amp;ldquo;GS00 &amp;hellip; GS23&amp;rdquo;.
+A entrada &amp;ldquo;número de patches finais&amp;rdquo; define quantos patches de cor editáveis serão usados pelo estilo resultante dentro do módulo tabela de cores.</description>
+    </item>
+    
+    <item>
+      <title>criar imagens de entrada para o darktable-chart</title>
+      <link>https://darktable-org.github.io/dtdocs/pt_br/special-topics/darktable-chart/making-input-images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/pt_br/special-topics/darktable-chart/making-input-images/</guid>
+      <description>Para começar, você precisa de uma foto adequada de seu cartão de referência de cor no formato RAW+JPEG. Está fora do escopo deste manual explicar os detalhes de como tirar esta foto mas, em poucas palavras, você precisa fazer a foto ao meio-dia de um dia ensolarado com uma fonte de luz (sol) brilhando em ângulo sobre o cartão. Você deve evitar qualquer clarão na imagem. O patch de cor branco neutro na rampa de cinza (G00) deve terminar no valor L especificado na descrição de seu cartão.</description>
+    </item>
+    
+  </channel>
+</rss>

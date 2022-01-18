@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides &amp; Tutoriels on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr/guides-tutorials/</link>
+    <description>Recent content in Guides &amp; Tutoriels on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr/guides-tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>développement d&#39;images monochromes</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/guides-tutorials/monochrome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/guides-tutorials/monochrome/</guid>
+      <description>La photographie a une longue histoire de production d&amp;rsquo;images monochromes, et beaucoup apprécient encore cet aspect de la photographie. Bien qu&amp;rsquo;il existe des appareils photo spécialisés/modifiés avec un capteur véritablement monochrome, la plupart utilisent toujours un boîtier ordinaire pour capturer une image couleur et la transformer en une image monochrome pendant le post-traitement.
+Il existe deux approches principales pour cette conversion :
+  Une approche physique, où nous essayons de simuler comment une émulsion de film photographique à base d&amp;rsquo;argent réagirait à la lumière capturée sur la scène.</description>
+    </item>
+    
+    <item>
+      <title>autres ressources</title>
+      <link>https://darktable-org.github.io/dtdocs/fr/guides-tutorials/other-resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr/guides-tutorials/other-resources/</guid>
+      <description>Pour une aide et un support, vous pouvez aussi poser une question sur les forums de discussion sur discuss.pixls.us
+Les sites officiels pour obtenir des informations concernant darktable sont les suivants :
+  darktable.org
+  GitHub wiki
+  Les articles suivants fournissent des informations générales utiles sur le flux de travail relatif à la scène de darktable :
+  darktable 3.0 for dummies in 3 modules</description>
+    </item>
+    
+  </channel>
+</rss>

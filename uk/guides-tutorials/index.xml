@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Посібники та підручники on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/uk/guides-tutorials/</link>
+    <description>Recent content in Посібники та підручники on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/uk/guides-tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>обробка монохромних зображень</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/guides-tutorials/monochrome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/guides-tutorials/monochrome/</guid>
+      <description>Фотографія має довгу історію створення монохромних зображень і багато людей досі насолоджуються цим аспектом фотографії. Хоча є деякі спеціалізовані/модифіковані камери зі справді монохромним датчиком, більшість із них використовують звичайну камеру для захоплення кольорового зображення та перетворення його в монохромне зображення під час пост-обробки.
+Існує два основних підходи до цього перетворення:
+  Фізичний підхід, де ми намагаємося імітувати, як емульсія фотоплівки на основі срібла реагуватиме на світло, захоплене на місці події.</description>
+    </item>
+    
+    <item>
+      <title>інші ресурси</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/guides-tutorials/other-resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/guides-tutorials/other-resources/</guid>
+      <description>Щоб отримати допомогу та підтримку з використання darktable, вам пропонується задавати питання на дискусійних форумах за адресою discuss.pixls.us.
+Офіційні місця для отримання інформації, що стосується darktable:
+  darktable.org
+  GitHub wiki
+  У наступних статтях подається корисна довідкова інформація про робочий процес на основі сцен в darktable:
+  darktable 3.0 for dummies in 3 modules
+  darktable 3.0 for dummies &amp;ndash; hardcore edition
+  darktable 3.</description>
+    </item>
+    
+  </channel>
+</rss>
